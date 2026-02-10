@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.kotlin.multiplatform)
+    alias(libs.plugins.jetbrains.compose)
     alias(libs.plugins.android.library)
 }
 
@@ -28,6 +29,11 @@ kotlin {
         }
         val androidMain by getting {
             dependencies {
+            }
+        }
+        val jsMain by getting {
+            dependencies {
+                implementation(libs.compose.web.core)
             }
         }
     }
