@@ -9,6 +9,7 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlin.math.*
+import com.example.golf_by_nm.core.*
 
 /**
  * Available background types for the golf range.

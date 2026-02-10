@@ -1,14 +1,6 @@
-package com.example.golf_by_nm
+package com.example.golf_by_nm.core
 
 import kotlin.math.*
-
-data class PuttingResult(
-    val path: List<Point3D>,
-    val totalDistance: Double,
-    val finalX: Double,
-    val finalY: Double,
-    val residualSpeed: Double
-)
 
 object PuttingPhysicsEngine {
     private const val GRAVITY = 9.81
@@ -25,9 +17,9 @@ object PuttingPhysicsEngine {
         val path = mutableListOf<Point3D>()
         
         // Convert slopes and aim to angles
-        val thetaX = Math.toRadians(slopeXDeg)
-        val thetaY = Math.toRadians(slopeYDeg)
-        val phiAim = Math.toRadians(aimAngleDeg)
+        val thetaX = toRadians(slopeXDeg)
+        val thetaY = toRadians(slopeYDeg)
+        val phiAim = toRadians(aimAngleDeg)
         
         // Initial Velocity (v0 for targetDistance on flat ground)
         // Magnitude based on targetDistance
@@ -108,4 +100,7 @@ object PuttingPhysicsEngine {
         val dist = sqrt(dx * dx + dy * dy)
         return dist < 0.054 // 10.8cm diameter / 2 = 0.054m radius
     }
+
+    // Helper for common code since Math.toRadians is Java
+    private fun toRadians(deg: Double): Double = deg * PI / 180.0
 }

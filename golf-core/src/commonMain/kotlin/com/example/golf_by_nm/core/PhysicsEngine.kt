@@ -1,4 +1,4 @@
-package com.example.golf_by_nm
+package com.example.golf_by_nm.core
 
 import kotlin.math.*
 
@@ -9,14 +9,6 @@ object PhysicsEngine {
     private const val AREA = 0.001432   // Section transversale (m2)
     private const val RADIUS = 0.02135  // Rayon de la balle (m)
     private const val SPIN_DECAY = 0.999 // Décroissance naturelle du spin
-
-    data class LaunchParams(
-        val ballSpeedMps: Double,
-        val launchAngleDeg: Double,
-        val horizontalLaunchDeg: Double,
-        val sideSpinRpm: Double,
-        val backSpinRpm: Double
-    )
 
     // Sac de golf mis à jour avec les noms abrégés (Dr, 3W, 4i-PW)
     val GOLF_BAG = mapOf(
@@ -57,8 +49,8 @@ object PhysicsEngine {
         var t = 0.0
         var x = 0.0; var y = 0.0; var z = 0.0
 
-        val launchRad = Math.toRadians(params.launchAngleDeg)
-        val yawRad = Math.toRadians(params.horizontalLaunchDeg)
+        val launchRad = toRadians(params.launchAngleDeg)
+        val yawRad = toRadians(params.horizontalLaunchDeg)
 
         var vx = params.ballSpeedMps * cos(launchRad) * cos(yawRad)
         var vy = params.ballSpeedMps * sin(launchRad)
@@ -141,4 +133,7 @@ object PhysicsEngine {
             flightTimeSeconds = t
         )
     }
+    
+    // Helper for common code since Math.toRadians is Java
+    private fun toRadians(deg: Double): Double = deg * PI / 180.0
 }

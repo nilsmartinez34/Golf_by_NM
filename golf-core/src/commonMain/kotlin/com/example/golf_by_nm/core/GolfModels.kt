@@ -1,10 +1,4 @@
-package com.example.golf_by_nm
-
-import kotlin.math.atan2
-import kotlin.math.cos
-import kotlin.math.max
-import kotlin.math.sin
-import kotlin.math.sqrt
+package com.example.golf_by_nm.core
 
 // Data class to represent a 2D point/offset, avoiding Android dependencies.
 data class Point(val x: Float, val y: Float)
@@ -54,11 +48,36 @@ data class TrajectoryResult(
     val flightTimeSeconds: Double = 0.0
 )
 
+data class PuttingResult(
+    val path: List<Point3D>,
+    val totalDistance: Double,
+    val finalX: Double,
+    val finalY: Double,
+    val residualSpeed: Double
+)
+
 /**
- * Redundant calculator. Superseded by PhysicsEngine.
- * Kept for Point/Club/TrajectoryResult models until move to GolfModels.kt.
+ * Data class representing the analyzed swing input with professional metrics.
+ * Extracted from SwingCaptureProcessor to be platform agnostic.
  */
-class BallTrajectoryCalculator {
-    // Deprecated logic removed to solve compilation errors.
-    // PhysicsEngine.java is now the primary simulation source.
-}
+data class SwingInputData(
+    val isValid: Boolean,
+    val failureReason: String? = null,
+    val clubSpeedMph: Double = 0.0,
+    val efficiency: Double = 1.0, // 0.8 to 1.0 based on gesture quality
+    val attackAngleDeg: Double = 0.0,
+    val pathDeviationDeg: Double = 0.0,
+    val powerFactor: Double = 1.0,
+    val tempoRatio: Double = 0.0
+)
+
+/**
+ * Extracted from PhysicsEngine inner class.
+ */
+data class LaunchParams(
+    val ballSpeedMps: Double,
+    val launchAngleDeg: Double,
+    val horizontalLaunchDeg: Double,
+    val sideSpinRpm: Double,
+    val backSpinRpm: Double
+)

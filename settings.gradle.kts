@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Golf_by_NM"
 include(":app")
-include(":physics")
+include(":golf-core")
