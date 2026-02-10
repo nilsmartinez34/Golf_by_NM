@@ -19,6 +19,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.*
 import java.text.DecimalFormat
 import kotlin.math.*
+import com.example.golf_by_nm.core.Point3D
 
 @Composable
 fun PuttingHeaderCell(text: String, width: Dp) {

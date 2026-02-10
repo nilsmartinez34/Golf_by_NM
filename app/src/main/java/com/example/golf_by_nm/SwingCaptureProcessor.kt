@@ -1,20 +1,7 @@
 package com.example.golf_by_nm
 
-import android.util.Log
-
-/**
- * Data class representing the analyzed swing input with professional metrics.
- */
-data class SwingInputData(
-    val isValid: Boolean,
-    val failureReason: String? = null,
-    val clubSpeedMph: Double = 0.0,
-    val efficiency: Double = 1.0, // 0.8 to 1.0 based on gesture quality
-    val attackAngleDeg: Double = 0.0,
-    val pathDeviationDeg: Double = 0.0,
-    val powerFactor: Double = 1.0,
-    val tempoRatio: Double = 0.0
-)
+import com.example.golf_by_nm.core.Point
+import com.example.golf_by_nm.core.SwingInputData
 
 class SwingCanceledException(message: String) : Exception(message)
 

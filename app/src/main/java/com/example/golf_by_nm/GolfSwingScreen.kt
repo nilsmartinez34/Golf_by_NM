@@ -37,6 +37,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import java.text.DecimalFormat
 import kotlin.math.*
+import com.example.golf_by_nm.core.Point
 
 @Composable
 fun GolfSwingScreen(viewModel: GolfViewModel) {
