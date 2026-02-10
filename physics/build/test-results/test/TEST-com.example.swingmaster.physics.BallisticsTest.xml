@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.swingmaster.physics.BallisticsTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2026-01-30T10:27:09.468Z" hostname="NM-W11-BE" time="1041.748">
+  <properties/>
+  <testcase name="calculateShot returns reasonable values for driver" classname="com.example.swingmaster.physics.BallisticsTest" time="1041.748">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

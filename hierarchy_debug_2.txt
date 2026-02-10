@@ -1,0 +1,396 @@
+Initialized native services in: C:\Users\nm\.gradle\native
+Initialized jansi services in: C:\Users\nm\.gradle\native
+The client will now receive all logging from the daemon (pid: 62232). The daemon log file: C:\Users\nm\.gradle\daemon\9.1.0\daemon-62232.out.log
+Starting 8th build in daemon [uptime: 22 mins 47.519 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 2 GiB]
+Using 16 worker leases.
+Now considering [C:\Users\nm\Documents\Dev_NM\Golf_by_NM] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\settings.gradle.kts'.
+Projects loaded. Root project using build file 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\build.gradle.kts'.
+Included projects: [root project 'Golf_by_NM', project ':app', project ':physics']
+
+> Configure project :
+Evaluating root project 'Golf_by_NM' using build file 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\build.gradle.kts'.
+Resolved plugin [id: 'com.android.application', version: '9.0.0', apply: false]
+Resolved plugin [id: 'org.jetbrains.kotlin.plugin.compose', version: '2.0.21', apply: false]
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '2.0.21', apply: false]
+
+> Configure project :app
+Evaluating project ':app' using build file 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\build.gradle.kts'.
+Resolved plugin [id: 'com.android.application', version: '9.0.0']
+Resolved plugin [id: 'org.jetbrains.kotlin.plugin.compose', version: '2.0.21']
+Build bcf2d229-5e35-4a99-8587-2f27273708ca is started
+Using default execution profile
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+
+> Configure project :physics
+Evaluating project ':physics' using build file 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\physics\build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '2.0.21']
+Using Kotlin Gradle Plugin gradle813 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+All projects evaluated.
+Task path ':app:testDebugUnitTest' matched project ':app'
+Task name matched 'testDebugUnitTest'
+Selected primary task 'testDebugUnitTest' from project :app
+Adding -Xuse-inline-scopes-numbers Kotlin compiler flag for task :app:compileDebugKotlin
+Tasks to be executed: [task ':physics:checkKotlinGradlePluginConfigurationErrors', task ':physics:compileKotlin', task ':physics:compileJava', task ':physics:processResources', task ':physics:classes', task ':physics:jar', task ':app:preBuild', task ':app:preDebugBuild', task ':app:generateDebugResources', task ':app:packageDebugResources', task ':app:processDebugNavigationResources', task ':app:parseDebugLocalResources', task ':app:generateDebugRFile', task ':app:compileDebugKotlin', task ':app:javaPreCompileDebug', task ':app:compileDebugJavaWithJavac', task ':app:checkDebugAarMetadata', task ':app:compileDebugNavigationResources', task ':app:mapDebugSourceSetPaths', task ':app:mergeDebugResources', task ':app:createDebugCompatibleScreenManifests', task ':app:extractDeepLinksDebug', task ':app:processDebugMainManifest', task ':app:processDebugManifest', task ':app:processDebugManifestForPackage', task ':app:processDebugResources', task ':app:bundleDebugClassesToRuntimeJar', task ':app:bundleDebugClassesToCompileJar', task ':app:preDebugUnitTestBuild', task ':app:compileDebugUnitTestKotlin', task ':app:javaPreCompileDebugUnitTest', task ':app:compileDebugUnitTestJavaWithJavac', task ':app:processDebugJavaRes', task ':app:processDebugUnitTestJavaRes', task ':app:testDebugUnitTest']
+Tasks that were excluded: []
+work action Parameters of IdentityTransform (Thread[#1131,Execution worker Thread 2,5,main]) started.
+work action Parameters of IdentityTransform (Thread[#1143,Execution worker Thread 14,5,main]) started.
+Resolve mutations for :physics:checkKotlinGradlePluginConfigurationErrors (Thread[#1143,Execution worker Thread 14,5,main]) started.
+:physics:checkKotlinGradlePluginConfigurationErrors (Thread[#1141,Execution worker Thread 12,5,main]) started.
+
+> Task :physics:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':physics:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+Resolve mutations for :physics:compileKotlin (Thread[#1141,Execution worker Thread 12,5,main]) started.
+:physics:compileKotlin (Thread[#1141,Execution worker Thread 12,5,main]) started.
+
+> Task :physics:compileKotlin UP-TO-DATE
+Caching disabled for task ':physics:compileKotlin' because:
+  Build cache is disabled
+Skipping task ':physics:compileKotlin' as it is up-to-date.
+Resolve mutations for :physics:compileJava (Thread[#1141,Execution worker Thread 12,5,main]) started.
+:physics:compileJava (Thread[#1141,Execution worker Thread 12,5,main]) started.
+
+> Task :physics:compileJava NO-SOURCE
+Skipping task ':physics:compileJava' as it has no source files and no previous output files.
+Resolve mutations for :physics:processResources (Thread[#1141,Execution worker Thread 12,5,main]) started.
+:physics:processResources (Thread[#1141,Execution worker Thread 12,5,main]) started.
+
+> Task :physics:processResources NO-SOURCE
+Skipping task ':physics:processResources' as it has no source files and no previous output files.
+Resolve mutations for :physics:classes (Thread[#1141,Execution worker Thread 12,5,main]) started.
+:physics:classes (Thread[#1144,Execution worker Thread 15,5,main]) started.
+
+> Task :physics:classes UP-TO-DATE
+Skipping task ':physics:classes' as it has no actions.
+Resolve mutations for :physics:jar (Thread[#1144,Execution worker Thread 15,5,main]) started.
+:physics:jar (Thread[#1144,Execution worker Thread 15,5,main]) started.
+
+> Task :physics:jar UP-TO-DATE
+Caching disabled for task ':physics:jar' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':physics:jar' as it is up-to-date.
+work action resolve physics.jar (project :physics) (Thread[#1144,Execution worker Thread 15,5,main]) started.
+IdentityTransform (Thread[#1144,Execution worker Thread 15,5,main]) started.
+IdentityTransform (Thread[#1141,Execution worker Thread 12,5,main]) started.
+Resolve mutations for :app:preBuild (Thread[#1139,Execution worker Thread 10,5,main]) started.
+IdentityTransform (Thread[#1138,Execution worker Thread 9,5,main]) started.
+:app:preBuild (Thread[#1139,Execution worker Thread 10,5,main]) started.
+
+> Task :app:preBuild UP-TO-DATE
+Skipping task ':app:preBuild' as it has no actions.
+Resolve mutations for :app:preDebugBuild (Thread[#1139,Execution worker Thread 10,5,main]) started.
+:app:preDebugBuild (Thread[#1139,Execution worker Thread 10,5,main]) started.
+
+> Task :app:preDebugBuild UP-TO-DATE
+Skipping task ':app:preDebugBuild' as it has no actions.
+Resolve mutations for :app:generateDebugResources (Thread[#1139,Execution worker Thread 10,5,main]) started.
+:app:generateDebugResources (Thread[#1139,Execution worker Thread 10,5,main]) started.
+
+> Task :app:generateDebugResources UP-TO-DATE
+Caching disabled for task ':app:generateDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResources' as it is up-to-date.
+Resolve mutations for :app:packageDebugResources (Thread[#1139,Execution worker Thread 10,5,main]) started.
+:app:packageDebugResources (Thread[#1139,Execution worker Thread 10,5,main]) started.
+
+> Task :app:packageDebugResources UP-TO-DATE
+Caching disabled for task ':app:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:packageDebugResources' as it is up-to-date.
+Resolve mutations for :app:processDebugNavigationResources (Thread[#1139,Execution worker Thread 10,5,main]) started.
+:app:processDebugNavigationResources (Thread[#1139,Execution worker Thread 10,5,main]) started.
+
+> Task :app:processDebugNavigationResources UP-TO-DATE
+Caching disabled for task ':app:processDebugNavigationResources' because:
+  Build cache is disabled
+Skipping task ':app:processDebugNavigationResources' as it is up-to-date.
+Resolve mutations for :app:parseDebugLocalResources (Thread[#1139,Execution worker Thread 10,5,main]) started.
+:app:parseDebugLocalResources (Thread[#1139,Execution worker Thread 10,5,main]) started.
+
+> Task :app:parseDebugLocalResources UP-TO-DATE
+Caching disabled for task ':app:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':app:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :app:generateDebugRFile (Thread[#1139,Execution worker Thread 10,5,main]) started.
+:app:generateDebugRFile (Thread[#1139,Execution worker Thread 10,5,main]) started.
+
+> Task :app:generateDebugRFile UP-TO-DATE
+Caching disabled for task ':app:generateDebugRFile' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugRFile' as it is up-to-date.
+Resolve mutations for :app:compileDebugKotlin (Thread[#1139,Execution worker Thread 10,5,main]) started.
+:app:compileDebugKotlin (Thread[#1139,Execution worker Thread 10,5,main]) started.
+Resolve mutations for :app:javaPreCompileDebug (Thread[#1142,Execution worker Thread 13,5,main]) started.
+:app:javaPreCompileDebug (Thread[#1142,Execution worker Thread 13,5,main]) started.
+
+> Task :app:javaPreCompileDebug UP-TO-DATE
+Caching disabled for task ':app:javaPreCompileDebug' because:
+  Build cache is disabled
+Skipping task ':app:javaPreCompileDebug' as it is up-to-date.
+Resolve mutations for :app:checkDebugAarMetadata (Thread[#1142,Execution worker Thread 13,5,main]) started.
+:app:checkDebugAarMetadata (Thread[#1142,Execution worker Thread 13,5,main]) started.
+
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':app:checkDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:checkDebugAarMetadata' as it is up-to-date.
+Resolve mutations for :app:compileDebugNavigationResources (Thread[#1142,Execution worker Thread 13,5,main]) started.
+:app:compileDebugNavigationResources (Thread[#1142,Execution worker Thread 13,5,main]) started.
+
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+Caching disabled for task ':app:compileDebugNavigationResources' because:
+  Build cache is disabled
+Skipping task ':app:compileDebugNavigationResources' as it is up-to-date.
+Resolve mutations for :app:mapDebugSourceSetPaths (Thread[#1142,Execution worker Thread 13,5,main]) started.
+:app:mapDebugSourceSetPaths (Thread[#1142,Execution worker Thread 13,5,main]) started.
+
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+Caching disabled for task ':app:mapDebugSourceSetPaths' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:mapDebugSourceSetPaths' as it is up-to-date.
+Resolve mutations for :app:mergeDebugResources (Thread[#1142,Execution worker Thread 13,5,main]) started.
+:app:mergeDebugResources (Thread[#1142,Execution worker Thread 13,5,main]) started.
+
+> Task :app:mergeDebugResources UP-TO-DATE
+Caching disabled for task ':app:mergeDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:mergeDebugResources' as it is up-to-date.
+Resolve mutations for :app:createDebugCompatibleScreenManifests (Thread[#1142,Execution worker Thread 13,5,main]) started.
+:app:createDebugCompatibleScreenManifests (Thread[#1142,Execution worker Thread 13,5,main]) started.
+
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+Caching disabled for task ':app:createDebugCompatibleScreenManifests' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:createDebugCompatibleScreenManifests' as it is up-to-date.
+Resolve mutations for :app:extractDeepLinksDebug (Thread[#1142,Execution worker Thread 13,5,main]) started.
+:app:extractDeepLinksDebug (Thread[#1142,Execution worker Thread 13,5,main]) started.
+
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':app:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':app:extractDeepLinksDebug' as it is up-to-date.
+Resolve mutations for :app:processDebugMainManifest (Thread[#1142,Execution worker Thread 13,5,main]) started.
+:app:processDebugMainManifest (Thread[#1142,Execution worker Thread 13,5,main]) started.
+
+> Task :app:processDebugMainManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugMainManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugMainManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifest (Thread[#1142,Execution worker Thread 13,5,main]) started.
+:app:processDebugManifest (Thread[#1142,Execution worker Thread 13,5,main]) started.
+
+> Task :app:processDebugManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifestForPackage (Thread[#1142,Execution worker Thread 13,5,main]) started.
+:app:processDebugManifestForPackage (Thread[#1142,Execution worker Thread 13,5,main]) started.
+
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+Custom actions are attached to task ':app:processDebugManifestForPackage'.
+Caching disabled for task ':app:processDebugManifestForPackage' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifestForPackage' as it is up-to-date.
+Resolve mutations for :app:processDebugResources (Thread[#1142,Execution worker Thread 13,5,main]) started.
+:app:processDebugResources (Thread[#1142,Execution worker Thread 13,5,main]) started.
+
+> Task :app:processDebugResources UP-TO-DATE
+Caching disabled for task ':app:processDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:processDebugResources' as it is up-to-date.
+Resolve mutations for :app:preDebugUnitTestBuild (Thread[#1142,Execution worker Thread 13,5,main]) started.
+:app:preDebugUnitTestBuild (Thread[#1142,Execution worker Thread 13,5,main]) started.
+
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+Skipping task ':app:preDebugUnitTestBuild' as it has no actions.
+Resolve mutations for :app:javaPreCompileDebugUnitTest (Thread[#1142,Execution worker Thread 13,5,main]) started.
+:app:javaPreCompileDebugUnitTest (Thread[#1142,Execution worker Thread 13,5,main]) started.
+
+> Task :app:javaPreCompileDebugUnitTest UP-TO-DATE
+Caching disabled for task ':app:javaPreCompileDebugUnitTest' because:
+  Build cache is disabled
+Skipping task ':app:javaPreCompileDebugUnitTest' as it is up-to-date.
+
+> Task :app:compileDebugKotlin
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+Custom actions are attached to task ':app:compileDebugKotlin'.
+Caching disabled for task ':app:compileDebugKotlin' because:
+  Build cache is disabled
+Task ':app:compileDebugKotlin' is not up-to-date because:
+  Input property 'sources' file C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\java\com\example\golf_by_nm\PhysicsEngine.kt has changed.
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+Kotlin source files: C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\java\com\example\golf_by_nm\BallTrajectoryCalculator.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\java\com\example\golf_by_nm\GolfSwingScreen.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\java\com\example\golf_by_nm\GolfViewModel.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\java\com\example\golf_by_nm\MainActivity.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\java\com\example\golf_by_nm\PhysicsEngine.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\java\com\example\golf_by_nm\PuttingHistoryEntry.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\java\com\example\golf_by_nm\PuttingLabScreen.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\java\com\example\golf_by_nm\PuttingPhysicsEngine.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\java\com\example\golf_by_nm\ShotHistoryEntry.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\java\com\example\golf_by_nm\SwingCaptureProcessor.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\java\com\example\golf_by_nm\ui\theme\Color.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\java\com\example\golf_by_nm\ui\theme\Theme.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\java\com\example\golf_by_nm\ui\theme\Type.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\kotlin\com\example\golf_by_nm\swing\SwingAnalyzer.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\kotlin\com\example\golf_by_nm\ui\components\ControlsArea.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\kotlin\com\example\golf_by_nm\ui\components\DataGrid.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\kotlin\com\example\golf_by_nm\ui\components\FieldCanvas.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\kotlin\com\example\golf_by_nm\ui\components\SwingInputArea.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\kotlin\com\example\golf_by_nm\ui\DashboardScreen.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\kotlin\com\example\golf_by_nm\ui\SwingViewModel.kt
+Java source files: 
+Script source files: 
+Script file extensions: 
+Using Kotlin/JVM incremental compilation
+[KOTLIN] Kotlin compilation 'jdkHome' argument: C:\Program Files\Java\jdk-25
+Options for KOTLIN DAEMON: IncrementalCompilationOptions(super=CompilationOptions(compilerMode=INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0, 3], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=[]), sourceChanges=org.jetbrains.kotlin.buildtools.api.SourcesChanges$Known@51faba19, classpathChanges=NoChanges, workingDir=C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\build\kotlin\compileDebugKotlin\cacheable, multiModuleICSettings=MultiModuleICSettings(buildHistoryFile=C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\build\kotlin\compileDebugKotlin\local-state\build-history.bin, useModuleDetection=true), icFeatures=IncrementalCompilationFeatures(usePreciseJavaTracking=true, withAbiSnapshot=false, preciseCompilationResultsBackup=true, keepIncrementalCompilationCachesInMemory=true, enableUnsafeIncrementalCompilationForMultiplatform=false, enableMonotonousIncrementalCompileSetExpansion=true), outputFiles=[C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\build\intermediates\built_in_kotlinc\debug\compileDebugKotlin\classes, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\build\kotlin\compileDebugKotlin\cacheable, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\build\kotlin\compileDebugKotlin\local-state])
+Finished executing kotlin compiler using DAEMON strategy
+Resolve mutations for :app:compileDebugJavaWithJavac (Thread[#1139,Execution worker Thread 10,5,main]) started.
+:app:compileDebugJavaWithJavac (Thread[#1139,Execution worker Thread 10,5,main]) started.
+
+> Task :app:compileDebugJavaWithJavac NO-SOURCE
+Skipping task ':app:compileDebugJavaWithJavac' as it has no source files and no previous output files.
+Resolve mutations for :app:bundleDebugClassesToRuntimeJar (Thread[#1139,Execution worker Thread 10,5,main]) started.
+:app:bundleDebugClassesToRuntimeJar (Thread[#1139,Execution worker Thread 10,5,main]) started.
+Resolve mutations for :app:bundleDebugClassesToCompileJar (Thread[#1144,Execution worker Thread 15,5,main]) started.
+:app:bundleDebugClassesToCompileJar (Thread[#1144,Execution worker Thread 15,5,main]) started.
+Resolve mutations for :app:processDebugJavaRes (Thread[#1132,Execution worker Thread 3,5,main]) started.
+:app:processDebugJavaRes (Thread[#1132,Execution worker Thread 3,5,main]) started.
+
+> Task :app:processDebugJavaRes UP-TO-DATE
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\resources', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\resources', not found
+Caching disabled for task ':app:processDebugJavaRes' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:processDebugJavaRes' as it is up-to-date.
+work action resolve out (project :app) (Thread[#1132,Execution worker Thread 3,5,main]) started.
+
+> Task :app:bundleDebugClassesToRuntimeJar
+Caching disabled for task ':app:bundleDebugClassesToRuntimeJar' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Task ':app:bundleDebugClassesToRuntimeJar' is not up-to-date because:
+  Input property 'inputDirs' file C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\build\intermediates\built_in_kotlinc\debug\compileDebugKotlin\classes\com\example\golf_by_nm\PhysicsEngine.class has changed.
+work action resolve classes.jar (project :app) (Thread[#1139,Execution worker Thread 10,5,main]) started.
+
+> Task :app:bundleDebugClassesToCompileJar
+Caching disabled for task ':app:bundleDebugClassesToCompileJar' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Task ':app:bundleDebugClassesToCompileJar' is not up-to-date because:
+  Input property 'inputDirs' file C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\build\intermediates\built_in_kotlinc\debug\compileDebugKotlin\classes\com\example\golf_by_nm\PhysicsEngine.class has changed.
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\build\intermediates\javac\debug\compileDebugJavaWithJavac\classes', not found
+work action resolve classes.jar (project :app) (Thread[#1144,Execution worker Thread 15,5,main]) started.
+Resolve mutations for :app:compileDebugUnitTestKotlin (Thread[#1144,Execution worker Thread 15,5,main]) started.
+:app:compileDebugUnitTestKotlin (Thread[#1144,Execution worker Thread 15,5,main]) started.
+
+> Task :app:compileDebugUnitTestKotlin UP-TO-DATE
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\java', not found
+Caching disabled for BuildToolsApiClasspathEntrySnapshotTransform: C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\build\intermediates\compile_app_classes_jar\debug\bundleDebugClassesToCompileJar\classes.jar because:
+  Build cache is disabled
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\java', not found
+Custom actions are attached to task ':app:compileDebugUnitTestKotlin'.
+Caching disabled for task ':app:compileDebugUnitTestKotlin' because:
+  Build cache is disabled
+Skipping task ':app:compileDebugUnitTestKotlin' as it is up-to-date.
+Resolve mutations for :app:compileDebugUnitTestJavaWithJavac (Thread[#1144,Execution worker Thread 15,5,main]) started.
+:app:compileDebugUnitTestJavaWithJavac (Thread[#1144,Execution worker Thread 15,5,main]) started.
+
+> Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
+Skipping task ':app:compileDebugUnitTestJavaWithJavac' as it has no source files and no previous output files.
+Resolve mutations for :app:processDebugUnitTestJavaRes (Thread[#1144,Execution worker Thread 15,5,main]) started.
+:app:processDebugUnitTestJavaRes (Thread[#1144,Execution worker Thread 15,5,main]) started.
+
+> Task :app:processDebugUnitTestJavaRes UP-TO-DATE
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\test\resources', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\resources', not found
+Caching disabled for task ':app:processDebugUnitTestJavaRes' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:processDebugUnitTestJavaRes' as it is up-to-date.
+Resolve mutations for :app:testDebugUnitTest (Thread[#1144,Execution worker Thread 15,5,main]) started.
+:app:testDebugUnitTest (Thread[#1144,Execution worker Thread 15,5,main]) started.
+Gradle Test Executor 8 started executing tests.
+Gradle Test Executor 8 finished executing tests.
+
+> Task :app:testDebugUnitTest FAILED
+Caching disabled for task ':app:testDebugUnitTest' because:
+  Build cache is disabled
+Task ':app:testDebugUnitTest' is not up-to-date because:
+  Task has failed previously.
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\build\intermediates\javac\debugUnitTest\compileDebugUnitTestJavaWithJavac\classes', not found
+Starting process 'Gradle Test Executor 8'. Working directory: C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app Command: C:\Program Files\Java\jdk-25\bin\java.exe -Djava.awt.headless=true -Djava.library.path=C:\Program Files\Java\jdk-25\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\PowerShell\7;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\PROGRAM FILES (X86)\COMMON FILES\ORACLE\JAVA\JAVA8PATH;C:\PROGRAM FILES (X86)\COMMON FILES\ORACLE\JAVA\JAVAPATH;C:\WINDOWS\SYSTEM32;C:\WINDOWS;C:\WINDOWS\SYSTEM32\WBEM;C:\WINDOWS\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\WINDOWS\SYSTEM32\OPENSSH\;C:\PROGRAM FILES\DOTNET\;C:\PROGRAM FILES (X86)\WINDOWS KITS\8.1\WINDOWS PERFORMANCE TOOLKIT\;C:\PROGRAM FILES\SQL ANYWHERE 16\\BIN32;C:\PROGRAM FILES\SQL ANYWHERE 16\\BIN64;C:\PROGRAM FILES (X86)\BLUETOOTH COMMAND LINE TOOLS\BIN;C:\PROGRAM FILES\IVI FOUNDATION\VISA\WIN64\BIN\;C:\PROGRAM FILES (X86)\IVI FOUNDATION\VISA\WINNT\BIN\;C:\PROGRAM FILES (X86)\IVI FOUNDATION\VISA\WINNT\BIN;C:\PROGRAM FILES\SQL ANYWHERE 17\\BIN32;C:\PROGRAM FILES\SQL ANYWHERE 17\\BIN64;C:\PROGRAM FILES\GIT\CMD;C:\PROGRAM FILES\NODEJS\;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\PowerToys\;C:\Program Files\PowerShell\7\;C:\Users\nm\AppData\Local\Microsoft\WindowsApps;C:\Users\nm\AppData\Local\gitkraken\bin;C:\Users\nm\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nm\AppData\Local\Microsoft\WindowsApps;C:\Users\nm\AppData\Local\Programs\Windsurf\bin;C:\Users\nm\AppData\Roaming\npm;C:\Users\nm\Documents\Signature;C:\Program Files (x86)\Windows Kits\10\bin\10.0.26100.0\x64;C:\Users\nm\AppData\Local\Python\bin;C:\Users\nm\AppData\Local\Programs\Antigravity\bin;C:\Users\nm\AppData\Local\Android\Sdk\platform-tools;C:\Users\nm\AppData\Local\Android\Sdk\emulator;c:\Users\nm\.antigravity\extensions\ms-python.debugpy-2025.18.0-win32-x64\bundled\scripts\noConfigScripts;.;C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\jniLibs;C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\test\jniLibs -Dorg.gradle.internal.worker.tmpdir=C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\build\tmp\testDebugUnitTest\work --add-opens=java.base/java.io=ALL-UNNAMED @C:\Users\nm\.gradle\.tmp\gradle-worker-classpath8227361866723419404txt -Xmx512m -Dfile.encoding=UTF-8 -Duser.country=FR -Duser.language=fr -Duser.variant -ea worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 8'
+Successfully started process 'Gradle Test Executor 8'
+
+GolfPhysicsValidationTest > testDistanceHierarchy STANDARD_OUT
+
+    --- Distance Hierarchy Check (Target: Dr~280m, LW~100m, Gaps>=10m) ---
+    Dr: 228,5m
+    3W: 218,6m
+    4i: 215,6m
+    5i: 205,6m
+    6i: 194,9m
+    7i: 182,7m
+    8i: 170,4m
+    9i: 155,9m
+    PW: 138,1m
+    SW: 119,6m
+    LW: 104,0m
+
+GolfPhysicsValidationTest > testDistanceHierarchy FAILED
+    java.lang.AssertionError: Gap Failure: 3W to 4i gap is only 3,0m (target >= 5m)
+        at org.junit.Assert.fail(Assert.java:89)
+        at org.junit.Assert.assertTrue(Assert.java:42)
+        at com.example.golf_by_nm.GolfPhysicsValidationTest.testDistanceHierarchy(GolfPhysicsValidationTest.kt:82)
+
+1 test completed, 1 failed
+Finished generating test XML results (0.001 secs) into: C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\build\test-results\testDebugUnitTest
+Generating HTML test report...
+Finished generating test html results (0.006 secs) into: C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\build\reports\tests\testDebugUnitTest
+Build bcf2d229-5e35-4a99-8587-2f27273708ca is closed
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:testDebugUnitTest'.
+> There were failing tests. See the report at: file:///C:/Users/nm/Documents/Dev_NM/Golf_by_NM/app/build/reports/tests/testDebugUnitTest/index.html
+
+* Try:
+> Run with --scan to generate a Build Scan (Powered by Develocity).
+
+BUILD FAILED in 3s
+26 actionable tasks: 4 executed, 22 up-to-date
+Watched directory hierarchies: [C:\Users\nm\Documents\Dev_NM\Golf_by_NM]

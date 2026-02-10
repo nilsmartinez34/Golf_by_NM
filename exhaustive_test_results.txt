@@ -1,0 +1,541 @@
+Initialized native services in: C:\Users\nm\.gradle\native
+Initialized jansi services in: C:\Users\nm\.gradle\native
+Found daemon DaemonInfo{pid=38612, address=[d14c8455-3f5d-44c2-a4ed-6a4a5d1f1a77 port:55203, addresses:[/127.0.0.1]], state=Idle, lastBusy=1769769536766, context=DefaultDaemonContext[uid=b4f25045-bd5a-4095-bc63-e76c8b25c838,javaHome=C:\Program Files\Android\Android Studio\jbr,javaVersion=21,javaVendor=JetBrains s.r.o.,daemonRegistryDir=C:\Users\nm\.gradle\daemon,pid=38612,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=FR,-Duser.language=fr,-Duser.variant]} however its context does not match the desired criteria.
+JVM is incompatible.
+Wanted: DaemonRequestContext{jvmCriteria=C:\Program Files\Java\jdk-25 (no JDK specified, using current Java home), daemonOpts=[-Xmx2048m, -Dfile.encoding=UTF-8, -Duser.country=FR, -Duser.language=fr, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+Actual: DefaultDaemonContext[uid=b4f25045-bd5a-4095-bc63-e76c8b25c838,javaHome=C:\Program Files\Android\Android Studio\jbr,javaVersion=21,javaVendor=JetBrains s.r.o.,daemonRegistryDir=C:\Users\nm\.gradle\daemon,pid=38612,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=FR,-Duser.language=fr,-Duser.variant]
+
+  Looking for a different daemon...
+The client will now receive all logging from the daemon (pid: 62232). The daemon log file: C:\Users\nm\.gradle\daemon\9.1.0\daemon-62232.out.log
+Starting 10th build in daemon [uptime: 42 mins 25.98 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 2 GiB]
+Using 16 worker leases.
+Invalidating in-memory cache of C:\Users\nm\Documents\Dev_NM\Golf_by_NM\.gradle\9.1.0\fileHashes\fileHashes.bin
+Invalidating in-memory cache of C:\Users\nm\Documents\Dev_NM\Golf_by_NM\.gradle\buildOutputCleanup\outputFiles.bin
+Invalidating in-memory cache of C:\Users\nm\Documents\Dev_NM\Golf_by_NM\.gradle\9.1.0\fileHashes\resourceHashesCache.bin
+Now considering [C:\Users\nm\Documents\Dev_NM\Golf_by_NM] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Invalidating in-memory cache of C:\Users\nm\.gradle\caches\9.1.0\fileHashes\kotlinDslCompileAvoidanceClasspathHashCache.bin
+Invalidating in-memory cache of C:\Users\nm\.gradle\caches\9.1.0\fileHashes\fileHashes.bin
+Invalidating in-memory cache of C:\Users\nm\.gradle\caches\9.1.0\fileHashes\resourceHashesCache.bin
+Invalidating in-memory cache of C:\Users\nm\.gradle\caches\journal-1\file-access.bin
+Settings evaluated using settings file 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\settings.gradle.kts'.
+Projects loaded. Root project using build file 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\build.gradle.kts'.
+Included projects: [root project 'Golf_by_NM', project ':app', project ':physics']
+
+> Configure project :
+Evaluating root project 'Golf_by_NM' using build file 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\build.gradle.kts'.
+Resolved plugin [id: 'com.android.application', version: '9.0.0', apply: false]
+Resolved plugin [id: 'org.jetbrains.kotlin.plugin.compose', version: '2.0.21', apply: false]
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '2.0.21', apply: false]
+
+> Configure project :app
+Evaluating project ':app' using build file 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\build.gradle.kts'.
+Resolved plugin [id: 'com.android.application', version: '9.0.0']
+Resolved plugin [id: 'org.jetbrains.kotlin.plugin.compose', version: '2.0.21']
+Build 35ecd4ea-b544-44cd-8ae4-0c3498e83195 is started
+Using default execution profile
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+
+> Configure project :physics
+Evaluating project ':physics' using build file 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\physics\build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '2.0.21']
+Using Kotlin Gradle Plugin gradle813 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+All projects evaluated.
+Task path ':app:testDebugUnitTest' matched project ':app'
+Task name matched 'testDebugUnitTest'
+Selected primary task 'testDebugUnitTest' from project :app
+Adding -Xuse-inline-scopes-numbers Kotlin compiler flag for task :app:compileDebugKotlin
+Tasks to be executed: [task ':physics:checkKotlinGradlePluginConfigurationErrors', task ':physics:compileKotlin', task ':physics:compileJava', task ':physics:processResources', task ':physics:classes', task ':physics:jar', task ':app:preBuild', task ':app:preDebugBuild', task ':app:generateDebugResources', task ':app:packageDebugResources', task ':app:processDebugNavigationResources', task ':app:parseDebugLocalResources', task ':app:generateDebugRFile', task ':app:compileDebugKotlin', task ':app:javaPreCompileDebug', task ':app:compileDebugJavaWithJavac', task ':app:checkDebugAarMetadata', task ':app:compileDebugNavigationResources', task ':app:mapDebugSourceSetPaths', task ':app:mergeDebugResources', task ':app:createDebugCompatibleScreenManifests', task ':app:extractDeepLinksDebug', task ':app:processDebugMainManifest', task ':app:processDebugManifest', task ':app:processDebugManifestForPackage', task ':app:processDebugResources', task ':app:bundleDebugClassesToRuntimeJar', task ':app:bundleDebugClassesToCompileJar', task ':app:preDebugUnitTestBuild', task ':app:compileDebugUnitTestKotlin', task ':app:javaPreCompileDebugUnitTest', task ':app:compileDebugUnitTestJavaWithJavac', task ':app:processDebugJavaRes', task ':app:processDebugUnitTestJavaRes', task ':app:testDebugUnitTest']
+Tasks that were excluded: []
+work action Parameters of IdentityTransform (Thread[#1416,Execution worker,5,main]) started.
+work action Parameters of IdentityTransform (Thread[#1416,Execution worker,5,main]) started.
+Resolve mutations for :physics:checkKotlinGradlePluginConfigurationErrors (Thread[#1416,Execution worker,5,main]) started.
+:physics:checkKotlinGradlePluginConfigurationErrors (Thread[#1416,Execution worker,5,main]) started.
+Invalidating in-memory cache of C:\Users\nm\Documents\Dev_NM\Golf_by_NM\.gradle\9.1.0\executionHistory\executionHistory.bin
+
+> Task :physics:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':physics:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+Resolve mutations for :physics:compileKotlin (Thread[#1416,Execution worker,5,main]) started.
+:physics:compileKotlin (Thread[#1416,Execution worker,5,main]) started.
+Resolve mutations for :physics:processResources (Thread[#1426,Execution worker Thread 11,5,main]) started.
+:physics:processResources (Thread[#1426,Execution worker Thread 11,5,main]) started.
+
+> Task :physics:processResources NO-SOURCE
+Skipping task ':physics:processResources' as it has no source files and no previous output files.
+Resolve mutations for :app:preBuild (Thread[#1426,Execution worker Thread 11,5,main]) started.
+:app:preBuild (Thread[#1426,Execution worker Thread 11,5,main]) started.
+
+> Task :app:preBuild UP-TO-DATE
+Skipping task ':app:preBuild' as it has no actions.
+Resolve mutations for :app:preDebugBuild (Thread[#1426,Execution worker Thread 11,5,main]) started.
+:app:preDebugBuild (Thread[#1426,Execution worker Thread 11,5,main]) started.
+
+> Task :app:preDebugBuild UP-TO-DATE
+Skipping task ':app:preDebugBuild' as it has no actions.
+Resolve mutations for :app:generateDebugResources (Thread[#1426,Execution worker Thread 11,5,main]) started.
+:app:generateDebugResources (Thread[#1426,Execution worker Thread 11,5,main]) started.
+
+> Task :app:generateDebugResources UP-TO-DATE
+Caching disabled for task ':app:generateDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResources' as it is up-to-date.
+Resolve mutations for :app:packageDebugResources (Thread[#1426,Execution worker Thread 11,5,main]) started.
+:app:packageDebugResources (Thread[#1426,Execution worker Thread 11,5,main]) started.
+
+> Task :app:packageDebugResources UP-TO-DATE
+Caching disabled for task ':app:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:packageDebugResources' as it is up-to-date.
+Resolve mutations for :app:processDebugNavigationResources (Thread[#1426,Execution worker Thread 11,5,main]) started.
+:app:processDebugNavigationResources (Thread[#1426,Execution worker Thread 11,5,main]) started.
+
+> Task :app:processDebugNavigationResources UP-TO-DATE
+Caching disabled for task ':app:processDebugNavigationResources' because:
+  Build cache is disabled
+Skipping task ':app:processDebugNavigationResources' as it is up-to-date.
+Resolve mutations for :app:parseDebugLocalResources (Thread[#1426,Execution worker Thread 11,5,main]) started.
+:app:parseDebugLocalResources (Thread[#1426,Execution worker Thread 11,5,main]) started.
+
+> Task :app:parseDebugLocalResources UP-TO-DATE
+Caching disabled for task ':app:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':app:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :app:generateDebugRFile (Thread[#1426,Execution worker Thread 11,5,main]) started.
+:app:generateDebugRFile (Thread[#1426,Execution worker Thread 11,5,main]) started.
+
+> Task :app:generateDebugRFile UP-TO-DATE
+Caching disabled for task ':app:generateDebugRFile' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugRFile' as it is up-to-date.
+Resolve mutations for :app:javaPreCompileDebug (Thread[#1426,Execution worker Thread 11,5,main]) started.
+:app:javaPreCompileDebug (Thread[#1426,Execution worker Thread 11,5,main]) started.
+
+> Task :app:javaPreCompileDebug UP-TO-DATE
+Caching disabled for task ':app:javaPreCompileDebug' because:
+  Build cache is disabled
+Skipping task ':app:javaPreCompileDebug' as it is up-to-date.
+Resolve mutations for :app:checkDebugAarMetadata (Thread[#1426,Execution worker Thread 11,5,main]) started.
+:app:checkDebugAarMetadata (Thread[#1426,Execution worker Thread 11,5,main]) started.
+
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':app:checkDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:checkDebugAarMetadata' as it is up-to-date.
+Resolve mutations for :app:compileDebugNavigationResources (Thread[#1426,Execution worker Thread 11,5,main]) started.
+:app:compileDebugNavigationResources (Thread[#1426,Execution worker Thread 11,5,main]) started.
+
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+Caching disabled for task ':app:compileDebugNavigationResources' because:
+  Build cache is disabled
+Skipping task ':app:compileDebugNavigationResources' as it is up-to-date.
+Resolve mutations for :app:mapDebugSourceSetPaths (Thread[#1426,Execution worker Thread 11,5,main]) started.
+:app:mapDebugSourceSetPaths (Thread[#1426,Execution worker Thread 11,5,main]) started.
+
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+Caching disabled for task ':app:mapDebugSourceSetPaths' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:mapDebugSourceSetPaths' as it is up-to-date.
+Resolve mutations for :app:mergeDebugResources (Thread[#1426,Execution worker Thread 11,5,main]) started.
+:app:mergeDebugResources (Thread[#1426,Execution worker Thread 11,5,main]) started.
+
+> Task :app:mergeDebugResources UP-TO-DATE
+Caching disabled for task ':app:mergeDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:mergeDebugResources' as it is up-to-date.
+Resolve mutations for :app:createDebugCompatibleScreenManifests (Thread[#1426,Execution worker Thread 11,5,main]) started.
+:app:createDebugCompatibleScreenManifests (Thread[#1426,Execution worker Thread 11,5,main]) started.
+
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+Caching disabled for task ':app:createDebugCompatibleScreenManifests' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:createDebugCompatibleScreenManifests' as it is up-to-date.
+Resolve mutations for :app:extractDeepLinksDebug (Thread[#1426,Execution worker Thread 11,5,main]) started.
+:app:extractDeepLinksDebug (Thread[#1426,Execution worker Thread 11,5,main]) started.
+
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':app:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':app:extractDeepLinksDebug' as it is up-to-date.
+Resolve mutations for :app:processDebugMainManifest (Thread[#1426,Execution worker Thread 11,5,main]) started.
+:app:processDebugMainManifest (Thread[#1426,Execution worker Thread 11,5,main]) started.
+
+> Task :app:processDebugMainManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugMainManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugMainManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifest (Thread[#1426,Execution worker Thread 11,5,main]) started.
+:app:processDebugManifest (Thread[#1426,Execution worker Thread 11,5,main]) started.
+
+> Task :app:processDebugManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifestForPackage (Thread[#1426,Execution worker Thread 11,5,main]) started.
+:app:processDebugManifestForPackage (Thread[#1426,Execution worker Thread 11,5,main]) started.
+
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+Custom actions are attached to task ':app:processDebugManifestForPackage'.
+Caching disabled for task ':app:processDebugManifestForPackage' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifestForPackage' as it is up-to-date.
+Resolve mutations for :app:processDebugResources (Thread[#1426,Execution worker Thread 11,5,main]) started.
+:app:processDebugResources (Thread[#1426,Execution worker Thread 11,5,main]) started.
+
+> Task :app:processDebugResources UP-TO-DATE
+Caching disabled for task ':app:processDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:processDebugResources' as it is up-to-date.
+Resolve mutations for :app:preDebugUnitTestBuild (Thread[#1426,Execution worker Thread 11,5,main]) started.
+:app:preDebugUnitTestBuild (Thread[#1426,Execution worker Thread 11,5,main]) started.
+
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+Skipping task ':app:preDebugUnitTestBuild' as it has no actions.
+Resolve mutations for :app:javaPreCompileDebugUnitTest (Thread[#1426,Execution worker Thread 11,5,main]) started.
+:app:javaPreCompileDebugUnitTest (Thread[#1426,Execution worker Thread 11,5,main]) started.
+
+> Task :app:javaPreCompileDebugUnitTest UP-TO-DATE
+Caching disabled for task ':app:javaPreCompileDebugUnitTest' because:
+  Build cache is disabled
+Skipping task ':app:javaPreCompileDebugUnitTest' as it is up-to-date.
+
+> Task :physics:compileKotlin
+Caching disabled for task ':physics:compileKotlin' because:
+  Build cache is disabled
+Task ':physics:compileKotlin' is not up-to-date because:
+  Value of input property 'kotlinJavaToolchainProvider.javaVersion' has changed for task ':physics:compileKotlin'
+The input changes require a full rebuild for incremental task ':physics:compileKotlin'.
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\physics\src\main\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\physics\src\main\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\physics\src\main\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\physics\src\main\java', not found
+Kotlin source files: C:\Users\nm\Documents\Dev_NM\Golf_by_NM\physics\src\main\kotlin\com\example\swingmaster\physics\Ballistics.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\physics\src\main\kotlin\com\example\swingmaster\physics\SwingImpact.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\physics\src\main\kotlin\com\example\swingmaster\physics\UnitConverter.kt
+Java source files: 
+Script source files: 
+Script file extensions: 
+Using Kotlin/JVM incremental compilation
+[KOTLIN] Kotlin compilation 'jdkHome' argument: C:\Program Files\Java\jdk-25
+Options for KOTLIN DAEMON: IncrementalCompilationOptions(super=CompilationOptions(compilerMode=INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0, 3], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=[]), sourceChanges=org.jetbrains.kotlin.buildtools.api.SourcesChanges$Unknown@438150e, classpathChanges=NotAvailableForNonIncrementalRun, workingDir=C:\Users\nm\Documents\Dev_NM\Golf_by_NM\physics\build\kotlin\compileKotlin\cacheable, multiModuleICSettings=MultiModuleICSettings(buildHistoryFile=C:\Users\nm\Documents\Dev_NM\Golf_by_NM\physics\build\kotlin\compileKotlin\local-state\build-history.bin, useModuleDetection=false), icFeatures=IncrementalCompilationFeatures(usePreciseJavaTracking=true, withAbiSnapshot=false, preciseCompilationResultsBackup=true, keepIncrementalCompilationCachesInMemory=true, enableUnsafeIncrementalCompilationForMultiplatform=false, enableMonotonousIncrementalCompileSetExpansion=true), outputFiles=[C:\Users\nm\Documents\Dev_NM\Golf_by_NM\physics\build\classes\kotlin\main, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\physics\build\kotlin\compileKotlin\cacheable, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\physics\build\kotlin\compileKotlin\local-state])
+Finished executing kotlin compiler using DAEMON strategy
+Resolve mutations for :physics:compileJava (Thread[#1416,Execution worker,5,main]) started.
+:physics:compileJava (Thread[#1416,Execution worker,5,main]) started.
+
+> Task :physics:compileJava NO-SOURCE
+Skipping task ':physics:compileJava' as it has no source files and no previous output files.
+Resolve mutations for :physics:classes (Thread[#1416,Execution worker,5,main]) started.
+:physics:classes (Thread[#1416,Execution worker,5,main]) started.
+
+> Task :physics:classes UP-TO-DATE
+Skipping task ':physics:classes' as it has no actions.
+Resolve mutations for :physics:jar (Thread[#1416,Execution worker,5,main]) started.
+:physics:jar (Thread[#1416,Execution worker,5,main]) started.
+
+> Task :physics:jar UP-TO-DATE
+Caching disabled for task ':physics:jar' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':physics:jar' as it is up-to-date.
+work action resolve physics.jar (project :physics) (Thread[#1416,Execution worker,5,main]) started.
+IdentityTransform (Thread[#1416,Execution worker,5,main]) started.
+IdentityTransform (Thread[#1418,Execution worker Thread 3,5,main]) started.
+IdentityTransform (Thread[#1419,Execution worker Thread 4,5,main]) started.
+Resolve mutations for :app:compileDebugKotlin (Thread[#1419,Execution worker Thread 4,5,main]) started.
+:app:compileDebugKotlin (Thread[#1419,Execution worker Thread 4,5,main]) started.
+
+> Task :app:compileDebugKotlin
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+Custom actions are attached to task ':app:compileDebugKotlin'.
+Caching disabled for task ':app:compileDebugKotlin' because:
+  Build cache is disabled
+  Gradle does not know how file 'build\kotlin\compileDebugKotlin\cacheable\last-build.bin' was created (output property 'taskBuildCacheableOutputDirectory$kotlin_gradle_plugin_common'). Task output caching requires exclusive access to output paths to guarantee correctness (i.e. multiple tasks are not allowed to produce output in the same location).
+Task ':app:compileDebugKotlin' is not up-to-date because:
+  Value of input property 'kotlinJavaToolchainProvider.javaVersion' has changed for task ':app:compileDebugKotlin'
+The input changes require a full rebuild for incremental task ':app:compileDebugKotlin'.
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\java', not found
+Kotlin source files: C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\java\com\example\golf_by_nm\BallTrajectoryCalculator.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\java\com\example\golf_by_nm\GolfSwingScreen.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\java\com\example\golf_by_nm\GolfViewModel.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\java\com\example\golf_by_nm\MainActivity.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\java\com\example\golf_by_nm\PhysicsEngine.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\java\com\example\golf_by_nm\PuttingHistoryEntry.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\java\com\example\golf_by_nm\PuttingLabScreen.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\java\com\example\golf_by_nm\PuttingPhysicsEngine.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\java\com\example\golf_by_nm\ShotHistoryEntry.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\java\com\example\golf_by_nm\SwingCaptureProcessor.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\java\com\example\golf_by_nm\ui\theme\Color.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\java\com\example\golf_by_nm\ui\theme\Theme.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\java\com\example\golf_by_nm\ui\theme\Type.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\kotlin\com\example\golf_by_nm\swing\SwingAnalyzer.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\kotlin\com\example\golf_by_nm\ui\components\ControlsArea.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\kotlin\com\example\golf_by_nm\ui\components\DataGrid.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\kotlin\com\example\golf_by_nm\ui\components\FieldCanvas.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\kotlin\com\example\golf_by_nm\ui\components\SwingInputArea.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\kotlin\com\example\golf_by_nm\ui\DashboardScreen.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\kotlin\com\example\golf_by_nm\ui\SwingViewModel.kt
+Java source files: 
+Script source files: 
+Script file extensions: 
+Using Kotlin/JVM incremental compilation
+[KOTLIN] Kotlin compilation 'jdkHome' argument: C:\Program Files\Java\jdk-25
+Options for KOTLIN DAEMON: IncrementalCompilationOptions(super=CompilationOptions(compilerMode=INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0, 3], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=[]), sourceChanges=org.jetbrains.kotlin.buildtools.api.SourcesChanges$Unknown@438150e, classpathChanges=NotAvailableForNonIncrementalRun, workingDir=C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\build\kotlin\compileDebugKotlin\cacheable, multiModuleICSettings=MultiModuleICSettings(buildHistoryFile=C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\build\kotlin\compileDebugKotlin\local-state\build-history.bin, useModuleDetection=true), icFeatures=IncrementalCompilationFeatures(usePreciseJavaTracking=true, withAbiSnapshot=false, preciseCompilationResultsBackup=true, keepIncrementalCompilationCachesInMemory=true, enableUnsafeIncrementalCompilationForMultiplatform=false, enableMonotonousIncrementalCompileSetExpansion=true), outputFiles=[C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\build\intermediates\built_in_kotlinc\debug\compileDebugKotlin\classes, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\build\kotlin\compileDebugKotlin\cacheable, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\build\kotlin\compileDebugKotlin\local-state])
+w: file:///C:/Users/nm/Documents/Dev_NM/Golf_by_NM/app/src/main/java/com/example/golf_by_nm/GolfSwingScreen.kt:163:44 'val Icons.Filled.List: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.List.
+w: file:///C:/Users/nm/Documents/Dev_NM/Golf_by_NM/app/src/main/java/com/example/golf_by_nm/GolfSwingScreen.kt:628:5 'fun AlertDialog(onDismissRequest: () -> Unit, modifier: Modifier = ..., properties: DialogProperties = ..., content: @Composable() ComposableFunction0<Unit>): Unit' is deprecated. Use BasicAlertDialog instead.
+w: file:///C:/Users/nm/Documents/Dev_NM/Golf_by_NM/app/src/main/java/com/example/golf_by_nm/GolfSwingScreen.kt:661:48 'val Icons.Filled.List: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.List.
+w: file:///C:/Users/nm/Documents/Dev_NM/Golf_by_NM/app/src/main/java/com/example/golf_by_nm/PuttingLabScreen.kt:59:40 'val Icons.Filled.ArrowBack: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.ArrowBack.
+w: file:///C:/Users/nm/Documents/Dev_NM/Golf_by_NM/app/src/main/java/com/example/golf_by_nm/PuttingLabScreen.kt:124:36 'val Icons.Filled.List: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.List.
+w: file:///C:/Users/nm/Documents/Dev_NM/Golf_by_NM/app/src/main/java/com/example/golf_by_nm/PuttingLabScreen.kt:374:5 'fun AlertDialog(onDismissRequest: () -> Unit, modifier: Modifier = ..., properties: DialogProperties = ..., content: @Composable() ComposableFunction0<Unit>): Unit' is deprecated. Use BasicAlertDialog instead.
+Finished executing kotlin compiler using DAEMON strategy
+Resolve mutations for :app:compileDebugJavaWithJavac (Thread[#1419,Execution worker Thread 4,5,main]) started.
+:app:compileDebugJavaWithJavac (Thread[#1419,Execution worker Thread 4,5,main]) started.
+
+> Task :app:compileDebugJavaWithJavac NO-SOURCE
+Skipping task ':app:compileDebugJavaWithJavac' as it has no source files and no previous output files.
+Resolve mutations for :app:bundleDebugClassesToRuntimeJar (Thread[#1419,Execution worker Thread 4,5,main]) started.
+:app:bundleDebugClassesToRuntimeJar (Thread[#1419,Execution worker Thread 4,5,main]) started.
+
+> Task :app:bundleDebugClassesToRuntimeJar UP-TO-DATE
+Caching disabled for task ':app:bundleDebugClassesToRuntimeJar' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:bundleDebugClassesToRuntimeJar' as it is up-to-date.
+work action resolve classes.jar (project :app) (Thread[#1419,Execution worker Thread 4,5,main]) started.
+Resolve mutations for :app:bundleDebugClassesToCompileJar (Thread[#1419,Execution worker Thread 4,5,main]) started.
+:app:bundleDebugClassesToCompileJar (Thread[#1419,Execution worker Thread 4,5,main]) started.
+
+> Task :app:bundleDebugClassesToCompileJar UP-TO-DATE
+Caching disabled for task ':app:bundleDebugClassesToCompileJar' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:bundleDebugClassesToCompileJar' as it is up-to-date.
+work action resolve classes.jar (project :app) (Thread[#1419,Execution worker Thread 4,5,main]) started.
+Resolve mutations for :app:compileDebugUnitTestKotlin (Thread[#1419,Execution worker Thread 4,5,main]) started.
+:app:compileDebugUnitTestKotlin (Thread[#1419,Execution worker Thread 4,5,main]) started.
+Resolve mutations for :app:processDebugJavaRes (Thread[#1417,Execution worker Thread 2,5,main]) started.
+:app:processDebugJavaRes (Thread[#1417,Execution worker Thread 2,5,main]) started.
+
+> Task :app:processDebugJavaRes UP-TO-DATE
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\main\resources', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\debug\resources', not found
+Caching disabled for task ':app:processDebugJavaRes' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:processDebugJavaRes' as it is up-to-date.
+work action resolve out (project :app) (Thread[#1417,Execution worker Thread 2,5,main]) started.
+
+> Task :app:compileDebugUnitTestKotlin
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\java', not found
+Custom actions are attached to task ':app:compileDebugUnitTestKotlin'.
+Caching disabled for task ':app:compileDebugUnitTestKotlin' because:
+  Build cache is disabled
+Task ':app:compileDebugUnitTestKotlin' is not up-to-date because:
+  Value of input property 'kotlinJavaToolchainProvider.javaVersion' has changed for task ':app:compileDebugUnitTestKotlin'
+The input changes require a full rebuild for incremental task ':app:compileDebugUnitTestKotlin'.
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\kotlin', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\java', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\java', not found
+Kotlin source files: C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\test\java\com\example\golf_by_nm\ExampleUnitTest.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\test\java\com\example\golf_by_nm\GolfPhysicsValidationTest.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\test\java\com\example\golf_by_nm\PuttingPhysicsTest.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\test\java\com\example\golf_by_nm\SchoolModeTest.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\test\java\com\example\golf_by_nm\SmashFactorTest.kt, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\test\kotlin\com\example\golf_by_nm\swing\SwingAnalyzerTest.kt
+Java source files: 
+Script source files: 
+Script file extensions: 
+Using Kotlin/JVM incremental compilation
+[KOTLIN] Kotlin compilation 'jdkHome' argument: C:\Program Files\Java\jdk-25
+Options for KOTLIN DAEMON: IncrementalCompilationOptions(super=CompilationOptions(compilerMode=INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0, 3], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=[]), sourceChanges=org.jetbrains.kotlin.buildtools.api.SourcesChanges$Unknown@438150e, classpathChanges=NotAvailableForNonIncrementalRun, workingDir=C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\build\kotlin\compileDebugUnitTestKotlin\cacheable, multiModuleICSettings=MultiModuleICSettings(buildHistoryFile=C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\build\kotlin\compileDebugUnitTestKotlin\local-state\build-history.bin, useModuleDetection=true), icFeatures=IncrementalCompilationFeatures(usePreciseJavaTracking=true, withAbiSnapshot=false, preciseCompilationResultsBackup=true, keepIncrementalCompilationCachesInMemory=true, enableUnsafeIncrementalCompilationForMultiplatform=false, enableMonotonousIncrementalCompileSetExpansion=true), outputFiles=[C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\build\intermediates\built_in_kotlinc\debugUnitTest\compileDebugUnitTestKotlin\classes, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\build\kotlin\compileDebugUnitTestKotlin\cacheable, C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\build\kotlin\compileDebugUnitTestKotlin\local-state])
+Finished executing kotlin compiler using DAEMON strategy
+Resolve mutations for :app:compileDebugUnitTestJavaWithJavac (Thread[#1419,Execution worker Thread 4,5,main]) started.
+:app:compileDebugUnitTestJavaWithJavac (Thread[#1419,Execution worker Thread 4,5,main]) started.
+
+> Task :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
+Skipping task ':app:compileDebugUnitTestJavaWithJavac' as it has no source files and no previous output files.
+Resolve mutations for :app:processDebugUnitTestJavaRes (Thread[#1419,Execution worker Thread 4,5,main]) started.
+:app:processDebugUnitTestJavaRes (Thread[#1419,Execution worker Thread 4,5,main]) started.
+
+> Task :app:processDebugUnitTestJavaRes UP-TO-DATE
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\test\resources', not found
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\resources', not found
+Caching disabled for task ':app:processDebugUnitTestJavaRes' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:processDebugUnitTestJavaRes' as it is up-to-date.
+Resolve mutations for :app:testDebugUnitTest (Thread[#1419,Execution worker Thread 4,5,main]) started.
+:app:testDebugUnitTest (Thread[#1419,Execution worker Thread 4,5,main]) started.
+Gradle Test Executor 10 started executing tests.
+Gradle Test Executor 10 finished executing tests.
+
+> Task :app:testDebugUnitTest FAILED
+Caching disabled for task ':app:testDebugUnitTest' because:
+  Build cache is disabled
+Task ':app:testDebugUnitTest' is not up-to-date because:
+  Task has failed previously.
+file or directory 'C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\build\intermediates\javac\debugUnitTest\compileDebugUnitTestJavaWithJavac\classes', not found
+Starting process 'Gradle Test Executor 10'. Working directory: C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app Command: C:\Program Files\Java\jdk-25\bin\java.exe -Djava.awt.headless=true -Djava.library.path=C:\Program Files\Java\jdk-25\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\PowerShell\7;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\PROGRAM FILES (X86)\COMMON FILES\ORACLE\JAVA\JAVA8PATH;C:\PROGRAM FILES (X86)\COMMON FILES\ORACLE\JAVA\JAVAPATH;C:\WINDOWS\SYSTEM32;C:\WINDOWS;C:\WINDOWS\SYSTEM32\WBEM;C:\WINDOWS\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\WINDOWS\SYSTEM32\OPENSSH\;C:\PROGRAM FILES\DOTNET\;C:\PROGRAM FILES (X86)\WINDOWS KITS\8.1\WINDOWS PERFORMANCE TOOLKIT\;C:\PROGRAM FILES\SQL ANYWHERE 16\\BIN32;C:\PROGRAM FILES\SQL ANYWHERE 16\\BIN64;C:\PROGRAM FILES (X86)\BLUETOOTH COMMAND LINE TOOLS\BIN;C:\PROGRAM FILES\IVI FOUNDATION\VISA\WIN64\BIN\;C:\PROGRAM FILES (X86)\IVI FOUNDATION\VISA\WINNT\BIN\;C:\PROGRAM FILES (X86)\IVI FOUNDATION\VISA\WINNT\BIN;C:\PROGRAM FILES\SQL ANYWHERE 17\\BIN32;C:\PROGRAM FILES\SQL ANYWHERE 17\\BIN64;C:\PROGRAM FILES\GIT\CMD;C:\PROGRAM FILES\NODEJS\;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\PowerToys\;C:\Program Files\PowerShell\7\;C:\Users\nm\AppData\Local\Microsoft\WindowsApps;C:\Users\nm\AppData\Local\gitkraken\bin;C:\Users\nm\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nm\AppData\Local\Microsoft\WindowsApps;C:\Users\nm\AppData\Local\Programs\Windsurf\bin;C:\Users\nm\AppData\Roaming\npm;C:\Users\nm\Documents\Signature;C:\Program Files (x86)\Windows Kits\10\bin\10.0.26100.0\x64;C:\Users\nm\AppData\Local\Python\bin;C:\Users\nm\AppData\Local\Programs\Antigravity\bin;C:\Users\nm\AppData\Local\Android\Sdk\platform-tools;C:\Users\nm\AppData\Local\Android\Sdk\emulator;c:\Users\nm\.antigravity\extensions\ms-python.debugpy-2025.18.0-win32-x64\bundled\scripts\noConfigScripts;.;C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\testDebug\jniLibs;C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\src\test\jniLibs -Dorg.gradle.internal.worker.tmpdir=C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\build\tmp\testDebugUnitTest\work --add-opens=java.base/java.io=ALL-UNNAMED @C:\Users\nm\.gradle\.tmp\gradle-worker-classpath13169757236507677351txt -Xmx512m -Dfile.encoding=UTF-8 -Duser.country=FR -Duser.language=fr -Duser.variant -ea worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 10'
+Successfully started process 'Gradle Test Executor 10'
+
+SchoolModeTest > testIronConstraints FAILED
+    java.lang.AssertionError: Power should be roughly 0.5 expected:<0.5> but was:<0.71428573>
+        at org.junit.Assert.fail(Assert.java:89)
+        at org.junit.Assert.failNotEquals(Assert.java:835)
+        at org.junit.Assert.assertEquals(Assert.java:577)
+        at com.example.golf_by_nm.SchoolModeTest.testIronConstraints(SchoolModeTest.kt:60)
+
+SchoolModeTest > testSchoolModeVisualState FAILED
+    java.lang.AssertionError: Live Speed should be 50% of range (60-125) expected:<92.5> but was:<106.42857253551483>
+        at org.junit.Assert.fail(Assert.java:89)
+        at org.junit.Assert.failNotEquals(Assert.java:835)
+        at org.junit.Assert.assertEquals(Assert.java:555)
+        at com.example.golf_by_nm.SchoolModeTest.testSchoolModeVisualState(SchoolModeTest.kt:85)
+
+GolfPhysicsValidationTest > testTrajectoryMatrix STANDARD_OUT
+
+    --- Trajectory Matrix Validation (7i Target) ---
+    Straight     | Face=+0 | Path=+0 | SpinLat=   +0 | Side=+0,0m
+    Push         | Face=+3 | Path=+3 | SpinLat=   +0 | Side=+9,4m
+    Pull         | Face=-3 | Path=-3 | SpinLat=   +0 | Side=-9,4m
+    Slice        | Face=+0 | Path=-5 | SpinLat= +818 | Side=+0,8m
+
+GolfPhysicsValidationTest > testTrajectoryMatrix FAILED
+    java.lang.AssertionError: Slice should end Right (Got TrajectoryResult(path=[Point3D(x=0.0, y=0.0, z=0.0), Point3D(x=0.4908576332976594, y=0.23307941165492543, z=-0.029858108839466928), Point3D(x=0.9805024521088693, y=0.4659855616527184, z=-0.05947909853995036), Point3D(x=1.4689395487026038, y=0.6987141065672479, z=-0.08886436273710244), Point3D(x=1.9561739829271794, y=0.9312607382129321, z=-0.11801528542652082), Point3D(x=2.442210782362234, y=1.163621183248746, z=-0.14693324104285416), Point3D(x=2.927054942466782, y=1.3957912027848607, z=-0.1756195945381031), Point3D(x=3.4107114267233523, y=1.627766591991853, z=-0.2040757014591287), Point3D(x=3.8931851667782027, y=1.8595431797124164, z=-0.23230290802438008), Point3D(x=4.374481062577619, y=2.0911168280755144, z=-0.260302551199853), Point3D(x=4.854603982500292, y=2.3224834321129055, z=-0.2880759587742909), Point3D(x=5.333558763485773, y=2.5536389193779865, z=-0.31562444943363943), Point3D(x=5.811350211159011, y=2.7845792495668817, z=-0.3429493328347668), Point3D(x=6.287983099950954, y=3.015300414141723, z=-0.3700519096784592), Point3D(x=6.763462173215225, y=3.2457984359560568, z=-0.3969334717817044), Point3D(x=7.237792143340865, y=3.476069368882318, z=-0.423595302149273), Point3D(x=7.710977691861127, y=3.7061092974413086, z=-0.45003867504460854), Point3D(x=8.18302346955833, y=3.9359143364336253, z=-0.47626485606003743), Point3D(x=8.653934096564752, y=4.165480630572973, z=-0.5022751021863089), Point3D(x=9.123714162459564, y=4.394804354121307, z=-0.5280706618814754), Point3D(x=9.59236822636179, y=4.6238817105257475, z=-0.5536527751391245), Point3D(x=10.05990081701929, y=4.8527089320572045, z=-0.5790226735559713), Point3D(x=10.526316432893749, y=5.081282279450661, z=-0.6041815803988232), Point3D(x=10.991619542241663, y=5.309598041547054, z=-0.6291307106709257), Point3D(x=11.455814583191318, y=5.537652534936703, z=-0.6538712711777), Point3D(x=11.918905963815734, y=5.765442103604221, z=-0.6784044605918821), Point3D(x=12.380898062201586, y=5.992963118574862, z=-0.7027314695180731), Point3D(x=12.84179522651406, y=6.220211977562248, z=-0.7268534805567114), Point3D(x=13.301601775057655, y=6.447185104617418, z=-0.7507716683674752), Point3D(x=13.7603219963329, y=6.673878949779152, z=-0.7744871997321259), Point3D(x=14.217960149088977, y=6.900289988725515, z=-0.7980012336168014), Point3D(x=14.674520462372248, y=7.126414722426561, z=-0.8213149212337697), Point3D(x=15.130007135570636, y=7.352249676798165, z=-0.8444294061026509), Point3D(x=15.58442433845389, y=7.577791402356906, z=-0.8673458241111189), Point3D(x=16.03777621120967, y=7.803036473875978, z=-0.8900653035750898), Point3D(x=16.49006686447548, y=8.027981490042054, z=-0.9125889652984087), Point3D(x=16.941300379366393, y=8.252623073113076, z=-0.9349179226320424), Point3D(x=17.39148080749858, y=8.476957868576907, z=-0.9570532815327886), Point3D(x=17.84061217100861, y=8.700982544810804, z=-0.9789961406215093), Point3D(x=18.288698462568497, y=8.92469379274167, z=-1.000747591240899), Point3D(x=18.735743645396514, y=9.148088325507022, z=-1.022308717512796), Point3D(x=19.181751653263696, y=9.371162878116657, z=-1.0436805963950464), Point3D(x=19.626726390496064, y=9.593914207114944, z=-1.0648642977379283), Point3D(x=20.07067173197253, y=9.816339090243712, z=-1.085860884340149), Point3D(x=20.51359152311848, y=10.038434326105692, z=-1.1066714120044185), Point3D(x=20.95548957989499, y=10.260196733828467, z=-1.127296929592615), Point3D(x=21.396369688783686, y=10.481623152728893, z=-1.1477384790805447), Point3D(x=21.83623560676722, y=10.702710441977946, z=-1.1679970956123105), Point3D(x=22.27509106130535, y=10.923455480265954, z=-1.1880738075542947), Point3D(x=22.71293975030658, y=11.143855165468196, z=-1.207969636548767), Point3D(x=23.14978534209541, y=11.363906414310797, z=-1.2276855975671257), Point3D(x=23.585631475375084, y=11.583606162036917, z=-1.24722269896278), Point3D(x=24.020481759185934, y=11.802951362073175, z=-1.266581942523685), Point3D(x=24.454339772859207, y=12.021938985696293, z=-1.2857643235245375), Point3D(x=24.887209065966417, y=12.240566021699914, z=-1.3047708307786379), Point3D(x=25.319093158264206, y=12.458829476061577, z=-1.3236024466894334), Point3D(x=25.749995539634682, y=12.676726371609801, z=-1.3422601473017466), Point3D(x=26.179919670021246, y=12.894253747691273, z=-1.360744902352701), Point3D(x=26.608868979359894, y=13.111408659838101, z=-1.37905767532235), Point3D(x=27.036846867505982, y=13.32818817943511, z=-1.397199423484022), Point3D(x=27.463856704156456, y=13.54458939338715, z=-1.4151710979543868), Point3D(x=27.88990182876753, y=13.76060940378643, z=-1.4329736437432552), Point3D(x=28.314985550467853, y=13.9762453275798, z=-1.4506079998031194), Point3D(x=28.73911114796709, y=14.191494296236021, z=-1.4680750990784435), Point3D(x=29.162281869460024, y=14.406353455412987, z=-1.485375868554713), Point3D(x=29.584500932526065, y=14.620819964624868, z=-1.502511229307254), Point3D(x=30.00577152402429, y=14.834890996909204, z=-1.519482096549829), Point3D(x=30.426096799983945, y=15.0485637384939, z=-1.5362893796830202), Point3D(x=30.84547988549045, y=15.261835388464156, z=-1.552933982342408), Point3D(x=31.26392387456695, y=15.474703158429296, z=-1.569416802446556), Point3D(x=31.681431830051366, y=15.687164272189522, z=-1.5857387322448104), Point3D(x=32.098006783469074, y=15.899215965402583, z=-1.6019006583649225), Point3D(x=32.513651734901124, y=16.110855485250376, z=-1.6179034618605055), Point3D(x=32.92836965284813, y=16.32208009010547, z=-1.6337480182583342), Point3D(x=33.3421634740898, y=16.532887049197598, z=-1.6494351976054955), Point3D(x=33.755036103540206, y=16.74327364228009, z=-1.664965864516403), Point3D(x=34.166990414098784, y=16.953237159296325, z=-1.68034087821968), Point3D(x=34.578029246497174, y=17.162774900046166, z=-1.6955610926049258), Point3D(x=34.98815540914191, y=17.371884173852457, z=-1.7106273562693701), Point3D(x=35.39737167795306, y=17.58056229922758, z=-1.7255405125644294), Point3D(x=35.805680796198885, y=17.788806603540134, z=-1.7403013996421712), Point3D(x=36.21308547432655, y=17.99661442268177, z=-1.754910850501699), Point3D(x=36.61958838978904, y=18.20398310073421, z=-1.769369693035465), Point3D(x=37.02519218686834, y=18.410909989636547, z=-1.7836787500755225), Point3D(x=37.42989947649498, y=18.617392448852844, z=-1.7978388394397262), Point3D(x=37.83371283606406, y=18.823427845040104, z=-1.8118507739778913), Point3D(x=38.23663480924785, y=19.029013551716705, z=-1.82571536161792), Point3D(x=38.638667905805185, y=19.234146948931336, z=-1.8394334054119068), Point3D(x=39.03981460138764, y=19.438825422932553, z=-1.8530057035822312), Point3D(x=39.4400773373428, y=19.64304636583903, z=-1.8664330495676469), Point3D(x=39.83945852051466, y=19.846807175310584, z=-1.8797162320693808), Point3D(x=40.237960523041394, y=20.05010525422011, z=-1.8928560350972468), Point3D(x=40.63558568215065, y=20.252938010326517, z=-1.9058532380157884), Point3D(x=41.032336299952604, y=20.45530285594878, z=-1.9187086155904574), Point3D(x=41.42821464323093, y=20.657197207641257, z=-1.9314229380338388), Point3D(x=41.82322294323195, y=20.858618485870373, z=-1.9439969710519334), Point3D(x=42.217363395452196, y=21.059564114692865, z=-1.9564314758905055), Point3D(x=42.610638159424674, y=21.26003152143568, z=-1.9687272093815058), Point3D(x=43.003049358503986, y=21.460018136377748, z=-1.980884923989581), Point3D(x=43.39459907965077, y=21.65952139243379, z=-1.9929053678586763), Point3D(x=43.78528937321562, y=21.85853872484028, z=-2.0047892848587434), Point3D(x=44.17512225272291, y=22.05706757084389, z=-2.016537414632561), Point3D(x=44.56409969465478, y=22.25510536939248, z=-2.0281504926426783), Point3D(x=44.95222363823574, y=22.45264956082896, z=-2.039629250218488), Point3D(x=45.33949598521822, y=22.649697586588175, z=-2.050974414603441), Point3D(x=45.72591859966946, y=22.84624688889714, z=-2.0621867090024115), Point3D(x=46.11149330776024, y=23.042294910478784, z=-2.0732668526292146), Point3D(x=46.496221897555856, y=23.237839094259545, z=-2.084215560754294), Point3D(x=46.880106118809806, y=23.432876883081082, z=-2.0950335447525794), Point3D(x=47.263147682760746, y=23.62740571941636, z=-2.105721512151526), Point3D(x=47.645348261933165, y=23.821423045090476, z=-2.1162801666793425), Point3D(x=48.02670948994245, y=24.014926301006522, z=-2.1267102083134137), Point3D(x=48.40723296130479, y=24.20791292687681, z=-2.137012333328923), Point3D(x=48.78692023125269, y=24.40038036095985, z=-2.1471872343476863), Point3D(x=49.1657728155565, y=24.592326039803428, z=-2.1572356003871946), Point3D(x=49.543792190352995, y=24.78374739799417, z=-2.1671581169098797), Point3D(x=49.920979791981296, y=24.97464186791401, z=-2.1769554658725987), Point3D(x=50.29733701682719, y=25.165006879503984, z=-2.1866283257763492), Point3D(x=50.67286522117645, y=25.35483986003576, z=-2.1961773717162134), Point3D(x=51.047565721078016, y=25.544138233891378, z=-2.2056032754315362), Point3D(x=51.421439792217846, y=25.732899422351675, z=-2.2149067053563387), Point3D(x=51.79448866980434, y=25.92112084339388, z=-2.2240883266699676), Point3D(x=52.16671354846617, y=26.108799911498867, z=-2.2331488013479834), Point3D(x=52.53811558216358, y=26.29593403746861, z=-2.2420887882132834), Point3D(x=52.90869588411393, y=26.482520628254363, z=-2.250908942987462), Point3D(x=53.27845552673275, y=26.668557086796152, z=-2.2596099183424), Point3D(x=53.647395541591074, y=26.85404081187409, z=-2.26819236395209), Point3D(x=54.015516919390365, y=27.038969197972172, z=-2.2766569265446757), Point3D(x=54.38282060995598, y=27.223339635155128, z=-2.285004249954721), Point3D(x=54.74930752225039, y=27.407149508958927, z=-2.293234975175683), Point3D(x=55.11497852440734, y=27.590396200295622, z=-2.3013497404125873), Point3D(x=55.479834443788135, y=27.773077085373135, z=-2.309349181134902), Point3D(x=55.843876067061274, y=27.955189535630677, z=-2.317233930129585), Point3D(x=56.20710414030677, y=28.13673091769045, z=-2.325004617554302), Point3D(x=56.56951936914638, y=28.31769859332635, z=-2.3326618709908002), Point3D(x=56.9311224189011, y=28.498089919450337, z=-2.340206315498409), Point3D(x=57.2919139147773, y=28.677902248117164, z=-2.3476385736676666), Point3D(x=57.651894442082806, y=28.85713292654823, z=-2.354959265674037), Point3D(x=58.01106454647438, y=29.035779297175203, z=-2.3621690093317036), Point3D(x=58.369424734237924, y=29.213838697704173, z=-2.3692684201474083), Point3D(x=58.72697547260291, y=29.39130846120102, z=-2.3762581113743155), Point3D(x=59.08371719009237, y=29.568185916198747, z=-2.3831386940658663), Point3D(x=59.43965027690993, y=29.74446838682743, z=-2.3899107771295927), Point3D(x=59.79477508536526, y=29.920153192967575, z=-2.3965749673808596), Point3D(x=60.14909193033936, y=30.09523765042745, z=-2.4031318695964945), Point3D(x=60.50260108979113, y=30.269719071145182, z=-2.4095820865682684), Point3D(x=60.85530280530649, y=30.443594763416208, z=-2.4159262191561837), Point3D(x=61.207197282691546, y=30.61686203214673, z=-2.422164866341526), Point3D(x=61.55828469261092, y=30.789518179133804, z=-2.4282986252796324), Point3D(x=61.90856517127277, y=30.961560503372606, z=-2.434328091352324), Point3D(x=62.25803882116148, y=31.132986301391465, z=-2.440253858219952), Point3D(x=62.60670571181933, y=31.30379286761513, z=-2.4460765178729993), Point3D(x=62.9545658806782, y=31.47397749475676, z=-2.451796660683182), Point3D(x=63.30161933394233, y=31.643537474239047, z=-2.4574148754539853), Point3D(x=63.64786604752304, y=31.812470096644823, z=-2.462931749470574), Point3D(x=63.99330596802634, y=31.980772652197473, z=-2.468347868549004), Point3D(x=64.33793901379404, y=32.148442431271356, z=-2.4736638170846756), Point3D(x=64.68176507599902, y=32.315476724932466, z=-2.478880178099945), Point3D(x=65.02478401979522, y=32.48187282550936, z=-2.483997533290826), Point3D(x=65.3669956855225, y=32.6476280271944, z=-2.489016463072704), Point3D(x=65.70839988996681, y=32.81273962667524, z=-2.493937546624983), Point3D(x=66.04899642767552, y=32.97720492379639, z=-2.4987613619345814), Point3D(x=66.38878507232779, y=33.14102122225059, z=-2.5034884858382007), Point3D(x=66.72776557815978, y=33.30418583029965, z=-2.5081194940632727), Point3D(x=67.06593768144396, y=33.46669606152425, z=-2.512654961267509), Point3D(x=67.40330110202206, y=33.62854923560221, z=-2.5170954610769596), Point3D(x=67.73985554489056, y=33.789742679114426, z=-2.5214415661224954), Point3D(x=68.07560070183754, y=33.950273726377795, z=-2.5256938480746283), Point3D(x=68.4105362531297, y=34.11013972030406, z=-2.5298528776765754), Point3D(x=68.7446618692477, y=34.269338013283665, z=-2.533919224775488), Point3D(x=69.07797721266809, y=34.42786596809331, z=-2.5378934583517507), Point3D(x=69.41048193968983, y=34.58572095882604, z=-2.541776146546269), Point3D(x=69.74217570230276, y=34.74290037184234, z=-2.5455678566856625), Point3D(x=70.07305815009572, y=34.89940160674074, z=-2.5492691553052804), Point3D(x=70.4031289322013, y=35.0552220773462, z=-2.552880608169959), Point3D(x=70.73238769927421, y=35.21035921271454, z=-2.5564027802924474), Point3D(x=71.06083410549985, y=35.36481045815098, z=-2.559836235949431), Point3D(x=71.38846781062956, y=35.51857327624066, z=-2.5631815386950785), Point3D(x=71.71528848203877, y=35.671645147889215, z=-2.566439251372057), Point3D(x=72.04129579680391, y=35.824023573370916, z=-2.5696099361199503), Point3D(x=72.36648944379394, y=35.97570607338219, z=-2.572694154381034), Point3D(x=72.69086912577208, y=36.12669019009804, z=-2.5756924669033565), Point3D(x=73.014434561503, y=36.27697348822885, z=-2.5786054337410906), Point3D(x=73.33718548786075, y=36.426553556075014, z=-2.5814336142521195), Point3D(x=73.65912166193262, y=36.575428006576765, z=-2.5841775670928384), Point3D(x=73.98024286311365, y=36.72359447835647, z=-2.586837850210149), Point3D(x=74.30054889518686, y=36.87105063675073, z=-2.5894150208306437), Point3D(x=74.62003958838386, y=37.017794174829554, z=-2.591909635446978), Point3D(x=74.93871480142057, y=37.163822814399786, z=-2.5943222498014404), Point3D(x=75.25657442350284, y=37.309134306990195, z=-2.596653418866741), Point3D(x=75.57361837629654, y=37.45372643481537, z=-2.598903696824045), Point3D(x=75.88984661585708, y=37.59759701171588, z=-2.601073637038288), Point3D(x=76.20525913451299, y=37.740743884071954, z=-2.6031637920308213), Point3D(x=76.51985596269846, y=37.88316493168829, z=-2.605174713449448), Point3D(x=76.83363717073014, y=38.02485806864739, z=-2.6071069520359047), Point3D(x=77.14660287052303, y=38.165821244129106, z=-2.608961057590878), Point3D(x=77.4587532172411, y=38.30605244319416, z=-2.6107375789366287), Point3D(x=77.77008841087809, y=38.445549687529514, z=-2.6124370638773207), Point3D(x=78.08060869776442, y=38.58431103615351, z=-2.6140600591571577), Point3D(x=78.39031437199611, y=38.722334586079064, z=-2.6156071104164336), Point3D(x=78.69920577678232, y=38.859618472933164, z=-2.6170787621456126), Point3D(x=79.00728330570797, y=38.996160871531096, z=-2.618475557637566), Point3D(x=79.31454740390858, y=39.13195999640419, z=-2.619798038938089), Point3D(x=79.62099856915455, y=39.267014102279816, z=-2.6210467467948413), Point3D(x=79.92663735284277, y=39.40132148451272, z=-2.6222222206048404), Point3D(x=80.2314643608934, y=39.53488047946692, z=-2.6233249983606637), Point3D(x=80.53548025455035, y=39.667689464847555, z=-2.6243556165954964), Point3D(x=80.83868575108441, y=39.79974685998234, z=-2.625314610327184), Point3D(x=81.14108162439796, y=39.931051126052424, z=-2.6262025130014366), Point3D(x=81.44266870553108, y=40.06160076627263, z=-2.6270198564343428), Point3D(x=81.74344788306898, y=40.19139432602137, z=-2.627767170754342), Point3D(x=82.04342010345101, y=40.32043039292045, z=-2.628444984343815), Point3D(x=82.34258637118194, y=40.44870759686556, z=-2.629053823780439), Point3D(x=82.64094774894673, y=40.57622461000795, z=-2.629594213778466), Point3D(x=82.93850535763008, y=40.70298014668834, z=-2.630066677130065), Point3D(x=83.23526037624237, y=40.82897296332414, z=-2.630471734646877), Point3D(x=83.53121404175434, y=40.95420185825106, z=-2.630809905101924), Point3D(x=83.82636764884248, y=41.078665671520554, z=-2.631081705172008), Point3D(x=84.12072254954793, y=41.20236328465457, z=-2.6312876493807353), Point3D(x=84.41428015285176, y=41.32529362035907, z=-2.6314282500422856), Point3D(x=84.70704192416945, y=41.447455642198165, z=-2.6315040172060544), Point3D(x=84.9990093847681, y=41.56884835423046, z=-2.631515458602278), Point3D(x=85.29018411110972, y=41.68947080060961, z=-2.631463079588753), Point3D(x=85.58056773412403, y=41.80932206515085, z=-2.631347383098746), Point3D(x=85.87016193841477, y=41.928401270865535, z=-2.631168869590194), Point3D(x=86.15896846140305, y=42.04670757946571, z=-2.6309280369962766), Point3D(x=86.44698909241193, y=42.16424019084062, z=-2.630625380677446), Point3D(x=86.73422567169588, y=42.28099834250735, z=-2.630261393374976), Point3D(x=87.02068008941943, y=42.39698130903747, z=-2.629836565166112), Point3D(x=87.30635428458868, y=42.51218840146187, z=-2.6293513834208584), Point3D(x=87.59125024394002, y=42.626618966655734, z=-2.6288063327604707), Point3D(x=87.87537000078974, y=42.74027238670564, z=-2.6282018950176886), Point3D(x=88.1587156338486, y=42.85314807826081, z=-2.627538549198744), Point3D(x=88.44128926600527, y=42.96524549187039, z=-2.626816771447178), Point3D(x=88.72309306308232, y=43.076564111308656, z=-2.626037035009483), Point3D(x=89.00412923256854, y=43.18710345288997, z=-2.625199810202596), Point3D(x=89.28440002233127, y=43.29686306477529, z=-2.624305564383241), Point3D(x=89.56390771931196, y=43.40584252627187, z=-2.623354761919137), Point3D(x=89.84265464820874, y=43.51404144712788, z=-2.6223478641620592), Point3D(x=90.12064317014894, y=43.62145946682343, z=-2.6212853294227574), Point3D(x=90.39787568135473, y=43.72809625385956, z=-2.620167612947714), Point3D(x=90.674354611805, y=43.83395150504662, z=-2.6189951668977254), Point3D(x=90.95008242389602, y=43.939024944793296, z=-2.6177684403282946), Point3D(x=91.2250616111039, y=44.04331632439771, z=-2.6164878791717996), Point3D(x=91.49929469665112, y=44.14682542134163, z=-2.6151539262214216), Point3D(x=91.77278423217957, y=44.24955203858902, z=-2.6137670211167947), Point3D(x=92.04553279643238, y=44.351496003889906, z=-2.612327600331348), Point3D(x=92.31754299394652, y=44.452657169090536, z=-2.6108360971613003), Point3D(x=92.58881745375817, y=44.55303540945076, z=-2.609292941716276), Point3D(x=92.85935882812264, y=44.65263062296936, z=-2.6076985609114924), Point3D(x=93.12916979125035, y=44.751442729718235, z=-2.606053378461483), Point3D(x=93.3982530380605, y=44.84947167118587, z=-2.6043578148753137), Point3D(x=93.66661128295374, y=44.94671740963096, z=-2.6026122874532405), Point3D(x=93.93424725860501, y=45.04317992744662, z=-2.6008172102847715), Point3D(x=94.20116371477773, y=45.13885922653556, z=-2.598972994248082), Point3D(x=94.46736341716024, y=45.23375532769686, z=-2.5970800470107327), Point3D(x=94.73284914622536, y=45.32786827002459, z=-2.595138773031653), Point3D(x=94.99762369611383, y=45.42119811031855, z=-2.593149573564331), Point3D(x=95.26168987354231, y=45.51374492250758, z=-2.5911128466611713), Point3D(x=95.52505049673633, y=45.60550879708539, z=-2.5890289871789665), Point3D(x=95.78770839438879, y=45.696489840559366, z=-2.5868983867854416), Point3D(x=96.04966640464426, y=45.786688174912264, z=-2.5847214339668194), Point3D(x=96.31092737410937, y=45.876103937077, z=-2.582498514036363), Point3D(x=96.57149415688949, y=45.964737278424565, z=-2.580230009143849), Point3D(x=96.83136961365176, y=46.052588364265084, z=-2.577916298285929), Point3D(x=97.09055661071464, y=46.13965737336201, z=-2.575557757317332), Point3D(x=97.34905801916376, y=46.22594449745942, z=-2.5731547589628665), Point3D(x=97.60687671399414, y=46.31144994082235, z=-2.570707672830181), Point3D(x=97.86401557327862, y=46.396173919790044, z=-2.5682168654232376), Point3D(x=98.1204774773623, y=46.48011666234213, z=-2.565682700156466), Point3D(x=98.37626530808272, y=46.56327840767739, z=-2.563105537369549), Point3D(x=98.63138194801562, y=46.645659405805176, z=-2.560485734342813), Point3D(x=98.88583027974582, y=46.727259917149205, z=-2.5578236453131757), Point3D(x=99.13961318516307, y=46.80808021216354, z=-2.5551196214906224), Point3D(x=99.39273354478229, y=46.88812057096063, z=-2.552374011075174), Point3D(x=99.64519423708799, y=46.967381282951195, z=-2.549587159274315), Point3D(x=99.89699813790237, y=47.045862646495685, z=-2.5467594083208454), Point3D(x=100.14814811977661, y=47.12356496856716, z=-2.5438910974911306), Point3D(x=100.39864705140499, y=47.200488564425356, z=-2.540982563123716), Point3D(x=100.64849779706141, y=47.27663375730167, z=-2.5380341386382783), Point3D(x=100.89770321605758, y=47.35200087809485, z=-2.535046154554887), Point3D(x=101.14626616222269, y=47.42659026507718, z=-2.5320189385135476), Point3D(x=101.39418948340393, y=47.500402263610844, z=-2.528952815294005), Point3D(x=101.6414760209873, y=47.57343722587431, z=-2.525848106835776), Point3D(x=101.88812860943824, y=47.64569551059841, z=-2.522705132258397), Point3D(x=102.1341500758617, y=47.71717748281195, z=-2.519524207881854), Point3D(x=102.37954323958088, y=47.787883513596526, z=-2.5163056472471856), Point3D(x=102.62431091173443, y=47.857813979850384, z=-2.5130497611372267), Point3D(x=102.86845589489126, y=47.92696926406098, z=-2.5097568575974822), Point3D(x=103.11198098268278, y=47.99534975408611, z=-2.5064272419571094), Point3D(x=103.35488895945188, y=48.062955842943296, z=-2.503061216849991), Point3D(x=103.59718259991818, y=48.12978792860723, z=-2.4996590822358846), Point3D(x=103.83886466885907, y=48.195846413815005, z=-2.4962211354216284), Point3D(x=104.07993792080609, y=48.26113170587897, z=-2.492747671082393), Point3D(x=104.32040509975609, y=48.32564421650691, z=-2.4892389812829636), Point3D(x=104.5602689388968, y=48.3893843616294, z=-2.4856953554990375), Point3D(x=104.79953216034625, y=48.45235256123405, z=-2.4821170806385258), Point3D(x=105.03819747490566, y=48.514549239206474, z=-2.4785044410628467), Point3D(x=105.2762675818253, y=48.575974823177766, z=-2.4748577186082015), Point3D(x=105.5137451685829, y=48.63662974437829, z=-2.471177192606817), Point3D(x=105.75063291067423, y=48.69651443749753, z=-2.4674631399081517), Point3D(x=105.98693347141536, y=48.75562934054989, z=-2.463715834900049), Point3D(x=106.2226495017562, y=48.81397489474618, z=-2.459935549529836), Point3D(x=106.45778364010503, y=48.87155154437068, z=-2.4561225533253515), Point3D(x=106.69233851216347, y=48.92835973666349, z=-2.4522771134159025), Point3D(x=106.92631673077159, y=48.98439992170811, z=-2.4483994945531378), Point3D(x=107.15972089576286, y=49.03967255232402, z=-2.4444899591318348), Point3D(x=107.39255359382847, y=49.094178083964096, z=-2.4405487672105877), Point3D(x=107.62481739839068, y=49.147916974616685, z=-2.436576176532399), Point3D(x=107.856514869485, y=49.200889684712244, z=-2.4325724425451636), Point3D(x=108.08764855365068, y=49.25309667703432, z=-2.428537818422039), Point3D(x=108.31822098382933, y=49.30453841663479, z=-2.4244725550817035), Point3D(x=108.54823467927129, y=49.35521537075312, z=-2.4203769012084915), Point3D(x=108.77769214544948, y=49.40512800873963, z=-2.416251103272404), Point3D(x=109.00659587398047, y=49.45427680198253, z=-2.4120954055489925), Point3D(x=109.2349483425524, y=49.50266222383865, z=-2.4079100501391117), Point3D(x=109.46275201485953, y=49.5502847495677, z=-2.403695276988535), Point3D(x=109.69000934054326, y=49.59714485626999, z=-2.3994513239074364), Point3D(x=109.91672275513909, y=49.64324302282743, z=-2.395178426589729), Point3D(x=110.14289468002963, y=49.688579729847696, z=-2.3908768186322624), Point3D(x=110.3685275224031, y=49.73315545961159, z=-2.3865467315538784), Point3D(x=110.59362367521732, y=49.776970696023234, z=-2.3821883948143174), Point3D(x=110.8181855171688, y=49.82002592456323, z=-2.377802035832978), Point3D(x=111.04221541266688, y=49.86232163224456, z=-2.3733878800075283), Point3D(x=111.26571571181255, y=49.90385830757112, z=-2.368946150732368), Point3D(x=111.48868875038185, y=49.944636440498925, z=-2.364477069416936), Point3D(x=111.71113684981368, y=49.9846565223997, z=-2.3599808555038693), Point3D(x=111.93306231720172, y=50.02391904602695, z=-2.355457726487007), Point3D(x=112.15446744529035, y=50.06242450548424, z=-2.350907897929243), Point3D(x=112.37535451247449, y=50.10017339619584, z=-2.346331583480222), Point3D(x=112.59572578280296, y=50.137166214879414, z=-2.341728994893886), Point3D(x=112.81558350598549, y=50.17340345952081, z=-2.3371003420458623), Point3D(x=113.0349299174029, y=50.208885629350874, z=-2.3324458329506994), Point3D(x=113.25376723812067, y=50.243613224824145, z=-2.3277656737789516), Point3D(x=113.47209767490538, y=50.27758674759946, z=-2.323060068874105), Point3D(x=113.68992342024421, y=50.310806700522285, z=-2.3183292207693538), Point3D(x=113.90724665236712, y=50.34327358760884, z=-2.3135733302042225), Point3D(x=114.12406953527176, y=50.37498791403181, z=-2.308792596141036), Point3D(x=114.34039421875084, y=50.40595018610772, z=-2.303987215781238), Point3D(x=114.55622283842202, y=50.436160911285775, z=-2.299157384581558), Point3D(x=114.77155751575991, y=50.465620598138294, z=-2.2943032962700274), Point3D(x=114.98640035813052, y=50.49432975635245, z=-2.289425142861849), Point3D(x=115.20075345882759, y=50.52228889672347, z=-2.284523114675114), Point3D(x=115.41461889711096, y=50.5494985311491, z=-2.2795974003463733), Point3D(x=115.62799873824686, y=50.5759591726254, z=-2.2746481868460626), Point3D(x=115.84089503355, y=50.60167133524372, z=-2.2696756594937804), Point3D(x=116.05330982042732, y=50.62663553418885, z=-2.2646800019734235), Point3D(x=116.26524512242338, y=50.65085228573833, z=-2.259661396348177), Point3D(x=116.47670294926732, y=50.67432210726284, z=-2.254620023075364), Point3D(x=116.6876852969212, y=50.697045517227615, z=-2.2495560610211522), Point3D(x=116.89819414762982, y=50.71902303519489, z=-2.2444696874751244), Point3D(x=117.10823146997178, y=50.74025518182727, z=-2.239361078164705), Point3D(x=117.3177992189118, y=50.76074247889211, z=-2.2342304072694565), Point3D(x=117.5268993358542, y=50.780485449266656, z=-2.2290778474352333), Point3D(x=117.73553374869752, y=50.79948461694415, z=-2.223903569788207), Point3D(x=117.94370437189016, y=50.817740507040696, z=-2.2187077439487535), Point3D(x=118.15141310648701, y=50.835253645802915, z=-2.2134905380452143), Point3D(x=118.35866184020699, y=50.852024560616364, z=-2.208252118727522), Point3D(x=118.56545244749154, y=50.868053780014655, z=-2.202992651180701), Point3D(x=118.77178678956382, y=50.883341833689265, z=-2.1977122991382396), Point3D(x=118.97766671448878, y=50.89788925250001, z=-2.192411224895337), Point3D(x=119.1830940572339, y=50.91169656848612, z=-2.1870895893220244), Point3D(x=119.38807063973064, y=50.92476431487797, z=-2.1817475518761658), Point3D(x=119.59259827093649, y=50.937093026109274, z=-2.1763852706163354), Point3D(x=119.79667874689765, y=50.94868323782996, z=-2.171002902214577), Point3D(x=120.00031385081226, y=50.95953548691944, z=-2.165600601969044), Point3D(x=120.20350535309407, y=50.969650311500445, z=-2.160178523816523), Point3D(x=120.40625501143674, y=50.97902825095329, z=-2.154736820344843), Point3D(x=120.6085645708784, y=50.98766984593062, z=-2.149275642805168), Point3D(x=120.81043576386675, y=50.995575638372515, z=-2.1437951411241825), Point3D(x=121.01187031032448, y=51.002746171522055, z=-2.138295463916161), Point3D(x=121.21286991771504, y=51.00918198994122, z=-2.132776758494932), Point3D(x=121.41343628110873, y=51.01488363952716, z=-2.127239170885733), Point3D(x=121.61357108324908, y=51.019851667528805, z=-2.121682845836959), Point3D(x=121.81327599461949, y=51.024086622563736, z=-2.116107926831807), Point3D(x=122.01255267351004, y=51.02758905463543, z=-2.1105145560998166), Point3D(x=122.21140276608466, y=51.030359515150714, z=-2.1049028746283107), Point3D(x=122.40982790644829, y=51.0323985569375, z=-2.0992730221737337), Point3D(x=122.60782971671436, y=51.03370673426276, z=-2.093625137272891), Point3D(x=122.80540980707234, y=51.03428460285067, z=-2.0879593572540944), Point3D(x=123.00256977585539, y=51.034132719901045, z=-2.082275818248207), Point3D(x=123.19931120960818, y=51.03325164410787, z=-2.076574655199598), Point3D(x=123.39563568315472, y=51.03164193567806, z=-2.070856001877001), Point3D(x=123.59154475966632, y=51.02930415635033, z=-2.0651199908842814), Point3D(x=123.78703999072951, y=51.026238869414215, z=-2.0593667536711178), Point3D(x=123.9821229164141, y=51.022446639729225, z=-2.0535964205435873), Point3D(x=124.17679506534114, y=51.017928033744084, z=-2.047809120674669), Point3D(x=124.37105795475097, y=51.01268361951607, z=-2.042004982114659), Point3D(x=124.56491309057121, y=51.00671396673042, z=-2.0361841318015017), Point3D(x=124.75836196748475, y=51.00001964671985, z=-2.0303466955710365), Point3D(x=124.95140606899764, y=50.992601232484006, z=-2.024492798167163), Point3D(x=125.14404686750706, y=50.984459298709105, z=-2.018622563251925), Point3D(x=125.33628582436903, y=50.975594421787484, z=-2.012736113415516), Point3D(x=125.52812438996622, y=50.966007179837206, z=-2.0068335701862057), Point3D(x=125.71956400377562, y=50.95569815272165, z=-2.0009150540401874), Point3D(x=125.91060609443603, y=50.944667922069115, z=-1.9949806844113545), Point3D(x=126.10125207981562, y=50.932917071292366, z=-1.9890305797009962), Point3D(x=126.2915033670792, y=50.92044618560816, z=-1.983064857287425), Point3D(x=126.48136135275548, y=50.90725585205672, z=-1.9770836335355289), Point3D(x=126.67082742280415, y=50.893346659521185, z=-1.9710870238062534), Point3D(x=126.85990295268284, y=50.87871919874693, z=-1.9650751424660136), Point3D(x=127.04858930741398, y=50.86337406236085, z=-1.9590481028960367), Point3D(x=127.23688784165137, y=50.847311844890555, z=-1.9530060175016382), Point3D(x=127.42479989974679, y=50.83053314278347, z=-1.9469489977214292), Point3D(x=127.61232681581629, y=50.8130385544258, z=-1.9408771540364602), Point3D(x=127.79946991380638, y=50.79482868016141, z=-1.934790595979299), Point3D(x=127.98623050756001, y=50.77590412231055, z=-1.9286894321430448), Point3D(x=128.17260990088243, y=50.7562654851885, z=-1.922573770190281), Point3D(x=128.35860938760683, y=50.735913375124014, z=-1.9164437168619646), Point3D(x=128.54423025165974, y=50.71484840047764, z=-1.9102993779862563), Point3D(x=128.72947376712634, y=50.693071171659895, z=-1.9041408584872903), Point3D(x=128.9143411983155, y=50.67058230114924, z=-1.8979682623938854), Point3D(x=129.0988337998247, y=50.64738240350993, z=-1.8917816928481972), Point3D(x=129.28295281660453, y=50.62347209540963, z=-1.8855812521143147), Point3D(x=129.46669948402342, y=50.598851995636906, z=-1.8793670415867998), Point3D(x=129.6500750279316, y=50.57352272511844, z=-1.8731391617991713), Point3D(x=129.8330806647253, y=50.54748490693613, z=-1.8668977124323347), Point3D(x=130.0157176014105, y=50.52073916634393, z=-1.8606427923229578), Point3D(x=130.19798703566664, y=50.493286130784504, z=-1.8543744994717932), Point3D(x=130.37989015590986, y=50.46512642990563, z=-1.8480929310519492), Point3D(x=130.56142814135623, y=50.43626069557641, z=-1.841798183417107), Point3D(x=130.74260216208475, y=50.40668956190323, z=-1.835490352109691), Point3D(x=130.92341337909997, y=50.3764136652455, z=-1.8291695318689836), Point3D(x=131.10386294439454, y=50.34543364423116, z=-1.8228358166391947), Point3D(x=131.28395200101144, y=50.313750139771884, z=-1.8164892995774806), Point3D(x=131.4636816831061, y=50.28136379507812, z=-1.810130073061914), Point3D(x=131.6430531160081, y=50.248275255673796, z=-1.8037582286994078), Point3D(x=131.8220674162828, y=50.21448516941082, z=-1.7973738573335896), Point3D(x=132.0007256917927, y=50.17999418648329, z=-1.7909770490526316), Point3D(x=132.1790290417585, y=50.14480295944144, z=-1.7845678931970332), Point3D(x=132.3569785568201, y=50.10891214320532, z=-1.778146478367359), Point3D(x=132.53457531909717, y=50.0723223950782, z=-1.77171289243193), Point3D(x=132.71182040224954, y=50.03503437475968, z=-1.7652672225344719), Point3D(x=132.88871487153747, y=49.99704874435855, z=-1.758809555101718), Point3D(x=133.06525978388154, y=49.95836616840532, z=-1.7523399758509692), Point3D(x=133.24145618792238, y=49.9189873138645, z=-1.7458585697976103), Point3D(x=133.41730512408023, y=49.87891285014657, z=-1.7393654212625829), Point3D(x=133.59280762461407, y=49.83814344911968, z=-1.732860613879816), Point3D(x=133.76796471368075, y=49.79667978512099, z=-1.7263442306036145), Point3D(x=133.94277740739372, y=49.75452253496781, z=-1.7198163537160058), Point3D(x=134.1172467138816, y=49.71167237796833, z=-1.7132770648340439), Point3D(x=134.2913736333465, y=49.66812999593212, z=-1.7067264449170734), Point3D(x=134.46515915812208, y=49.62389607318033, z=-1.7001645742739513), Point3D(x=134.6386042727315, y=49.57897129655553, z=-1.693591532570229), Point3D(x=134.81170995394496, y=49.533356355431266, z=-1.687007398835293), Point3D(x=134.9844771708371, y=49.48705194172133, z=-1.6804122514694644), Point3D(x=135.1569068848442, y=49.4400587498887, z=-1.673806168251061), Point3D(x=135.32900004982116, y=49.392377476954124, z=-1.667189226343416), Point3D(x=135.50075761209808, y=49.34400882250448, z=-1.6605615023018592), Point3D(x=135.67218051053686, y=49.29495348870075, z=-1.6539230720806575), Point3D(x=135.8432696765874, y=49.24521218028572, z=-1.6472740110399162), Point3D(x=136.0140260343436, y=49.19478560459131, z=-1.6406143939524407), Point3D(x=136.1844505005992, y=49.143674471545665, z=-1.6339442950105587), Point3D(x=136.35454398490342, y=49.09187949367986, z=-1.6272637878329037), Point3D(x=136.52430738961607, y=49.03940138613434, z=-1.6205729454711586), Point3D(x=136.69374160996298, y=48.98624086666497, z=-1.6138718404167607), Point3D(x=136.8628475340907, y=48.93239865564888, z=-1.6071605446075674), Point3D(x=137.0316260431212, y=48.877875476089876, z=-1.6004391294344829), Point3D(x=137.20007801120644, y=48.82267205362361, z=-1.5937076657480451), Point3D(x=137.36820430558245, y=48.76678911652242, z=-1.5869662238649758), Point3D(x=137.53600578662343, y=48.71022739569979, z=-1.5802148735746884), Point3D(x=137.7034833078956, y=48.65298762471461, z=-1.5734536841457594), Point3D(x=137.8706377162106, y=48.59507053977503, z=-1.5666827243323596), Point3D(x=138.03746985167913, y=48.536476879742, z=-1.5599020623806459), Point3D(x=138.2039805477638, y=48.47720738613255, z=-1.5531117660351146), Point3D(x=138.3701706313322, y=48.41726280312273, z=-1.546311902544915), Point3D(x=138.5360409227097, y=48.35664387755023, z=-1.539502538670124), Point3D(x=138.70159223573177, y=48.295351358916676, z=-1.5326837406879805), Point3D(x=138.86682537779637, y=48.233385999389654, z=-1.5258555743990811), Point3D(x=139.03174114991603, y=48.170748553804394, z=-1.5190181051335359), Point3D(x=139.19634034676966, y=48.10743977966518, z=-1.5121713977570839), Point3D(x=139.36062375675422, y=48.04346043714638, z=-1.5053155166771703), Point3D(x=139.52459216203619, y=47.97881128909329, z=-1.498450525848982), Point3D(x=139.68824633860277, y=47.91349310102254, z=-1.4915764887814433), Point3D(x=139.8515870563129, y=47.84750664112231, z=-1.4846934685431725), Point3D(x=140.0146150789481, y=47.780852680252174, z=-1.4778015277683967), Point3D(x=140.17733116426308, y=47.713531991942695, z=-1.4709007286628268), Point3D(x=140.3397360640361, y=47.645545352394684, z=-1.4639911330094917), Point3D(x=140.50183052411913, y=47.57689354047817, z=-1.4570728021745314), Point3D(x=140.663615284488, y=47.50757733773111, z=-1.4501457971129497), Point3D(x=140.825091079292, y=47.43759752835776, z=-1.4432101783743247), Point3D(x=140.98625863690359, y=47.36695489922682, z=-1.4362660061084789), Point3D(x=141.14711867996766, y=47.295650239869204, z=-1.4293133400711069), Point3D(x=141.3076719254508, y=47.22368434247561, z=-1.4223522396293622), Point3D(x=141.4679190846902, y=47.15105800189375, z=-1.4153827637674017), Point3D(x=141.62786086344255, y=47.07777201562535, z=-1.4084049710918878), Point3D(x=141.7874979619324, y=47.00382718382279, z=-1.4014189198374487), Point3D(x=141.94683107490064, y=46.92922430928559, z=-1.3944246678720964), Point3D(x=142.10586089165275, y=46.853964197456484, z=-1.3874222727026015), Point3D(x=142.26458809610656, y=46.778047656417336, z=-1.3804117914798257), Point3D(x=142.4230133668402, y=46.701475496884726, z=-1.3733932810040108), Point3D(x=142.58113737713953, y=46.62424853220527, z=-1.366366797730025), Point3D(x=142.73896079504559, y=46.546367578350726, z=-1.3593323977725653), Point3D(x=142.89648428340175, y=46.46783345391275, z=-1.3522901369113176), Point3D(x=143.0537084999006, y=46.38864698009751, z=-1.3452400705960714), Point3D(x=143.21063409713088, y=46.30880898071991, z=-1.3381822539517916), Point3D(x=143.36726172262385, y=46.228320282197664, z=-1.3311167417836458), Point3D(x=143.5235920188998, y=46.14718171354509, z=-1.324043588581988), Point3D(x=143.67962562351417, y=46.06539410636661, z=-1.316962848527297), Point3D(x=143.83536316910357, y=45.98295829485008, z=-1.3098745754950718), Point3D(x=143.99080528343148, y=45.89987511575979, z=-1.3027788230606794), Point3D(x=144.14595258943388, y=45.81614540842931, z=-1.2956756445041606), Point3D(x=144.30080570526465, y=45.73177001475402, z=-1.2885650928149894), Point3D(x=144.4553652443407, y=45.64674977918346, z=-1.2814472206967875), Point3D(x=144.60963181538696, y=45.561085548713415, z=-1.274322080571993), Point3D(x=144.7636060224812, y=45.47477817287778, z=-1.2671897245864843), Point3D(x=144.91728846509866, y=45.38782850374018, z=-1.2600502046141577), Point3D(x=145.07067973815634, y=45.30023739588542, z=-1.2529035722614603), Point3D(x=145.22378043205723, y=45.212005706410615, z=-1.2457498788718753), Point3D(x=145.37659113273432, y=45.123134294916206, z=-1.2385891755303633), Point3D(x=145.5291124216944, y=45.03362402349667, z=-1.2314215130677557), Point3D(x=145.68134487606167, y=44.94347575673108, z=-1.2242469420651034), Point3D(x=145.8332890686211, y=44.85269036167341, z=-1.2170655128579781), Point3D(x=145.98494556786164, y=44.761268707842646, z=-1.2098772755407277), Point3D(x=146.13631493801924, y=44.66921166721271, z=-1.202682279970685), Point3D(x=146.28739773911965, y=44.57652011420212, z=-1.1954805757723306), Point3D(x=146.43819452702098, y=44.48319492566354, z=-1.1882722123414071), Point3D(x=146.5887058534562, y=44.389236980873044, z=-1.1810572388489895), Point3D(x=146.73893226607515, y=44.29464716151922, z=-1.1738357042455065), Point3D(x=146.88887430848683, y=44.199426351692104, z=-1.1666076572647164), Point3D(x=147.0385325203009, y=44.10357543787187, z=-1.1593731464276344), Point3D(x=147.18790743716946, y=44.007095308917364, z=-1.1521322200464157), Point3D(x=147.33699959082838, y=43.90998685605448, z=-1.144884926228189), Point3D(x=147.48580950913853, y=43.812250972864284, z=-1.1376313128788451), Point3D(x=147.63433771612674, y=43.71388855527101, z=-1.1303714277067767), Point3D(x=147.78258473202655, y=43.61490050152988, z=-1.123105318226573), Point3D(x=147.9305510733189, y=43.51528771221469, z=-1.115833031762666), Point3D(x=148.07823725277242, y=43.41505109020532, z=-1.1085546154529309), Point3D(x=148.22564377948365, y=43.31419154067496, z=-1.1012701162522391), Point3D(x=148.37277115891695, y=43.21270997107729, z=-1.0939795809359638), Point3D(x=148.51961989294435, y=43.11060729113338, z=-1.0866830561034397), Point3D(x=148.66619047988502, y=43.007884412818505, z=-1.0793805881813752), Point3D(x=148.8124834145447, y=42.90454225034879, z=-1.072072223427218), Point3D(x=148.9584991882548, y=42.80058172016764, z=-1.0647580079324745), Point3D(x=149.10423828891135, y=42.696003740932106, z=-1.0574379876259818), Point3D(x=149.24970120101372, y=42.590809233499016, z=-1.0501122082771335), Point3D(x=149.39488840570314, y=42.48499912091101, z=-1.042780715499059), Point3D(x=149.53980038080104, y=42.378574328382406, z=-1.0354435547517564), Point3D(x=149.6844376008471, y=42.27153578328491, z=-1.0281007713451795), Point3D(x=149.8288005371372, y=42.163884415133204, z=-1.020752410442278), Point3D(x=149.97288965776107, y=42.0556211555704, z=-1.0133985170619917), Point3D(x=150.11670542763974, y=41.946746938353314, z=-1.0060391360821992), Point3D(x=150.26024830856286, y=41.83726269933766, z=-0.9986743122426205), Point3D(x=150.40351875922568, y=41.72716937646306, z=-0.9913040901476742), Point3D(x=150.5465172352659, y=41.61646790973797, z=-0.9839285142692887), Point3D(x=150.68924418930033, y=41.50515924122443, z=-0.9765476289496686), Point3D(x=150.83170007096123, y=41.393244315022734, z=-0.9691614784040152), Point3D(x=150.97388532693262, y=41.280724077255925, z=-0.9617701067232028), Point3D(x=151.11580040098607, y=41.16759947605423, z=-0.9543735578764093), Point3D(x=151.25744573401667, y=41.05387146153931, z=-0.9469718757137027), Point3D(x=151.3988217640784, y=40.93954098580845, z=-0.939565103968583), Point3D(x=151.53992892641958, y=40.82460900291859, z=-0.9321532862604794), Point3D(x=151.6807676535179, y=40.70907646887028, z=-0.9247364660972043), Point3D(x=151.82133837511537, y=40.592944341591476, z=-0.9173146868773621), Point3D(x=151.961641518253, y=40.4762135809213, z=-0.9098879918927155), Point3D(x=152.1016775073052, y=40.358885148593615, z=-0.902456424330508), Point3D(x=152.2414467640141, y=40.24096000822053, z=-0.8950200272757427), Point3D(x=152.38094970752354, y=40.12243912527585, z=-0.8875788437134188), Point3D(x=152.52018675441283, y=40.00332346707831, z=-0.8801329165307248), Point3D(x=152.6591583187304, y=39.88361400277484, z=-0.8726822885191897), Point3D(x=152.79786481202711, y=39.76331170332365, z=-0.8652270023767916), Point3D(x=152.93630664338946, y=39.64241754147724, z=-0.8577671007100244), Point3D(x=153.0744842194724, y=39.520932491765336, z=-0.8503026260359224), Point3D(x=153.21239794453214, y=39.39885753047771, z=-0.8428336207840446), Point3D(x=153.35004822045858, y=39.27619363564695, z=-0.835360127298416), Point3D(x=153.48743544680755, y=39.152941787031075, z=-0.8278821878394301), Point3D(x=153.62456002083292, y=39.02910296609616, z=-0.8203998445857088), Point3D(x=153.76142233751827, y=38.9046781559988, z=-0.8129131396359232), Point3D(x=153.8980227896086, y=38.779668341568524, z=-0.8054221150105738), Point3D(x=154.03436176764168, y=38.65407450929012, z=-0.7979268126537316), Point3D(x=154.17043965997914, y=38.527897647285926, z=-0.7904272744347385), Point3D(x=154.30625685283738, y=38.40113874529798, z=-0.78292354214987), Point3D(x=154.4418137303184, y=38.27379879467013, z=-0.7754156575239581), Point3D(x=154.57711067444004, y=38.14587878833009, z=-0.7679036622119759), Point3D(x=154.71214806516647, y=38.017379720771395, z=-0.7603875978005843), Point3D(x=154.84692628043803, y=37.888302588035316, z=-0.7528675058096402), Point3D(x=154.9814456962011, y=37.758648387692666, z=-0.7453434276936681), Point3D(x=155.11570668643765, y=37.628418118825614, z=-0.7378154048432932), Point3D(x=155.24970962319463, y=37.497612782009355, z=-0.7302834785866388), Point3D(x=155.38345487661306, y=37.366233379293774, z=-0.7227476901906862), Point3D(x=155.51694281495688, y=37.23428091418504, z=-0.7152080808625989), Point3D(x=155.65017380464172, y=37.101756391627134, z=-0.707664691751011), Point3D(x=155.78314821026328, y=36.96866081798332, z=-0.7001175639472792), Point3D(x=155.91586639462554, y=36.83499520101758, z=-0.6925667384867009), Point3D(x=156.04832871876883, y=36.70076054987596, z=-0.6850122563496962), Point3D(x=156.18053554199753, y=36.56595787506793, z=-0.677454158462956), Point3D(x=156.31248722190765, y=36.430588188447615, z=-0.6698924857005558), Point3D(x=156.44418411441416, y=36.294652503195046, z=-0.6623272788850361), Point3D(x=156.57562657377804, y=36.15815183379731, z=-0.6547585787884481), Point3D(x=156.70681495263318, y=36.021087196029725, z=-0.6471864261333682), Point3D(x=156.83774960201308, y=35.88345960693689, z=-0.6396108615938777), Point3D(x=156.9684308713772, y=35.74527008481374, z=-0.6320319257965117), Point3D(x=157.09885910863719, y=35.60651964918659, z=-0.6244496593211749), Point3D(x=157.22903466018283, y=35.46720932079406, z=-0.6168641027020267), Point3D(x=157.35895787090786, y=35.32734012156806, z=-0.6092752964283341), Point3D(x=157.4886290842354, y=35.18691307461462, z=-0.601683280945294), Point3D(x=157.6180486421434, y=35.04592920419485, z=-0.594088096654825), Point3D(x=157.74721688518954, y=34.904389535705675, z=-0.586489783916329), Point3D(x=157.87613415253625, y=34.76229509566071, z=-0.5788883830474227), Point3D(x=158.00480078197526, y=34.61964691167101, z=-0.57128393432464), Point3D(x=158.133217109952, y=34.476446012425804, z=-0.5636764779841045), Point3D(x=158.26138347158985, y=34.33269342767322, z=-0.5560660542221743), Point3D(x=158.3893002007141, y=34.18839018820099, z=-0.5484527031960575), Point3D(x=158.51696762987567, y=34.04353732581712, z=-0.5408364650244005), Point3D(x=158.64438609037464, y=33.89813587333052, z=-0.5332173797878476), Point3D(x=158.77155591228356, y=33.75218686453164, z=-0.5255954875295739), Point3D(x=158.8984774244706, y=33.60569133417309, z=-0.5179708282557919), Point3D(x=159.0251509546223, y=33.458650317950195, z=-0.5103434419362302), Point3D(x=159.1515768292663, y=33.31106485248161, z=-0.5027133685045868), Point3D(x=159.2777553737938, y=33.16293597528983, z=-0.49508064785895656), Point3D(x=159.4036869124817, y=33.014264724781754, z=-0.48744531986223283), Point3D(x=159.5293717685146, y=32.86505214022923, z=-0.47980742434248425), Point3D(x=159.65481026400664, y=32.71529926174954, z=-0.4721670010933068), Point3D(x=159.78000272002302, y=32.56500713028592, z=-0.46452408987415117), Point3D(x=159.90494945660132, y=32.41417678758803, z=-0.4568787304106264), Point3D(x=160.0296507927727, y=32.26280927619249, z=-0.4492309623947796), Point3D(x=160.15410704658282, y=32.11090563940332, z=-0.4415808254853527), Point3D(x=160.27831853511242, y=31.958466921272418, z=-0.4339283593080157), Point3D(x=160.40228557449794, y=31.805494166580047, z=-0.42627360345557785), Point3D(x=160.52600847995174, y=31.65198842081529, z=-0.4186165974881762), Point3D(x=160.64948756578218, y=31.49795073015651, z=-0.41095738093344236), Point3D(x=160.7727231454135, y=31.343382141451823, z=-0.40329599328664784), Point3D(x=160.89571553140536, y=31.18828370219955, z=-0.395632474010828), Point3D(x=161.0184650354724, y=31.03265646052868, z=-0.3879668625368852), Point3D(x=161.14097196850338, y=30.876501465179356, z=-0.3802991982636715), Point3D(x=161.26323664058026, y=30.719819765483315, z=-0.3726295205580509), Point3D(x=161.38525936099694, y=30.56261241134439, z=-0.3649578687549423), Point3D(x=161.5070404382779, y=30.40488045321897, z=-0.35728428215734265), Point3D(x=161.6285801801966, y=30.246624942096496, z=-0.34960880003633066), Point3D(x=161.74987889379364, y=30.08784692947995, z=-0.3419314616310523), Point3D(x=161.87093688539477, y=29.92854746736637, z=-0.33425230614868745), Point3D(x=161.99175446062867, y=29.76872760822735, z=-0.32657137276439835), Point3D(x=162.1123319244445, y=29.608388404989572, z=-0.3188887006212605), Point3D(x=162.23266958112933, y=29.44753091101534, z=-0.311204328830176), Point3D(x=162.35276773432523, y=29.28615618008313, z=-0.3035182964697696), Point3D(x=162.4726266870463, y=29.12426526636816, z=-0.2958306425862678), Point3D(x=162.59224674169548, y=28.961859224422962, z=-0.28814140619336204), Point3D(x=162.71162820008107, y=28.79893910915799, z=-0.28045062627205497), Point3D(x=162.83077136343312, y=28.63550597582221, z=-0.2727583417704913), Point3D(x=162.9496765324196, y=28.471560879983752, z=-0.2650645916037729), Point3D(x=163.0683440071624, y=28.307104877510557, z=-0.2573694146537586), Point3D(x=163.18677408725318, y=28.142139024551046, z=-0.24967284976884951), Point3D(x=163.30496707176883, y=27.97666437751481, z=-0.24197493576375892), Point3D(x=163.422923259287, y=27.81068199305332, z=-0.23427571141926856), Point3D(x=163.54064294790123, y=27.644192928040678, z=-0.2265752154819706), Point3D(x=163.65812643523608, y=27.477198239554372, z=-0.2188734866639958), Point3D(x=163.7753740184618, y=27.30969898485606, z=-0.21117056364272854), Point3D(x=163.8923859943091, y=27.141696221372378, z=-0.20346648506050832), Point3D(x=164.00916265908356, y=26.973191006675798, z=-0.19576128952431884), Point3D(x=164.12570430867984, y=26.804184398465477, z=-0.18805501560546428), Point3D(x=164.2420112385959, y=26.63467745454816, z=-0.18034770183923338), Point3D(x=164.35808374394674, y=26.464671232819114, z=-0.1726393867245516), Point3D(x=164.4739221194782, y=26.294166791243068, z=-0.16493010872362152), Point3D(x=164.58952665958049, y=26.123165187835216, z=-0.1572199062615519), Point3D(x=164.70489765830146, y=25.951667480642225, z=-0.14950881772597566), Point3D(x=164.82003540935986, y=25.7796747277233, z=-0.1417968814666567), Point3D(x=164.93494020615827, y=25.60718798713126, z=-0.13408413579508663), Point3D(x=165.0496123417959, y=25.434208316893677, z=-0.1263706189840708), Point3D(x=165.16405210908118, y=25.26073677499401, z=-0.11865636926730436), Point3D(x=165.27825980054433, y=25.086774419352828, z=-0.11094142483893875), Point3D(x=165.39223570844953, y=24.912322307809017, z=-0.10322582385313835), Point3D(x=165.50598012480705, y=24.73738149810107, z=-0.09550960442362812), Point3D(x=165.61949334138518, y=24.56195304784838, z=-0.08779280462323212), Point3D(x=165.73277564972196, y=24.386038014532605, z=-0.08007546248340332), Point3D(x=165.84582734113678, y=24.209637455479054, z=-0.07235761599374488), Point3D(x=165.9586487067418, y=24.03275242783811, z=-0.0646393031015232), Point3D(x=166.07124003745315, y=23.85538398856671, z=-0.05692056171117297), Point3D(x=166.18360162400205, y=23.67753319440988, z=-0.04920142968379443), Point3D(x=166.29573375694568, y=23.49920110188226, z=-0.04148194483664315), Point3D(x=166.40763672667796, y=23.32038876724975, z=-0.033762144942612475), Point3D(x=166.51931082344007, y=23.141097246511126, z=-0.026042067729708955), Point3D(x=166.6307563373309, y=22.961327595379768, z=-0.018321750880520946), Point3D(x=166.74197355831726, y=22.781080869265384, z=-0.010601232031680622), Point3D(x=166.85296277624403, y=22.600358123255816, z=-0.0028805487733196255), Point3D(x=166.963724280844, y=22.419160412098872, z=0.004840261351481419), Point3D(x=167.0742583617477, y=22.237488790184223, z=0.012561160847249307), Point3D(x=167.18456530849298, y=22.055344311525342, z=0.020282112266680356), Point3D(x=167.29464541053449, y=21.87272802974149, z=0.028003078211207982), Point3D(x=167.40449895725288, y=21.689640998039774, z=0.035724021331575546), Point3D(x=167.5141262379641, y=21.50608426919722, z=0.04344490432841427), Point3D(x=167.62352754192818, y=21.32205889554294, z=0.05116568995282597), Point3D(x=167.73270315835828, y=21.137565928940326, z=0.05888634100697047), Point3D(x=167.84165337642915, y=20.952606420769296, z=0.0666068203446574), Point3D(x=167.95037848528585, y=20.767181421908628, z=0.07432709087194232), Point3D(x=168.058878774052, y=20.581291982718298, z=0.08204711554772678), Point3D(x=168.16715453183807, y=20.39493915302193, z=0.08976685738436231), Point3D(x=168.27520604774946, y=20.208123982089255, z=0.097486279448258), Point3D(x=168.38303361089442, y=20.020847518618655, z=0.10520534486049157), Point3D(x=168.49063751039185, y=19.833110810719763, z=0.11292401679742377), Point3D(x=168.59801803537894, y=19.644914905896112, z=0.1206422584913157), Point3D(x=168.70517547501868, y=19.456260851027853, z=0.12836003323094924), Point3D(x=168.81211011850723, y=19.267149692354522, z=0.13607730436225007), Point3D(x=168.91882225508115, y=19.077582475457888, z=0.14379403528891327), Point3D(x=169.02531217402446, y=18.88756024524484, z=0.15151018947303135), Point3D(x=169.13158016467563, y=18.697084045930346, z=0.15922573043572433), Point3D(x=169.23762651643426, y=18.50615492102048, z=0.16694062175777202), Point3D(x=169.34345151876798, y=18.314773913295507, z=0.1746548270802481), Point3D(x=169.44905546121873, y=18.122942064793026, z=0.18236831010515578), Point3D(x=169.55443863340938, y=17.93066041679119, z=0.19008103459606518), Point3D(x=169.65960132504983, y=17.737930009791985, z=0.19779296437875196), Point3D(x=169.7645438259433, y=17.544751883504567, z=0.2055040633418372), Point3D(x=169.86926642599218, y=17.351127076828686, z=0.2132142954374283), Point3D(x=169.97376941520406, y=17.157056627838152, z=0.22092362468176074), Point3D(x=170.07805308369734, y=16.962541573764387, z=0.22863201515584086), Point3D(x=170.182117721707, y=16.76758295098004, z=0.2363394310060888), Point3D(x=170.2859636195899, y=16.572181794982665, z=0.2440458364449823), Point3D(x=170.38959106783037, y=16.376339140378477, z=0.25175119575170046), Point3D(x=170.49300035704533, y=16.180056020866168, z=0.259455473272768), Point3D(x=170.59619177798942, y=15.983333469220806, z=0.2671586334226994), Point3D(x=170.69916562156, y=15.78617251727779, z=0.2748606406846428), Point3D(x=170.8019221788021, y=15.588574195916888, z=0.28256145961102364), Point3D(x=170.90446174091306, y=15.390539535046344, z=0.2902610548241884), Point3D(x=171.00678459924728, y=15.192069563587054, z=0.2979593910170472), Point3D(x=171.10889104532072, y=14.993165309456819, z=0.3056564329537161), Point3D(x=171.21078137081525, y=14.793827799554665, z=0.31335214547015844), Point3D(x=171.31245586758303, y=14.594058059745247, z=0.32104649347482567), Point3D(x=171.41391482765061, y=14.393857114843321, z=0.32873944194929655), Point3D(x=171.51515854322307, y=14.19322598859829, z=0.33643095594891576), Point3D(x=171.6161873066879, y=13.992165703678825, z=0.34412100060343104), Point3D(x=171.71700141061885, y=13.790677281657576, z=0.35180954111762885), Point3D(x=171.81760114777975, y=13.588761742995931, z=0.35949654277196863), Point3D(x=171.91798681112803, y=13.386420107028881, z=0.3671819709232156), Point3D(x=172.01815869381826, y=13.183653391949944, z=0.37486579100507156), Point3D(x=172.11811708920558, y=12.980462614796174, z=0.3825479685288042), Point3D(x=172.21786229084898, y=12.776848791433249, z=0.3902284690838741), Point3D(x=172.31739459251455, y=12.57281293654063, z=0.39790725833856), Point3D(x=172.41671428817844, y=12.368356063596812, z=0.40558430204058177), Point3D(x=172.51582167203, y=12.163479184864636, z=0.41325956601772135), Point3D(x=172.6147170384746, y=11.958183311376706, z=0.4209330161784409), Point3D(x=172.71340068213635, y=11.75246945292086, z=0.4286046185124992), Point3D(x=172.81187289786095, y=11.546338618025741, z=0.43627433909156477), Point3D(x=172.91013398071814, y=11.339791813946443, z=0.4439421440698269), Point3D(x=173.0081842260042, y=11.132830046650229, z=0.4516079996846038), Point3D(x=173.1060239292444, y=10.92545432080235, z=0.4592718722569479), Point3D(x=173.20365338619527, y=10.717665639751935, z=0.4669337281922482), Point3D(x=173.3010728928468, y=10.509465005517958, z=0.47459353398083), Point3D(x=173.39828274542458, y=10.3008534187753, z=0.4822512561985508), Point3D(x=173.49528324039173, y=10.091831878840893, z=0.48990686150739415), Point3D(x=173.59207467445088, y=9.882401383659936, z=0.49756031665605915), Point3D(x=173.68865734454607, y=9.67256292979221, z=0.5052115884805474), Point3D(x=173.78503154786435, y=9.462317512398474, z=0.5128606439047462), Point3D(x=173.8811975818375, y=9.251666125226935, z=0.5205074499410085), Point3D(x=173.9771557441437, y=9.040609760599814, z=0.5281519736907293), Point3D(x=174.07290633270875, y=8.829149409400003, z=0.5357941823449179), Point3D(x=174.16844964570777, y=8.61728606105779, z=0.5434340431847676), Point3D(x=174.26378598156626, y=8.405020703537685, z=0.5510715235822203), Point3D(x=174.35891563896146, y=8.192354323325329, z=0.5587065910005284), Point3D(x=174.45383891682346, y=7.979287905414486, z=0.5663392129948123), Point3D(x=174.54855611433624, y=7.765822433294127, z=0.5739693572126134), Point3D(x=174.6430675309386, y=7.5519588889356, z=0.581596991394445), Point3D(x=174.73737346632515, y=7.337698252779884, z=0.5892220833743362), Point3D(x=174.83147422044712, y=7.12304150372494, z=0.5968446010803747), Point3D(x=174.92537009351298, y=6.907989619113138, z=0.6044645125352432), Point3D(x=175.0190613859892, y=6.692543574718788, z=0.6120817858567525), Point3D(x=175.11254839860084, y=6.476704344735741, z=0.6196963892583701), Point3D(x=175.205831432332, y=6.260472901765097, z=0.6273082910497446), Point3D(x=175.29891078842627, y=6.043850216802994, z=0.6349174596372255), Point3D(x=175.39178676838713, y=5.826837259228483, z=0.6425238635243782), Point3D(x=175.4844596739782, y=5.609434996791503, z=0.6501274713124957), Point3D(x=175.57692980722337, y=5.391644395600936, z=0.6577282517011042), Point3D(x=175.6691974704071, y=5.17346642011276, z=0.6653261734884647), Point3D(x=175.7612629660744, y=4.954902033118286, z=0.6729212055720708), Point3D(x=175.8531265970308, y=4.735952195732493, z=0.6805133169491402), Point3D(x=175.94478866634236, y=4.516617867382448, z=0.6881024767171028), Point3D(x=176.03624947733547, y=4.296900005795819, z=0.6956886540740831), Point3D(x=176.1275093335967, y=4.0767995669894805, z=0.7032718183193785), Point3D(x=176.21856853897245, y=3.856317505258211, z=0.7108519388539323), Point3D(x=176.30942739756873, y=3.6354547731634788, z=0.7184289851808017), Point3D(x=176.40008621375063, y=3.4142123215223226, z=0.7260029269056212), Point3D(x=176.49054529214195, y=3.1925910993963247, z=0.7335737337370608), Point3D(x=176.58080493762466, y=2.970592054080674, z=0.7411413754872794), Point3D(x=176.67086545533826, y=2.748216131093325, z=0.7487058220723728), Point3D(x=176.7607271506792, y=2.5254642741642437, z=0.7562670435128169), Point3D(x=176.85039032930013, y=2.302337425224753, z=0.7638250099339057), Point3D(x=176.9398552971091, y=2.0788365243969658, z=0.7713796915661841), Point3D(x=177.0291223602688, y=1.8549625099833134, z=0.7789310587458761), Point3D(x=177.1181918251956, y=1.6307163184561664, z=0.7864790819153064), Point3D(x=177.2070639985587, y=1.4060988844475493, z=0.7940237316233183), Point3D(x=177.29573918727908, y=1.1811111407389476, z=0.801564978525686), Point3D(x=177.38421769852837, y=0.9557540182512089, z=0.8091027933855207), Point3D(x=177.47249983972787, y=0.7300284460345374, z=0.8166371470736725), Point3D(x=177.56058591854733, y=0.5039353512585822, z=0.8241680105691265), Point3D(x=177.64847624290368, y=0.277475659202619, z=0.8316953549593936), Point3D(x=177.73617112095985, y=0.05065029324582565, z=0.8392191514408962), Point3D(x=177.82367086112342, y=0.0, z=0.8467393713193478)], clubHeadSpeedMph=100.0, ballSpeedMph=122.0, smashFactor=1.22, launchAngle=25.319999999999997, swingPath=-5.0, faceToPath=5.0, carryDistance=177.82367086112342, totalDistance=179.9575549114569, rollDistance=2.13388405033348, lateralDeviation=0.8467393713193478, maxHeight=51.03428460285067, spinRpm=6929.645929411765, sideSpinRpm=818.0832, launchVelocity=54.53888, flightTimeSeconds=7.839999999999877).lateralDeviation)
+        at org.junit.Assert.fail(Assert.java:89)
+        at org.junit.Assert.assertTrue(Assert.java:42)
+        at com.example.golf_by_nm.GolfPhysicsValidationTest.checkTrajectory(GolfPhysicsValidationTest.kt:171)
+        at com.example.golf_by_nm.GolfPhysicsValidationTest.testTrajectoryMatrix(GolfPhysicsValidationTest.kt:138)
+
+GolfPhysicsValidationTest > testStraightShot STANDARD_OUT
+    Straight Shot (7i): Carry=178,8m, Side=0,0m
+
+GolfPhysicsValidationTest > testBallRollDriver STANDARD_OUT
+    Dr Roll: 25,5m
+
+GolfPhysicsValidationTest > testDistanceHierarchy STANDARD_OUT
+
+    --- Distance Hierarchy Check (Target: Dr~280m, LW~100m, Gaps>=10m) ---
+    Dr: 228,5m
+    3W: 223,4m
+    4i: 217,7m
+    5i: 205,6m
+    6i: 192,9m
+    7i: 178,8m
+    8i: 164,6m
+    9i: 150,3m
+    PW: 133,0m
+    SW: 116,7m
+    LW: 104,0m
+
+GolfPhysicsValidationTest > testMaxHeight STANDARD_OUT
+    Max Height (Dr): 26,1m
+
+GolfPhysicsValidationTest > testSpinHierarchy STANDARD_OUT
+
+    --- Spin Hierarchy Check (LW > SW > ... > Dr) ---
+    Dr: 2448 RPM
+    3W: 3554 RPM
+    4i: 5750 RPM
+    5i: 6126 RPM
+    6i: 6459 RPM
+    7i: 6929 RPM
+    8i: 7350 RPM
+    9i: 7701 RPM
+    PW: 8854 RPM
+    SW: 9726 RPM
+    LW: 10752 RPM
+
+GolfPhysicsValidationTest > testSliceShot STANDARD_OUT
+    Slice Shot (Dr): Side=40,1m
+
+GolfPhysicsValidationTest > testDrawShot STANDARD_OUT
+    Draw Shot (Dr): Side=-25,2m
+
+GolfPhysicsValidationTest > testBallStopWedge STANDARD_OUT
+    LW Roll: 0,2m
+
+SmashFactorTest > testLWSmashFactor STANDARD_OUT
+    LW Smash Factor: 1.0
+
+SmashFactorTest > testSmashFactorLimits STANDARD_OUT
+
+    --- Smash Factor Validation ---
+    Club: Dr, Smash Factor: 1,500
+    Club: 3W, Smash Factor: 1,420
+    Club: 4i, Smash Factor: 1,370
+    Club: 5i, Smash Factor: 1,320
+    Club: 6i, Smash Factor: 1,270
+    Club: 7i, Smash Factor: 1,220
+    Club: 8i, Smash Factor: 1,170
+    Club: 9i, Smash Factor: 1,120
+    Club: PW, Smash Factor: 1,070
+    Club: SW, Smash Factor: 1,030
+    Club: LW, Smash Factor: 1,000
+
+21 tests completed, 3 failed
+Finished generating test XML results (0.004 secs) into: C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\build\test-results\testDebugUnitTest
+Generating HTML test report...
+Finished generating test html results (0.009 secs) into: C:\Users\nm\Documents\Dev_NM\Golf_by_NM\app\build\reports\tests\testDebugUnitTest
+Build 35ecd4ea-b544-44cd-8ae4-0c3498e83195 is closed
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:testDebugUnitTest'.
+> There were failing tests. See the report at: file:///C:/Users/nm/Documents/Dev_NM/Golf_by_NM/app/build/reports/tests/testDebugUnitTest/index.html
+
+* Try:
+> Run with --scan to generate a Build Scan (Powered by Develocity).
+
+BUILD FAILED in 7s
+26 actionable tasks: 4 executed, 22 up-to-date
+Watched directory hierarchies: [C:\Users\nm\Documents\Dev_NM\Golf_by_NM]
