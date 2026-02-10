@@ -1,0 +1,10 @@
+abi_version=1.8.0
+builtins_platform=JS
+compiler_version=2.0.21
+depends=org.jetbrains.compose.runtime\:runtime org.jetbrains.compose.html\:html-core org.jetbrains.compose.html\:internal-html-core-runtime org.jetbrains.kotlin\:kotlin-dom-api-compat kotlin
+ir_signature_versions=1,2
+jsOutputName=Golf_by_NM-golf-core
+metadata_version=1.4.1
+serializedIrFileFingerprints=22awxbo34gtms.1bacrq8aiqe5s 2r3g7cdpd39zj.2eb5bb6qkk5sr b3azvrhr95yx.23a24ke5ccl6f yj8la1xwz5kz.99mzo7hmsv2j
+serializedKlibFingerprint=2ouq6z9swlrrt.1xkrsxkcmgzb6
+unique_name=Golf_by_NM\:golf-core

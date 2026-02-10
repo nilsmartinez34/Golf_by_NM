@@ -1,7 +1,10 @@
+package com.example.golf_by_nm.core
+
 import org.jetbrains.compose.web.renderComposable
 import org.jetbrains.compose.web.dom.*
 import org.jetbrains.compose.web.attributes.*
 import androidx.compose.runtime.*
+import org.jetbrains.compose.web.css.*
 import kotlinx.browser.document
 import org.w3c.dom.HTMLCanvasElement
 import org.w3c.dom.CanvasRenderingContext2D
@@ -63,14 +66,14 @@ fun main() {
                         Label { Text("Club Speed (mph)") }
                         Input(InputType.Number) {
                             value(clubSpeed)
-                            onInput { clubSpeed = it.value?.toDoubleOrNull() ?: 0.0 }
+                            onInput { clubSpeed = it.value?.toString()?.toDoubleOrNull() ?: 0.0 }
                         }
                     }
                     Div({ classes("control-group") }) {
                         Label { Text("Attack Angle (deg)") }
                         Input(InputType.Number) {
                             value(attackAngle)
-                            onInput { attackAngle = it.value?.toDoubleOrNull() ?: 0.0 }
+                            onInput { attackAngle = it.value?.toString()?.toDoubleOrNull() ?: 0.0 }
                         }
                     }
                 }
@@ -80,21 +83,21 @@ fun main() {
                         Label { Text("Distance (m)") }
                         Input(InputType.Number) {
                             value(puttDistance)
-                            onInput { puttDistance = it.value?.toDoubleOrNull() ?: 0.0 }
+                            onInput { puttDistance = it.value?.toString()?.toDoubleOrNull() ?: 0.0 }
                         }
                     }
                     Div({ classes("control-group") }) {
                         Label { Text("Slope X (deg)") }
                         Input(InputType.Number) {
                             value(slopeX)
-                            onInput { slopeX = it.value?.toDoubleOrNull() ?: 0.0 }
+                            onInput { slopeX = it.value?.toString()?.toDoubleOrNull() ?: 0.0 }
                         }
                     }
                     Div({ classes("control-group") }) {
                         Label { Text("Slope Y (deg)") }
                         Input(InputType.Number) {
                             value(slopeY)
-                            onInput { slopeY = it.value?.toDoubleOrNull() ?: 0.0 }
+                            onInput { slopeY = it.value?.toString()?.toDoubleOrNull() ?: 0.0 }
                         }
                     }
                 }
@@ -154,7 +157,7 @@ fun simulatePutting(dist: Double, sx: Double, sy: Double, onResult: (String, Lis
     // We will update PuttingPhysicsEngine later if needed, for now let's use what we have.
     
     val result = PuttingPhysicsEngine.simulate(dist, sx, sy)
-    val msg = "Result: X=${result.finalX.format(2)}m, Y=${result.finalY.format(2)}m (Entry Speed: ${result.entrySpeed.format(2)}m/s) ${result.entryStatus}"
+    val msg = "Result: X=${result.finalX.format(2)}m, Y=${result.finalY.format(2)}m (Residual Speed: ${result.residualSpeed.format(2)}m/s)"
     
     // Fake path for visualization since we don't have it yet
     val points = listOf(

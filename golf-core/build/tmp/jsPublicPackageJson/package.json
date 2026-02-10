@@ -1,0 +1,13 @@
+{
+  "name": "Golf_by_NM-golf-core",
+  "version": "0.0.0-unspecified",
+  "main": "Golf_by_NM-golf-core.js",
+  "types": "Golf_by_NM-golf-core.d.ts",
+  "devDependencies": {},
+  "dependencies": {
+    "format-util": "^1.0.5"
+  },
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": []
+}
