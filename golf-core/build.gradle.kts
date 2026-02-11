@@ -21,7 +21,20 @@ kotlin {
     jvm()
     
     js(IR) {
-        browser()
+        browser {
+            commonWebpackConfig {
+                cssSupport {
+                    enabled.set(true)
+                }
+            }
+            runTask {
+                devServer = (devServer ?: org.jetbrains.kotlin.gradle.targets.js.webpack.KotlinWebpackConfig.DevServer()).apply {
+                    static = (static ?: mutableListOf()).apply {
+                        add(project.projectDir.resolve("src/jsMain/resources").absolutePath)
+                    }
+                }
+            }
+        }
         binaries.executable()
         binaries.library()
     }

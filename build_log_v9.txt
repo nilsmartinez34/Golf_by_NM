@@ -1,0 +1,66 @@
+> Task :kotlinNodeJsSetup UP-TO-DATE
+> Task :kotlinNpmCachesSetup
+> Task :kotlinRestoreYarnLock UP-TO-DATE
+> Task :kotlinYarnSetup UP-TO-DATE
+> Task :golf-core:jsPackageJson
+> Task :golf-core:jsTestPackageJson
+> Task :golf-core:jsPublicPackageJson
+> Task :golf-core:jsTestPublicPackageJson
+> Task :packageJsonUmbrella
+> Task :rootPackageJson
+
+> Task :kotlinNpmInstall
+warning Ignored scripts due to flag.
+
+> Task :kotlinStoreYarnLock UP-TO-DATE
+> Task :golf-core:jsResolveResourcesFromDependencies UP-TO-DATE
+> Task :golf-core:convertXmlValueResourcesForCommonMain NO-SOURCE
+> Task :golf-core:copyNonXmlValueResourcesForCommonMain NO-SOURCE
+> Task :golf-core:prepareComposeResourcesTaskForCommonMain NO-SOURCE
+> Task :golf-core:convertXmlValueResourcesForJsMain NO-SOURCE
+> Task :golf-core:copyNonXmlValueResourcesForJsMain NO-SOURCE
+> Task :golf-core:prepareComposeResourcesTaskForJsMain NO-SOURCE
+> Task :golf-core:assembleJsMainResources UP-TO-DATE
+> Task :golf-core:jsResolveSelfResourcesCopyHierarchicalMultiplatformResources UP-TO-DATE
+> Task :golf-core:jsAggregateResources UP-TO-DATE
+> Task :golf-core:unpackSkikoWasmRuntime SKIPPED
+> Task :golf-core:jsProcessResources UP-TO-DATE
+> Task :golf-core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :golf-core:generateResourceAccessorsForCommonMain SKIPPED
+> Task :golf-core:generateResourceAccessorsForJsMain SKIPPED
+> Task :golf-core:generateActualResourceCollectorsForJsMain SKIPPED
+> Task :golf-core:generateComposeResClass SKIPPED
+> Task :golf-core:generateExpectResourceCollectorsForCommonMain SKIPPED
+> Task :golf-core:compileKotlinJs UP-TO-DATE
+> Task :golf-core:jsMainClasses UP-TO-DATE
+> Task :golf-core:compileProductionExecutableKotlinJs UP-TO-DATE
+> Task :golf-core:jsProductionExecutableCompileSync UP-TO-DATE
+
+> Task :golf-core:jsBrowserProductionWebpack
+asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  golf-core.js (466 KiB)
+
+entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  main (466 KiB)
+      golf-core.js
+
+webpack performance recommendations: 
+You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+For more info visit https://webpack.js.org/guides/code-splitting/
+
+
+> Task :golf-core:jsBrowserDistribution UP-TO-DATE
+
+[Incubating] Problems report is available at: file:///C:/Users/nm/Documents/Dev_NM/Golf_by_NM/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.1.0/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 14s
+21 actionable tasks: 8 executed, 13 up-to-date

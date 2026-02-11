@@ -19,69 +19,81 @@
   'use strict';
   //region block: imports
   var imul = Math.imul;
-  var Unit_instance = kotlin_kotlin.$_$.s1;
-  var protoOf = kotlin_kotlin.$_$.c5;
-  var asList = kotlin_kotlin.$_$.e2;
-  var initMetadataForInterface = kotlin_kotlin.$_$.q4;
+  var Unit_instance = kotlin_kotlin.$_$.v1;
+  var protoOf = kotlin_kotlin.$_$.n5;
+  var asList = kotlin_kotlin.$_$.i2;
+  var initMetadataForInterface = kotlin_kotlin.$_$.z4;
   var VOID = kotlin_kotlin.$_$.c;
   var LinkedHashMap_init_$Create$ = kotlin_kotlin.$_$.m;
   var ArrayList_init_$Create$ = kotlin_kotlin.$_$.h;
-  var addAll = kotlin_kotlin.$_$.b2;
-  var to = kotlin_kotlin.$_$.t6;
-  var THROW_CCE = kotlin_kotlin.$_$.d6;
-  var Pair = kotlin_kotlin.$_$.b6;
-  var initMetadataForClass = kotlin_kotlin.$_$.n4;
-  var initMetadataForObject = kotlin_kotlin.$_$.s4;
-  var toString = kotlin_kotlin.$_$.e5;
-  var IllegalStateException_init_$Create$ = kotlin_kotlin.$_$.y;
-  var initMetadataForCompanion = kotlin_kotlin.$_$.o4;
-  var equals = kotlin_kotlin.$_$.f4;
-  var charSequenceLength = kotlin_kotlin.$_$.c4;
+  var addAll = kotlin_kotlin.$_$.f2;
+  var to = kotlin_kotlin.$_$.f7;
+  var THROW_CCE = kotlin_kotlin.$_$.q6;
+  var Pair = kotlin_kotlin.$_$.o6;
+  var initMetadataForClass = kotlin_kotlin.$_$.w4;
+  var initMetadataForObject = kotlin_kotlin.$_$.b5;
+  var toString = kotlin_kotlin.$_$.p5;
+  var IllegalStateException_init_$Create$ = kotlin_kotlin.$_$.a1;
+  var initMetadataForCompanion = kotlin_kotlin.$_$.x4;
+  var equals = kotlin_kotlin.$_$.o4;
+  var charSequenceLength = kotlin_kotlin.$_$.l4;
   var LinkedHashSet_init_$Create$ = kotlin_kotlin.$_$.n;
-  var ensureNotNull = kotlin_kotlin.$_$.l6;
-  var traceEventStart = kotlin_org_jetbrains_compose_runtime_runtime.$_$.o;
-  var isTraceInProgress = kotlin_org_jetbrains_compose_runtime_runtime.$_$.j;
+  var ensureNotNull = kotlin_kotlin.$_$.x6;
+  var traceEventStart = kotlin_org_jetbrains_compose_runtime_runtime.$_$.q;
+  var isTraceInProgress = kotlin_org_jetbrains_compose_runtime_runtime.$_$.l;
   var DisposableEffect = kotlin_org_jetbrains_compose_runtime_runtime.$_$.g;
-  var traceEventEnd = kotlin_org_jetbrains_compose_runtime_runtime.$_$.n;
-  var toString_0 = kotlin_kotlin.$_$.s6;
-  var toBoolean = kotlin_kotlin.$_$.q5;
-  var numberToDouble = kotlin_kotlin.$_$.a5;
-  var getNumberHashCode = kotlin_kotlin.$_$.j4;
-  var hashCode = kotlin_kotlin.$_$.m4;
-  var defineProp = kotlin_kotlin.$_$.e4;
-  var isInterface = kotlin_kotlin.$_$.w4;
-  var getStringHashCode = kotlin_kotlin.$_$.l4;
-  var Collection = kotlin_kotlin.$_$.w1;
-  var sourceInformationMarkerStart = kotlin_org_jetbrains_compose_runtime_runtime.$_$.m;
-  var Companion_getInstance = kotlin_org_jetbrains_compose_runtime_runtime.$_$.v;
-  var sourceInformationMarkerEnd = kotlin_org_jetbrains_compose_runtime_runtime.$_$.l;
-  var _SkippableUpdater___init__impl__4ft0t9 = kotlin_org_jetbrains_compose_runtime_runtime.$_$.q;
-  var _SkippableUpdater___get_composer__impl__6t7yne = kotlin_org_jetbrains_compose_runtime_runtime.$_$.r;
-  var _Updater___init__impl__rbfxm8 = kotlin_org_jetbrains_compose_runtime_runtime.$_$.s;
-  var Updater__set_impl_v7kwss = kotlin_org_jetbrains_compose_runtime_runtime.$_$.t;
+  var traceEventEnd = kotlin_org_jetbrains_compose_runtime_runtime.$_$.p;
+  var toString_0 = kotlin_kotlin.$_$.e7;
+  var toBoolean = kotlin_kotlin.$_$.e6;
+  var numberToDouble = kotlin_kotlin.$_$.j5;
+  var getNumberHashCode = kotlin_kotlin.$_$.s4;
+  var hashCode = kotlin_kotlin.$_$.v4;
+  var defineProp = kotlin_kotlin.$_$.n4;
+  var isInterface = kotlin_kotlin.$_$.f5;
+  var getStringHashCode = kotlin_kotlin.$_$.u4;
+  var Collection = kotlin_kotlin.$_$.a2;
+  var listOfNotNull = kotlin_kotlin.$_$.y2;
+  var joinToString = kotlin_kotlin.$_$.v2;
+  var joinToString_0 = kotlin_kotlin.$_$.w2;
+  var sourceInformationMarkerStart = kotlin_org_jetbrains_compose_runtime_runtime.$_$.o;
+  var Companion_getInstance = kotlin_org_jetbrains_compose_runtime_runtime.$_$.x;
+  var sourceInformationMarkerEnd = kotlin_org_jetbrains_compose_runtime_runtime.$_$.n;
+  var _SkippableUpdater___init__impl__4ft0t9 = kotlin_org_jetbrains_compose_runtime_runtime.$_$.s;
+  var _SkippableUpdater___get_composer__impl__6t7yne = kotlin_org_jetbrains_compose_runtime_runtime.$_$.t;
+  var _Updater___init__impl__rbfxm8 = kotlin_org_jetbrains_compose_runtime_runtime.$_$.u;
+  var Updater__set_impl_v7kwss = kotlin_org_jetbrains_compose_runtime_runtime.$_$.v;
   var DomNodeWrapper = kotlin_org_jetbrains_compose_html_internal_html_core_runtime.$_$.b;
-  var emptyList = kotlin_kotlin.$_$.l2;
-  var copyToArray = kotlin_kotlin.$_$.k2;
-  var updateChangedFlags = kotlin_org_jetbrains_compose_runtime_runtime.$_$.p;
-  var throwUninitializedPropertyAccessException = kotlin_kotlin.$_$.r6;
-  var lazy = kotlin_kotlin.$_$.m6;
-  var invalidApplier = kotlin_org_jetbrains_compose_runtime_runtime.$_$.i;
+  var emptyList = kotlin_kotlin.$_$.p2;
+  var copyToArray = kotlin_kotlin.$_$.o2;
+  var updateChangedFlags = kotlin_org_jetbrains_compose_runtime_runtime.$_$.r;
+  var throwUninitializedPropertyAccessException = kotlin_kotlin.$_$.d7;
+  var lazy = kotlin_kotlin.$_$.y6;
+  var invalidApplier = kotlin_org_jetbrains_compose_runtime_runtime.$_$.k;
   var DomApplier = kotlin_org_jetbrains_compose_html_internal_html_core_runtime.$_$.a;
-  var mutableStateOf = kotlin_org_jetbrains_compose_runtime_runtime.$_$.k;
+  var mutableStateOf = kotlin_org_jetbrains_compose_runtime_runtime.$_$.m;
   var composableLambda = kotlin_org_jetbrains_compose_runtime_runtime.$_$.b;
-  var KProperty1 = kotlin_kotlin.$_$.m5;
-  var getPropertyCallableRef = kotlin_kotlin.$_$.k4;
+  var KProperty1 = kotlin_kotlin.$_$.y5;
+  var getPropertyCallableRef = kotlin_kotlin.$_$.t4;
   //endregion
   //region block: pre-declaration
   function onClick(listener) {
-    this.n22(new MouseEventListener('click', listener));
+    this.g23(new MouseEventListener('click', listener));
+  }
+  function onMouseDown(listener) {
+    this.g23(new MouseEventListener('mousedown', listener));
+  }
+  function onMouseUp(listener) {
+    this.g23(new MouseEventListener('mouseup', listener));
+  }
+  function onMouseMove(listener) {
+    this.g23(new MouseEventListener('mousemove', listener));
   }
   initMetadataForInterface(EventsListenerScope, 'EventsListenerScope');
   function classes(classes) {
-    return this.j22(asList(classes));
+    return this.b23(asList(classes));
   }
   function id(value) {
-    return this.f22('id', value);
+    return this.x22('id', value);
   }
   initMetadataForInterface(AttrsScope, 'AttrsScope', VOID, VOID, [EventsListenerScope]);
   initMetadataForClass(AttrsScopeBuilder, 'AttrsScopeBuilder', AttrsScopeBuilder, VOID, [AttrsScope, EventsListenerScope]);
@@ -120,10 +132,28 @@
   initMetadataForClass(SelectAttrsScope, 'SelectAttrsScope', VOID, VOID, [AttrsScope]);
   initMetadataForClass(SelectInputEventListener, 'SelectInputEventListener', VOID, SyntheticEventListener);
   initMetadataForCompanion(Companion_0);
+  initMetadataForCompanion(Companion_1);
+  initMetadataForCompanion(Companion_2);
+  initMetadataForCompanion(Companion_3);
   initMetadataForClass(CSSUnitValueTyped, 'CSSUnitValueTyped');
+  initMetadataForObject(Color_0, 'Color');
+  function property(propertyName, value) {
+    // Inline function 'org.jetbrains.compose.web.css.StylePropertyValue' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return this.z28(propertyName, value);
+  }
+  function property_0(propertyName, value) {
+    // Inline function 'org.jetbrains.compose.web.css.StylePropertyValue' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return this.z28(propertyName, value);
+  }
+  initMetadataForInterface(StyleScope, 'StyleScope');
   initMetadataForInterface(StyleHolder, 'StyleHolder');
-  initMetadataForClass(StyleScopeBuilder, 'StyleScopeBuilder', StyleScopeBuilder, VOID, [StyleHolder]);
+  initMetadataForClass(StyleScopeBuilder, 'StyleScopeBuilder', StyleScopeBuilder, VOID, [StyleScope, StyleHolder]);
   initMetadataForClass(StylePropertyDeclaration, 'StylePropertyDeclaration');
+  initMetadataForClass(CSSBorder, 'CSSBorder', CSSBorder);
   initMetadataForClass(DomElementWrapper, 'DomElementWrapper', VOID, DomNodeWrapper);
   initMetadataForClass(ElementScopeBase, 'ElementScopeBase');
   initMetadataForClass(ElementScopeImpl, 'ElementScopeImpl', ElementScopeImpl, ElementScopeBase);
@@ -140,21 +170,29 @@
   var setInputValue;
   var setTextAreaDefaultValue;
   var setCheckedValue;
-  function value(_this__u8e3s4, value) {
+  function selected(_this__u8e3s4) {
     _init_properties_Attrs_kt__w5qjhs();
-    return _this__u8e3s4.f22('value', value);
-  }
-  function forId(_this__u8e3s4, value) {
-    _init_properties_Attrs_kt__w5qjhs();
-    return _this__u8e3s4.f22('for', value);
-  }
-  function multiple(_this__u8e3s4) {
-    _init_properties_Attrs_kt__w5qjhs();
-    return _this__u8e3s4.f22('multiple', '');
+    return _this__u8e3s4.x22('selected', '');
   }
   function type(_this__u8e3s4, value) {
     _init_properties_Attrs_kt__w5qjhs();
-    return _this__u8e3s4.f22('type', value.g22_1);
+    return _this__u8e3s4.x22('type', value.y22_1);
+  }
+  function multiple(_this__u8e3s4) {
+    _init_properties_Attrs_kt__w5qjhs();
+    return _this__u8e3s4.x22('multiple', '');
+  }
+  function value(_this__u8e3s4, value) {
+    _init_properties_Attrs_kt__w5qjhs();
+    return _this__u8e3s4.x22('value', value);
+  }
+  function alt(_this__u8e3s4, value) {
+    _init_properties_Attrs_kt__w5qjhs();
+    return _this__u8e3s4.x22('alt', value);
+  }
+  function src(_this__u8e3s4, value) {
+    _init_properties_Attrs_kt__w5qjhs();
+    return _this__u8e3s4.x22('src', value);
   }
   function setInputValue$lambda(e, v) {
     _init_properties_Attrs_kt__w5qjhs();
@@ -188,67 +226,79 @@
   }
   function AttrsScopeBuilder(eventsListenerScopeBuilder) {
     eventsListenerScopeBuilder = eventsListenerScopeBuilder === VOID ? new EventsListenerScopeBuilder() : eventsListenerScopeBuilder;
-    this.p22_1 = eventsListenerScopeBuilder;
+    this.l23_1 = eventsListenerScopeBuilder;
     var tmp = this;
     // Inline function 'kotlin.collections.mutableMapOf' call
-    tmp.q22_1 = LinkedHashMap_init_$Create$();
-    this.r22_1 = new StyleScopeBuilder();
+    tmp.m23_1 = LinkedHashMap_init_$Create$();
+    this.n23_1 = new StyleScopeBuilder();
     var tmp_0 = this;
     // Inline function 'kotlin.collections.mutableListOf' call
-    tmp_0.s22_1 = ArrayList_init_$Create$();
-    this.t22_1 = null;
+    tmp_0.o23_1 = ArrayList_init_$Create$();
+    this.p23_1 = null;
     var tmp_1 = this;
     // Inline function 'kotlin.collections.mutableListOf' call
-    tmp_1.u22_1 = ArrayList_init_$Create$();
-    this.v22_1 = 8;
+    tmp_1.q23_1 = ArrayList_init_$Create$();
+    this.r23_1 = 8;
   }
-  protoOf(AttrsScopeBuilder).o22 = function (listener) {
-    this.p22_1.o22(listener);
+  protoOf(AttrsScopeBuilder).h23 = function (listener) {
+    this.l23_1.h23(listener);
   };
-  protoOf(AttrsScopeBuilder).n22 = function (listener) {
-    this.p22_1.n22(listener);
+  protoOf(AttrsScopeBuilder).i23 = function (listener) {
+    this.l23_1.i23(listener);
   };
-  protoOf(AttrsScopeBuilder).j22 = function (classes) {
-    this.u22_1.m(classes);
+  protoOf(AttrsScopeBuilder).k23 = function (listener) {
+    this.l23_1.k23(listener);
   };
-  protoOf(AttrsScopeBuilder).k22 = function (classes) {
-    addAll(this.u22_1, classes);
+  protoOf(AttrsScopeBuilder).j23 = function (listener) {
+    this.l23_1.j23(listener);
   };
-  protoOf(AttrsScopeBuilder).i22 = function (builder) {
+  protoOf(AttrsScopeBuilder).g23 = function (listener) {
+    this.l23_1.g23(listener);
+  };
+  protoOf(AttrsScopeBuilder).b23 = function (classes) {
+    this.q23_1.m(classes);
+  };
+  protoOf(AttrsScopeBuilder).c23 = function (classes) {
+    addAll(this.q23_1, classes);
+  };
+  protoOf(AttrsScopeBuilder).a23 = function (builder) {
     // Inline function 'kotlin.apply' call
     // Inline function 'kotlin.contracts.contract' call
-    builder(this.r22_1);
+    builder(this.n23_1);
   };
-  protoOf(AttrsScopeBuilder).f22 = function (attr, value) {
+  protoOf(AttrsScopeBuilder).e23 = function (effect) {
+    this.p23_1 = effect;
+  };
+  protoOf(AttrsScopeBuilder).x22 = function (attr, value) {
     // Inline function 'kotlin.collections.set' call
-    this.q22_1.t3(attr, value);
+    this.m23_1.y3(attr, value);
     return this;
   };
-  protoOf(AttrsScopeBuilder).m22 = function (update, value) {
+  protoOf(AttrsScopeBuilder).f23 = function (update, value) {
     var tmp = to(update, value);
-    this.s22_1.d(tmp instanceof Pair ? tmp : THROW_CCE());
+    this.o23_1.d(tmp instanceof Pair ? tmp : THROW_CCE());
   };
-  protoOf(AttrsScopeBuilder).y22 = function () {
-    return this.q22_1;
+  protoOf(AttrsScopeBuilder).u23 = function () {
+    return this.m23_1;
   };
   function EventsListenerScope() {
   }
   function EventsListenerScopeBuilder() {
     var tmp = this;
     // Inline function 'kotlin.collections.mutableListOf' call
-    tmp.w22_1 = ArrayList_init_$Create$();
-    this.x22_1 = 8;
+    tmp.s23_1 = ArrayList_init_$Create$();
+    this.t23_1 = 8;
   }
-  protoOf(EventsListenerScopeBuilder).n22 = function (listener) {
-    this.w22_1.d(listener);
+  protoOf(EventsListenerScopeBuilder).g23 = function (listener) {
+    this.s23_1.d(listener);
   };
-  protoOf(EventsListenerScopeBuilder).z22 = function () {
-    return this.w22_1;
+  protoOf(EventsListenerScopeBuilder).v23 = function () {
+    return this.s23_1;
   };
   function Button() {
     Button_instance = this;
     InputTypeWithUnitValue.call(this, 'button');
-    this.d23_1 = 0;
+    this.z23_1 = 0;
   }
   var Button_instance;
   function Button_getInstance() {
@@ -259,7 +309,7 @@
   function Checkbox() {
     Checkbox_instance = this;
     InputTypeCheckedValue.call(this, 'checkbox');
-    this.l23_1 = 0;
+    this.h24_1 = 0;
   }
   var Checkbox_instance;
   function Checkbox_getInstance() {
@@ -270,7 +320,7 @@
   function Color() {
     Color_instance = this;
     InputTypeWithStringValue.call(this, 'color');
-    this.t23_1 = 0;
+    this.p24_1 = 0;
   }
   var Color_instance;
   function Color_getInstance() {
@@ -281,7 +331,7 @@
   function Date_0() {
     Date_instance = this;
     InputTypeWithStringValue.call(this, 'date');
-    this.a24_1 = 0;
+    this.w24_1 = 0;
   }
   var Date_instance;
   function Date_getInstance() {
@@ -292,7 +342,7 @@
   function DateTimeLocal() {
     DateTimeLocal_instance = this;
     InputTypeWithStringValue.call(this, 'datetime-local');
-    this.e24_1 = 0;
+    this.a25_1 = 0;
   }
   var DateTimeLocal_instance;
   function DateTimeLocal_getInstance() {
@@ -303,7 +353,7 @@
   function Email() {
     Email_instance = this;
     InputTypeWithStringValue.call(this, 'email');
-    this.i24_1 = 0;
+    this.e25_1 = 0;
   }
   var Email_instance;
   function Email_getInstance() {
@@ -314,7 +364,7 @@
   function File() {
     File_instance = this;
     InputTypeWithStringValue.call(this, 'file');
-    this.m24_1 = 0;
+    this.i25_1 = 0;
   }
   var File_instance;
   function File_getInstance() {
@@ -325,7 +375,7 @@
   function Hidden() {
     Hidden_instance = this;
     InputTypeWithStringValue.call(this, 'hidden');
-    this.q24_1 = 0;
+    this.m25_1 = 0;
   }
   var Hidden_instance;
   function Hidden_getInstance() {
@@ -336,7 +386,7 @@
   function Month() {
     Month_instance = this;
     InputTypeWithStringValue.call(this, 'month');
-    this.u24_1 = 0;
+    this.q25_1 = 0;
   }
   var Month_instance;
   function Month_getInstance() {
@@ -347,7 +397,7 @@
   function Number_0() {
     Number_instance = this;
     InputTypeNumberValue.call(this, 'number');
-    this.y24_1 = 0;
+    this.u25_1 = 0;
   }
   var Number_instance;
   function Number_getInstance() {
@@ -358,7 +408,7 @@
   function Password() {
     Password_instance = this;
     InputTypeWithStringValue.call(this, 'password');
-    this.f25_1 = 0;
+    this.b26_1 = 0;
   }
   var Password_instance;
   function Password_getInstance() {
@@ -369,7 +419,7 @@
   function Radio() {
     Radio_instance = this;
     InputTypeCheckedValue.call(this, 'radio');
-    this.j25_1 = 0;
+    this.f26_1 = 0;
   }
   var Radio_instance;
   function Radio_getInstance() {
@@ -380,7 +430,7 @@
   function Range() {
     Range_instance = this;
     InputTypeNumberValue.call(this, 'range');
-    this.n25_1 = 0;
+    this.j26_1 = 0;
   }
   var Range_instance;
   function Range_getInstance() {
@@ -391,7 +441,7 @@
   function Search() {
     Search_instance = this;
     InputTypeWithStringValue.call(this, 'search');
-    this.r25_1 = 0;
+    this.n26_1 = 0;
   }
   var Search_instance;
   function Search_getInstance() {
@@ -402,7 +452,7 @@
   function Submit() {
     Submit_instance = this;
     InputTypeWithUnitValue.call(this, 'submit');
-    this.v25_1 = 0;
+    this.r26_1 = 0;
   }
   var Submit_instance;
   function Submit_getInstance() {
@@ -413,7 +463,7 @@
   function Tel() {
     Tel_instance = this;
     InputTypeWithStringValue.call(this, 'tel');
-    this.z25_1 = 0;
+    this.v26_1 = 0;
   }
   var Tel_instance;
   function Tel_getInstance() {
@@ -424,7 +474,7 @@
   function Text_0() {
     Text_instance = this;
     InputTypeWithStringValue.call(this, 'text');
-    this.d26_1 = 0;
+    this.z26_1 = 0;
   }
   var Text_instance;
   function Text_getInstance() {
@@ -435,7 +485,7 @@
   function Time() {
     Time_instance = this;
     InputTypeWithStringValue.call(this, 'time');
-    this.h26_1 = 0;
+    this.d27_1 = 0;
   }
   var Time_instance;
   function Time_getInstance() {
@@ -446,7 +496,7 @@
   function Url() {
     Url_instance = this;
     InputTypeWithStringValue.call(this, 'url');
-    this.l26_1 = 0;
+    this.h27_1 = 0;
   }
   var Url_instance;
   function Url_getInstance() {
@@ -457,7 +507,7 @@
   function Week() {
     Week_instance = this;
     InputTypeWithStringValue.call(this, 'week');
-    this.p26_1 = 0;
+    this.l27_1 = 0;
   }
   var Week_instance;
   function Week_getInstance() {
@@ -467,27 +517,27 @@
   }
   function InputTypeWithStringValue(name) {
     InputType.call(this, name);
-    this.w23_1 = 0;
+    this.s24_1 = 0;
   }
-  protoOf(InputTypeWithStringValue).p23 = function (event) {
-    return Week_getInstance().q26(event);
+  protoOf(InputTypeWithStringValue).l24 = function (event) {
+    return Week_getInstance().m27(event);
   };
   function InputTypeWithUnitValue(name) {
     InputType.call(this, name);
-    this.g23_1 = 0;
+    this.c24_1 = 0;
   }
-  protoOf(InputTypeWithUnitValue).h23 = function (event) {
+  protoOf(InputTypeWithUnitValue).d24 = function (event) {
     return Unit_instance;
   };
-  protoOf(InputTypeWithUnitValue).p23 = function (event) {
-    this.h23(event);
+  protoOf(InputTypeWithUnitValue).l24 = function (event) {
+    this.d24(event);
     return Unit_instance;
   };
   function InputTypeCheckedValue(name) {
     InputType.call(this, name);
-    this.o23_1 = 0;
+    this.k24_1 = 0;
   }
-  protoOf(InputTypeCheckedValue).p23 = function (event) {
+  protoOf(InputTypeCheckedValue).l24 = function (event) {
     var tmp0_safe_receiver = event.target;
     var tmp;
     if (tmp0_safe_receiver == null) {
@@ -510,9 +560,9 @@
   };
   function InputTypeNumberValue(name) {
     InputType.call(this, name);
-    this.b25_1 = 0;
+    this.x25_1 = 0;
   }
-  protoOf(InputTypeNumberValue).p23 = function (event) {
+  protoOf(InputTypeNumberValue).l24 = function (event) {
     var tmp0_safe_receiver = event.target;
     var tmp;
     if (tmp0_safe_receiver == null) {
@@ -527,7 +577,7 @@
   };
   function Companion() {
   }
-  protoOf(Companion).r26 = function (type) {
+  protoOf(Companion).n27 = function (type) {
     var tmp;
     switch (type) {
       case 'button':
@@ -601,10 +651,10 @@
     return Companion_instance;
   }
   function InputType(typeStr) {
-    this.g22_1 = typeStr;
-    this.h22_1 = 0;
+    this.y22_1 = typeStr;
+    this.z22_1 = 0;
   }
-  protoOf(InputType).q26 = function (event) {
+  protoOf(InputType).m27 = function (event) {
     var tmp0_safe_receiver = event.target;
     var tmp;
     if (tmp0_safe_receiver == null) {
@@ -626,92 +676,103 @@
     return tmp3_elvis_lhs == null ? '' : tmp3_elvis_lhs;
   };
   function SyntheticEventListener(event, listener) {
-    this.s26_1 = event;
-    this.t26_1 = listener;
-    this.u26_1 = this.s26_1;
-    this.v26_1 = 0;
+    this.o27_1 = event;
+    this.p27_1 = listener;
+    this.q27_1 = this.o27_1;
+    this.r27_1 = 0;
   }
-  protoOf(SyntheticEventListener).s1p = function () {
-    return this.u26_1;
+  protoOf(SyntheticEventListener).g1q = function () {
+    return this.q27_1;
   };
-  protoOf(SyntheticEventListener).w26 = function (event) {
+  protoOf(SyntheticEventListener).s27 = function (event) {
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
     var tmp$ret$1 = new SyntheticEvent(event);
-    this.t26_1(tmp$ret$1);
+    this.p27_1(tmp$ret$1);
   };
   protoOf(SyntheticEventListener).handleEvent = function (event) {
-    return this.w26(event);
+    return this.s27(event);
   };
   function InputEventListener(eventName, inputType, listener) {
     eventName = eventName === VOID ? 'input' : eventName;
     SyntheticEventListener.call(this, eventName, listener);
-    this.b27_1 = inputType;
-    this.c27_1 = 0;
+    this.x27_1 = inputType;
+    this.y27_1 = 0;
   }
-  protoOf(InputEventListener).w26 = function (event) {
-    var value = this.b27_1.p23(event);
-    this.t26_1(new SyntheticInputEvent(value, event));
+  protoOf(InputEventListener).s27 = function (event) {
+    var value = this.x27_1.l24(event);
+    this.p27_1(new SyntheticInputEvent(value, event));
   };
   protoOf(InputEventListener).handleEvent = function (event) {
-    return this.w26(event);
+    return this.s27(event);
   };
   function MouseEventListener(event, listener) {
     SyntheticEventListener.call(this, event, listener);
-    this.h27_1 = 0;
+    this.d28_1 = 0;
   }
-  protoOf(MouseEventListener).w26 = function (event) {
+  protoOf(MouseEventListener).s27 = function (event) {
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    this.t26_1(new SyntheticMouseEvent(event));
+    this.p27_1(new SyntheticMouseEvent(event));
   };
   protoOf(MouseEventListener).handleEvent = function (event) {
-    return this.w26(event);
+    return this.s27(event);
   };
   function InputAttrsScope(inputType, attrsScope) {
-    this.i27_1 = inputType;
-    this.j27_1 = attrsScope;
-    this.k27_1 = 8;
+    this.e28_1 = inputType;
+    this.f28_1 = attrsScope;
+    this.g28_1 = 8;
   }
-  protoOf(InputAttrsScope).f22 = function (attr, value) {
-    return this.j27_1.f22(attr, value);
+  protoOf(InputAttrsScope).x22 = function (attr, value) {
+    return this.f28_1.x22(attr, value);
   };
-  protoOf(InputAttrsScope).k22 = function (classes) {
-    this.j27_1.k22(classes);
+  protoOf(InputAttrsScope).c23 = function (classes) {
+    this.f28_1.c23(classes);
   };
-  protoOf(InputAttrsScope).j22 = function (classes) {
-    this.j27_1.j22(classes);
+  protoOf(InputAttrsScope).b23 = function (classes) {
+    this.f28_1.b23(classes);
   };
-  protoOf(InputAttrsScope).l22 = function (value) {
-    return this.j27_1.l22(value);
+  protoOf(InputAttrsScope).d23 = function (value) {
+    return this.f28_1.d23(value);
   };
-  protoOf(InputAttrsScope).o22 = function (listener) {
-    this.j27_1.o22(listener);
+  protoOf(InputAttrsScope).h23 = function (listener) {
+    this.f28_1.h23(listener);
   };
-  protoOf(InputAttrsScope).m22 = function (update, value) {
-    this.j27_1.m22(update, value);
+  protoOf(InputAttrsScope).i23 = function (listener) {
+    this.f28_1.i23(listener);
   };
-  protoOf(InputAttrsScope).n22 = function (listener) {
-    this.j27_1.n22(listener);
+  protoOf(InputAttrsScope).k23 = function (listener) {
+    this.f28_1.k23(listener);
   };
-  protoOf(InputAttrsScope).i22 = function (builder) {
-    this.j27_1.i22(builder);
+  protoOf(InputAttrsScope).j23 = function (listener) {
+    this.f28_1.j23(listener);
   };
-  protoOf(InputAttrsScope).l27 = function (value) {
-    var tmp0_subject = this.i27_1;
+  protoOf(InputAttrsScope).f23 = function (update, value) {
+    this.f28_1.f23(update, value);
+  };
+  protoOf(InputAttrsScope).h28 = function (effect) {
+    this.f28_1.e23(effect);
+  };
+  protoOf(InputAttrsScope).e23 = function (effect) {
+    return this.h28(effect);
+  };
+  protoOf(InputAttrsScope).g23 = function (listener) {
+    this.f28_1.g23(listener);
+  };
+  protoOf(InputAttrsScope).a23 = function (builder) {
+    this.f28_1.a23(builder);
+  };
+  protoOf(InputAttrsScope).i28 = function (value) {
+    var tmp0_subject = this.e28_1;
     if (((equals(tmp0_subject, Checkbox_getInstance()) ? true : equals(tmp0_subject, Radio_getInstance())) ? true : equals(tmp0_subject, Hidden_getInstance())) ? true : equals(tmp0_subject, Submit_getInstance())) {
-      this.f22('value', value);
+      this.x22('value', value);
     } else {
-      this.m22(get_setInputValue(), value);
+      this.f23(get_setInputValue(), value);
     }
     return this;
   };
-  protoOf(InputAttrsScope).m27 = function (value) {
-    this.l27(toString(value));
-    return this;
-  };
-  protoOf(InputAttrsScope).n27 = function (listener) {
-    this.n22(new InputEventListener('input', this.i27_1, listener));
+  protoOf(InputAttrsScope).j28 = function (listener) {
+    this.g23(new InputEventListener('input', this.e28_1, listener));
   };
   function get_controlledInputsValuesWeakMap() {
     _init_properties_InternalControlledInputUtils_kt__h0qaxa();
@@ -747,7 +808,7 @@
         var key = element.name;
         // Inline function 'kotlin.collections.mutableSetOf' call
         var value = LinkedHashSet_init_$Create$();
-        this_1.t3(key, value);
+        this_1.y3(key, value);
       }
       ensureNotNull(get_controlledRadioGroups().l1(element.name)).d(element);
     }
@@ -755,7 +816,7 @@
   function DisposeRadioGroupEffect(_this__u8e3s4, $composer, $changed) {
     _init_properties_InternalControlledInputUtils_kt__h0qaxa();
     var $composer_0 = $composer;
-    $composer_0.g18(-1451478773);
+    $composer_0.p18(-1451478773);
     if (isTraceInProgress()) {
       traceEventStart(-1451478773, $changed, -1, 'org.jetbrains.compose.web.attributes.builders.DisposeRadioGroupEffect (InternalControlledInputUtils.kt:67)');
     }
@@ -763,11 +824,11 @@
     if (isTraceInProgress()) {
       traceEventEnd();
     }
-    $composer_0.h18();
+    $composer_0.q18();
   }
   function restoreControlledInputState(inputElement) {
     _init_properties_InternalControlledInputUtils_kt__h0qaxa();
-    var type = Companion_instance.r26(inputElement.type);
+    var type = Companion_instance.n27(inputElement.type);
     if (get_controlledInputsValuesWeakMap().has(inputElement)) {
       if (equals(type, Radio_getInstance())) {
         var tmp0_safe_receiver = get_controlledRadioGroups().l1(inputElement.name);
@@ -793,23 +854,23 @@
     }
   }
   function _no_name_provided__qut3iv($ref) {
-    this.o27_1 = $ref;
+    this.k28_1 = $ref;
   }
-  protoOf(_no_name_provided__qut3iv).oh = function () {
+  protoOf(_no_name_provided__qut3iv).vh = function () {
     // Inline function 'org.jetbrains.compose.web.attributes.builders.DisposeRadioGroupEffect.<anonymous>.<anonymous>' call
-    var tmp0_safe_receiver = get_controlledRadioGroups().l1(this.o27_1.name);
+    var tmp0_safe_receiver = get_controlledRadioGroups().l1(this.k28_1.name);
     if (tmp0_safe_receiver == null)
       null;
     else
-      tmp0_safe_receiver.a1(this.o27_1);
-    var tmp1_safe_receiver = get_controlledRadioGroups().l1(this.o27_1.name);
+      tmp0_safe_receiver.b1(this.k28_1);
+    var tmp1_safe_receiver = get_controlledRadioGroups().l1(this.k28_1.name);
     if ((tmp1_safe_receiver == null ? null : tmp1_safe_receiver.p()) === true) {
-      get_controlledRadioGroups().u3(this.o27_1.name);
+      get_controlledRadioGroups().z3(this.k28_1.name);
     }
   };
   function DisposeRadioGroupEffect$lambda($this_DisposeRadioGroupEffect) {
     return function ($this$DisposableEffect) {
-      var ref = $this_DisposeRadioGroupEffect.p27($this$DisposableEffect);
+      var ref = $this_DisposeRadioGroupEffect.l28($this$DisposableEffect);
       // Inline function 'androidx.compose.runtime.DisposableEffectScope.onDispose' call
       return new _no_name_provided__qut3iv(ref);
     };
@@ -825,41 +886,56 @@
     }
   }
   function SelectAttrsScope(attrsScope) {
-    this.q27_1 = attrsScope;
-    this.r27_1 = 8;
+    this.m28_1 = attrsScope;
+    this.n28_1 = 8;
   }
-  protoOf(SelectAttrsScope).f22 = function (attr, value) {
-    return this.q27_1.f22(attr, value);
+  protoOf(SelectAttrsScope).x22 = function (attr, value) {
+    return this.m28_1.x22(attr, value);
   };
-  protoOf(SelectAttrsScope).k22 = function (classes) {
-    this.q27_1.k22(classes);
+  protoOf(SelectAttrsScope).c23 = function (classes) {
+    this.m28_1.c23(classes);
   };
-  protoOf(SelectAttrsScope).j22 = function (classes) {
-    this.q27_1.j22(classes);
+  protoOf(SelectAttrsScope).b23 = function (classes) {
+    this.m28_1.b23(classes);
   };
-  protoOf(SelectAttrsScope).l22 = function (value) {
-    return this.q27_1.l22(value);
+  protoOf(SelectAttrsScope).d23 = function (value) {
+    return this.m28_1.d23(value);
   };
-  protoOf(SelectAttrsScope).o22 = function (listener) {
-    this.q27_1.o22(listener);
+  protoOf(SelectAttrsScope).h23 = function (listener) {
+    this.m28_1.h23(listener);
   };
-  protoOf(SelectAttrsScope).m22 = function (update, value) {
-    this.q27_1.m22(update, value);
+  protoOf(SelectAttrsScope).i23 = function (listener) {
+    this.m28_1.i23(listener);
   };
-  protoOf(SelectAttrsScope).n22 = function (listener) {
-    this.q27_1.n22(listener);
+  protoOf(SelectAttrsScope).k23 = function (listener) {
+    this.m28_1.k23(listener);
   };
-  protoOf(SelectAttrsScope).i22 = function (builder) {
-    this.q27_1.i22(builder);
+  protoOf(SelectAttrsScope).j23 = function (listener) {
+    this.m28_1.j23(listener);
   };
-  protoOf(SelectAttrsScope).s27 = function (listener) {
-    this.n22(new SelectInputEventListener('input', listener));
+  protoOf(SelectAttrsScope).f23 = function (update, value) {
+    this.m28_1.f23(update, value);
+  };
+  protoOf(SelectAttrsScope).o28 = function (effect) {
+    this.m28_1.e23(effect);
+  };
+  protoOf(SelectAttrsScope).e23 = function (effect) {
+    return this.o28(effect);
+  };
+  protoOf(SelectAttrsScope).g23 = function (listener) {
+    this.m28_1.g23(listener);
+  };
+  protoOf(SelectAttrsScope).a23 = function (builder) {
+    this.m28_1.a23(builder);
+  };
+  protoOf(SelectAttrsScope).p28 = function (listener) {
+    this.g23(new SelectInputEventListener('input', listener));
   };
   function SelectInputEventListener(eventName, listener) {
     eventName = eventName === VOID ? 'input' : eventName;
     SyntheticEventListener.call(this, eventName, listener);
   }
-  protoOf(SelectInputEventListener).w26 = function (event) {
+  protoOf(SelectInputEventListener).s27 = function (event) {
     var tmp0_safe_receiver = event.target;
     var tmp;
     if (tmp0_safe_receiver == null) {
@@ -870,16 +946,34 @@
     }
     var tmp1_safe_receiver = tmp.value;
     var value = tmp1_safe_receiver == null ? null : toString(tmp1_safe_receiver);
-    this.t26_1(new SyntheticInputEvent(value, event));
+    this.p27_1(new SyntheticInputEvent(value, event));
   };
   protoOf(SelectInputEventListener).handleEvent = function (event) {
-    return this.w26(event);
+    return this.s27(event);
   };
   function Companion_0() {
   }
   var Companion_instance_0;
   function Companion_getInstance_1() {
     return Companion_instance_0;
+  }
+  function Companion_1() {
+  }
+  var Companion_instance_1;
+  function Companion_getInstance_2() {
+    return Companion_instance_1;
+  }
+  function Companion_2() {
+  }
+  var Companion_instance_2;
+  function Companion_getInstance_3() {
+    return Companion_instance_2;
+  }
+  function Companion_3() {
+  }
+  var Companion_instance_3;
+  function Companion_getInstance_4() {
+    return Companion_instance_3;
   }
   function get_px(_this__u8e3s4) {
     var tmp = numberToDouble(_this__u8e3s4);
@@ -888,23 +982,30 @@
     // Inline function 'kotlin.js.asDynamic' call
     return new CSSUnitValueTyped(tmp, 'px');
   }
+  function get_percent(_this__u8e3s4) {
+    var tmp = numberToDouble(_this__u8e3s4);
+    // Inline function 'org.jetbrains.compose.web.css.Companion.percent' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return new CSSUnitValueTyped(tmp, '%');
+  }
   function CSSUnitValueTyped(value, unit) {
-    this.x27_1 = value;
-    this.y27_1 = unit;
-    this.z27_1 = 0;
+    this.u28_1 = value;
+    this.v28_1 = unit;
+    this.w28_1 = 0;
   }
   protoOf(CSSUnitValueTyped).i1 = function () {
-    return this.x27_1;
+    return this.u28_1;
   };
-  protoOf(CSSUnitValueTyped).a28 = function () {
-    return this.y27_1;
+  protoOf(CSSUnitValueTyped).x28 = function () {
+    return this.v28_1;
   };
   protoOf(CSSUnitValueTyped).toString = function () {
-    return '' + this.x27_1 + toString(this.y27_1);
+    return '' + this.u28_1 + toString(this.v28_1);
   };
   protoOf(CSSUnitValueTyped).hashCode = function () {
-    var result = getNumberHashCode(this.x27_1);
-    result = imul(result, 31) + hashCode(this.y27_1) | 0;
+    var result = getNumberHashCode(this.u28_1);
+    result = imul(result, 31) + hashCode(this.v28_1) | 0;
     return result;
   };
   protoOf(CSSUnitValueTyped).equals = function (other) {
@@ -913,34 +1014,48 @@
     if (!(other instanceof CSSUnitValueTyped))
       return false;
     var tmp0_other_with_cast = other instanceof CSSUnitValueTyped ? other : THROW_CCE();
-    if (!equals(this.x27_1, tmp0_other_with_cast.x27_1))
+    if (!equals(this.u28_1, tmp0_other_with_cast.u28_1))
       return false;
-    if (!equals(this.y27_1, tmp0_other_with_cast.y27_1))
+    if (!equals(this.v28_1, tmp0_other_with_cast.v28_1))
       return false;
     return true;
   };
+  function Color_0() {
+    this.y28_1 = 0;
+  }
+  var Color_instance_0;
+  function Color_getInstance_0() {
+    return Color_instance_0;
+  }
+  function Color_1(name) {
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    return name;
+  }
+  function StyleScope() {
+  }
   function StyleScopeBuilder() {
     var tmp = this;
     // Inline function 'kotlin.collections.mutableListOf' call
-    tmp.b28_1 = ArrayList_init_$Create$();
+    tmp.c29_1 = ArrayList_init_$Create$();
     var tmp_0 = this;
     // Inline function 'kotlin.collections.mutableListOf' call
-    tmp_0.c28_1 = ArrayList_init_$Create$();
-    this.d28_1 = 0;
+    tmp_0.d29_1 = ArrayList_init_$Create$();
+    this.e29_1 = 0;
   }
-  protoOf(StyleScopeBuilder).e28 = function () {
-    return this.b28_1;
+  protoOf(StyleScopeBuilder).f29 = function () {
+    return this.c29_1;
   };
-  protoOf(StyleScopeBuilder).f28 = function () {
-    return this.c28_1;
+  protoOf(StyleScopeBuilder).g29 = function () {
+    return this.d29_1;
   };
-  protoOf(StyleScopeBuilder).g28 = function (propertyName, value) {
-    this.e28().d(new StylePropertyDeclaration(propertyName, value));
+  protoOf(StyleScopeBuilder).z28 = function (propertyName, value) {
+    this.f29().d(new StylePropertyDeclaration(propertyName, value));
   };
   protoOf(StyleScopeBuilder).equals = function (other) {
     var tmp;
     if (!(other == null) ? isInterface(other, StyleHolder) : false) {
-      tmp = (nativeEquals(this.e28(), other.e28()) && nativeEquals(this.f28(), other.f28()));
+      tmp = (nativeEquals(this.f29(), other.f29()) && nativeEquals(this.g29(), other.g29()));
     } else {
       tmp = false;
     }
@@ -949,22 +1064,22 @@
   function StyleHolder() {
   }
   function StylePropertyDeclaration(name, value) {
-    this.h28_1 = name;
-    this.i28_1 = value;
-    this.j28_1 = 8;
+    this.h29_1 = name;
+    this.i29_1 = value;
+    this.j29_1 = 8;
   }
-  protoOf(StylePropertyDeclaration).lb = function () {
-    return this.h28_1;
+  protoOf(StylePropertyDeclaration).sb = function () {
+    return this.h29_1;
   };
-  protoOf(StylePropertyDeclaration).mb = function () {
-    return this.i28_1;
+  protoOf(StylePropertyDeclaration).tb = function () {
+    return this.i29_1;
   };
   protoOf(StylePropertyDeclaration).toString = function () {
-    return 'StylePropertyDeclaration(name=' + this.h28_1 + ', value=' + toString(this.i28_1) + ')';
+    return 'StylePropertyDeclaration(name=' + this.h29_1 + ', value=' + toString(this.i29_1) + ')';
   };
   protoOf(StylePropertyDeclaration).hashCode = function () {
-    var result = getStringHashCode(this.h28_1);
-    result = imul(result, 31) + hashCode(this.i28_1) | 0;
+    var result = getStringHashCode(this.h29_1);
+    result = imul(result, 31) + hashCode(this.i29_1) | 0;
     return result;
   };
   protoOf(StylePropertyDeclaration).equals = function (other) {
@@ -973,9 +1088,9 @@
     if (!(other instanceof StylePropertyDeclaration))
       return false;
     var tmp0_other_with_cast = other instanceof StylePropertyDeclaration ? other : THROW_CCE();
-    if (!(this.h28_1 === tmp0_other_with_cast.h28_1))
+    if (!(this.h29_1 === tmp0_other_with_cast.h29_1))
       return false;
-    if (!equals(this.i28_1, tmp0_other_with_cast.i28_1))
+    if (!equals(this.i29_1, tmp0_other_with_cast.i29_1))
       return false;
     return true;
   };
@@ -1003,7 +1118,7 @@
         var tmp0 = index;
         index = tmp0 + 1 | 0;
         var otherProp = properties.o(tmp0);
-        if (!(element.h28_1 === otherProp.h28_1 && toString(element.i28_1) === toString(otherProp.i28_1))) {
+        if (!(element.h29_1 === otherProp.h29_1 && toString(element.i29_1) === toString(otherProp.i29_1))) {
           tmp$ret$0 = false;
           break $l$block_0;
         }
@@ -1012,20 +1127,138 @@
     }
     return tmp$ret$0;
   }
-  function marginTop(_this__u8e3s4, value) {
-    _this__u8e3s4.g28('margin-top', value);
+  function background(_this__u8e3s4, value) {
+    _this__u8e3s4.a29('background', value);
+  }
+  function border(_this__u8e3s4, width, style, color) {
+    width = width === VOID ? null : width;
+    style = style === VOID ? null : style;
+    color = color === VOID ? null : color;
+    border_0(_this__u8e3s4, border$lambda(width, style, color));
+  }
+  function borderRadius(_this__u8e3s4, r) {
+    _this__u8e3s4.z28('border-radius', r);
+  }
+  function border_0(_this__u8e3s4, borderBuild) {
+    // Inline function 'kotlin.apply' call
+    var this_0 = new CSSBorder();
+    // Inline function 'kotlin.contracts.contract' call
+    borderBuild(this_0);
+    _this__u8e3s4.z28('border', this_0);
+  }
+  function CSSBorder() {
+    this.k29_1 = null;
+    this.l29_1 = null;
+    this.m29_1 = null;
+    this.n29_1 = 8;
+  }
+  protoOf(CSSBorder).equals = function (other) {
+    var tmp;
+    if (other instanceof CSSBorder) {
+      tmp = (equals(this.k29_1, other.k29_1) && equals(this.l29_1, other.l29_1) && equals(this.m29_1, other.m29_1));
+    } else {
+      tmp = false;
+    }
+    return tmp;
+  };
+  protoOf(CSSBorder).toString = function () {
+    var values = listOfNotNull([this.k29_1, this.l29_1, this.m29_1]);
+    return joinToString(values, ' ');
+  };
+  function width(_this__u8e3s4, size) {
+    _this__u8e3s4.k29_1 = size;
+  }
+  function style(_this__u8e3s4, style) {
+    _this__u8e3s4.l29_1 = style;
+  }
+  function color(_this__u8e3s4, color) {
+    _this__u8e3s4.m29_1 = color;
+  }
+  function border$lambda($width, $style, $color) {
+    return function ($this$border) {
+      var tmp0_safe_receiver = $width;
+      if (tmp0_safe_receiver == null)
+        null;
+      else {
+        // Inline function 'kotlin.let' call
+        // Inline function 'kotlin.contracts.contract' call
+        width($this$border, tmp0_safe_receiver);
+      }
+      var tmp1_safe_receiver = $style;
+      if (tmp1_safe_receiver == null)
+        null;
+      else {
+        // Inline function 'kotlin.let' call
+        // Inline function 'kotlin.contracts.contract' call
+        style($this$border, tmp1_safe_receiver);
+      }
+      var tmp2_safe_receiver = $color;
+      if (tmp2_safe_receiver == null)
+        null;
+      else {
+        // Inline function 'kotlin.let' call
+        // Inline function 'kotlin.contracts.contract' call
+        color($this$border, tmp2_safe_receiver);
+      }
+      return Unit_instance;
+    };
+  }
+  function width_0(_this__u8e3s4, value) {
+    _this__u8e3s4.z28('width', value);
+  }
+  function height(_this__u8e3s4, value) {
+    _this__u8e3s4.z28('height', value);
+  }
+  function color_0(_this__u8e3s4, value) {
+    _this__u8e3s4.z28('color', value);
+  }
+  function alignItems(_this__u8e3s4, alignItems) {
+    // Inline function 'org.jetbrains.compose.web.css.value' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    _this__u8e3s4.a29('align-items', alignItems);
+  }
+  function flex(_this__u8e3s4, value) {
+    _this__u8e3s4.b29('flex', value);
+  }
+  function gap(_this__u8e3s4, value) {
+    _this__u8e3s4.z28('gap', value);
+  }
+  function marginLeft(_this__u8e3s4, value) {
+    _this__u8e3s4.z28('margin-left', value);
+  }
+  function padding(_this__u8e3s4, value) {
+    _this__u8e3s4.a29('padding', joinToString_0(value, ' '));
+  }
+  function position(_this__u8e3s4, position) {
+    // Inline function 'org.jetbrains.compose.web.css.value' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    _this__u8e3s4.a29('position', position);
+  }
+  function left(_this__u8e3s4, value) {
+    _this__u8e3s4.z28('left', value);
+  }
+  function display(_this__u8e3s4, displayStyle) {
+    // Inline function 'org.jetbrains.compose.web.css.value' call
+    // Inline function 'kotlin.js.unsafeCast' call
+    // Inline function 'kotlin.js.asDynamic' call
+    _this__u8e3s4.a29('display', displayStyle);
+  }
+  function fontSize(_this__u8e3s4, value) {
+    _this__u8e3s4.z28('font-size', value);
   }
   function TagElement(elementBuilder, applyAttrs, content, $composer, $changed) {
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.o19(-576127026);
+    $composer_0 = $composer_0.z19(-576127026);
     var $dirty = $changed;
     if (($changed & 14) === 0)
-      $dirty = $dirty | ($composer_0.uz(elementBuilder) ? 4 : 2);
+      $dirty = $dirty | ($composer_0.b10(elementBuilder) ? 4 : 2);
     if (($changed & 112) === 0)
-      $dirty = $dirty | ($composer_0.b19(applyAttrs) ? 32 : 16);
+      $dirty = $dirty | ($composer_0.k19(applyAttrs) ? 32 : 16);
     if (($changed & 896) === 0)
-      $dirty = $dirty | ($composer_0.b19(content) ? 256 : 128);
-    if (!(($dirty & 731) === 146) || !$composer_0.d18()) {
+      $dirty = $dirty | ($composer_0.k19(content) ? 256 : 128);
+    if (!(($dirty & 731) === 146) || !$composer_0.k18()) {
       if (isTraceInProgress()) {
         traceEventStart(-576127026, $dirty, -1, 'org.jetbrains.compose.web.dom.TagElement (Base.kt:110)');
       }
@@ -1036,12 +1269,12 @@
       // Inline function 'kotlin.let' call
       // Inline function 'kotlin.contracts.contract' call
       // Inline function 'androidx.compose.runtime.cache.<anonymous>' call
-      var it = $composer_1.g1a();
+      var it = $composer_1.r1a();
       var tmp;
-      if (false || it === Companion_getInstance().c13_1) {
+      if (false || it === Companion_getInstance().j13_1) {
         // Inline function 'org.jetbrains.compose.web.dom.TagElement.<anonymous>' call
         var value = new ElementScopeImpl();
-        $composer_1.h1a(value);
+        $composer_1.s1a(value);
         tmp = value;
       } else {
         tmp = it;
@@ -1053,12 +1286,12 @@
       var refEffect = null;
       // Inline function 'org.jetbrains.compose.web.dom.ComposeDomNode' call
       var $composer_2 = $composer_0;
-      $composer_2.b13();
-      if ($composer_2.m18()) {
+      $composer_2.i13();
+      if ($composer_2.v18()) {
         var tmp_1 = $composer_2;
-        tmp_1.p18(TagElement$lambda(elementBuilder, scope));
+        tmp_1.y18(TagElement$lambda(elementBuilder, scope));
       } else {
-        $composer_2.s18();
+        $composer_2.b19();
       }
       // Inline function 'org.jetbrains.compose.web.dom.TagElement.<anonymous>' call
       var $this$ComposeDomNode = _SkippableUpdater___init__impl__4ft0t9($composer_2);
@@ -1068,28 +1301,28 @@
         null;
       else
         applyAttrs(attrsScope);
-      refEffect = attrsScope.t22_1;
+      refEffect = attrsScope.p23_1;
       // Inline function 'androidx.compose.runtime.SkippableUpdater.update' call
-      _SkippableUpdater___get_composer__impl__6t7yne($this$ComposeDomNode).g18(509942095);
+      _SkippableUpdater___get_composer__impl__6t7yne($this$ComposeDomNode).p18(509942095);
       // Inline function 'org.jetbrains.compose.web.dom.TagElement.<anonymous>.<anonymous>' call
       var $this$update = _Updater___init__impl__rbfxm8(_SkippableUpdater___get_composer__impl__6t7yne($this$ComposeDomNode));
-      Updater__set_impl_v7kwss($this$update, attrsScope.u22_1, DomElementWrapper$updateClasses$ref());
-      Updater__set_impl_v7kwss($this$update, attrsScope.r22_1, DomElementWrapper$updateStyleDeclarations$ref());
-      var tmp_2 = attrsScope.y22();
+      Updater__set_impl_v7kwss($this$update, attrsScope.q23_1, DomElementWrapper$updateClasses$ref());
+      Updater__set_impl_v7kwss($this$update, attrsScope.n23_1, DomElementWrapper$updateStyleDeclarations$ref());
+      var tmp_2 = attrsScope.u23();
       Updater__set_impl_v7kwss($this$update, tmp_2, DomElementWrapper$updateAttrs$ref());
-      var tmp_3 = attrsScope.p22_1.z22();
+      var tmp_3 = attrsScope.l23_1.v23();
       Updater__set_impl_v7kwss($this$update, tmp_3, DomElementWrapper$updateEventListeners$ref());
-      Updater__set_impl_v7kwss($this$update, attrsScope.s22_1, DomElementWrapper$updateProperties$ref());
-      _SkippableUpdater___get_composer__impl__6t7yne($this$ComposeDomNode).h18();
-      $composer_2.g18(2058660585);
+      Updater__set_impl_v7kwss($this$update, attrsScope.o23_1, DomElementWrapper$updateProperties$ref());
+      _SkippableUpdater___get_composer__impl__6t7yne($this$ComposeDomNode).q18();
+      $composer_2.p18(2058660585);
       // Inline function 'org.jetbrains.compose.web.dom.TagElement.<anonymous>' call
       var $changed_0 = 8 & 64 >> 3 | 14 & 64 >> 3 | 112 & 64 >> 6;
       var $composer_4 = $composer_2;
-      $composer_4.g18(-914956529);
+      $composer_4.p18(-914956529);
       content == null || content(scope, $composer_4, 14 & $changed_0 | 112 & $dirty >> 3);
-      $composer_4.h18();
-      $composer_2.h18();
-      $composer_2.u18();
+      $composer_4.q18();
+      $composer_2.q18();
+      $composer_2.d19();
       var tmp0_safe_receiver = refEffect;
       var tmp_4;
       if (tmp0_safe_receiver == null) {
@@ -1104,53 +1337,53 @@
         traceEventEnd();
       }
     } else {
-      $composer_0.t12();
+      $composer_0.a13();
     }
-    var tmp1_safe_receiver = $composer_0.p19();
+    var tmp1_safe_receiver = $composer_0.a1a();
     if (tmp1_safe_receiver == null)
       null;
     else {
-      tmp1_safe_receiver.p1f(TagElement$lambda_1(elementBuilder, applyAttrs, content, $changed));
+      tmp1_safe_receiver.d1g(TagElement$lambda_1(elementBuilder, applyAttrs, content, $changed));
     }
   }
   function DomElementWrapper(node) {
     DomNodeWrapper.call(this, node);
-    this.m28_1 = node;
-    this.n28_1 = emptyList();
+    this.q29_1 = node;
+    this.r29_1 = emptyList();
   }
-  protoOf(DomElementWrapper).s20 = function () {
-    return this.m28_1;
+  protoOf(DomElementWrapper).k21 = function () {
+    return this.q29_1;
   };
-  protoOf(DomElementWrapper).o28 = function (list) {
+  protoOf(DomElementWrapper).s29 = function (list) {
     // Inline function 'kotlin.collections.forEach' call
-    var tmp0_iterator = this.n28_1.f();
+    var tmp0_iterator = this.r29_1.f();
     while (tmp0_iterator.g()) {
       var element = tmp0_iterator.h();
       // Inline function 'org.jetbrains.compose.web.dom.DomElementWrapper.updateEventListeners.<anonymous>' call
-      this.m28_1.removeEventListener(element.s1p(), element);
+      this.q29_1.removeEventListener(element.g1q(), element);
     }
-    this.n28_1 = list;
+    this.r29_1 = list;
     // Inline function 'kotlin.collections.forEach' call
-    var tmp0_iterator_0 = this.n28_1.f();
+    var tmp0_iterator_0 = this.r29_1.f();
     while (tmp0_iterator_0.g()) {
       var element_0 = tmp0_iterator_0.h();
       // Inline function 'org.jetbrains.compose.web.dom.DomElementWrapper.updateEventListeners.<anonymous>' call
-      this.m28_1.addEventListener(element_0.s1p(), element_0);
+      this.q29_1.addEventListener(element_0.g1q(), element_0);
     }
   };
-  protoOf(DomElementWrapper).p28 = function (applicators) {
+  protoOf(DomElementWrapper).t29 = function (applicators) {
     // Inline function 'kotlin.collections.forEach' call
     var tmp0_iterator = applicators.f();
     while (tmp0_iterator.g()) {
       var element = tmp0_iterator.h();
       // Inline function 'org.jetbrains.compose.web.dom.DomElementWrapper.updateProperties.<anonymous>' call
-      var applicator = element.lb();
-      var item = element.mb();
-      applicator(this.m28_1, item);
+      var applicator = element.sb();
+      var item = element.tb();
+      applicator(this.q29_1, item);
     }
   };
-  protoOf(DomElementWrapper).q28 = function (styleApplier) {
-    var tmp0_subject = this.m28_1;
+  protoOf(DomElementWrapper).u29 = function (styleApplier) {
+    var tmp0_subject = this.q29_1;
     var tmp;
     if (tmp0_subject instanceof HTMLElement) {
       tmp = true;
@@ -1158,33 +1391,33 @@
       tmp = tmp0_subject instanceof SVGElement;
     }
     if (tmp) {
-      this.m28_1.removeAttribute('style');
+      this.q29_1.removeAttribute('style');
       // Inline function 'kotlin.js.unsafeCast' call
       // Inline function 'kotlin.js.asDynamic' call
-      var style = this.m28_1.style;
+      var style = this.q29_1.style;
       // Inline function 'kotlin.collections.forEach' call
-      var tmp0_iterator = styleApplier.e28().f();
+      var tmp0_iterator = styleApplier.f29().f();
       while (tmp0_iterator.g()) {
         var element = tmp0_iterator.h();
         // Inline function 'org.jetbrains.compose.web.dom.DomElementWrapper.updateStyleDeclarations.<anonymous>' call
-        var name = element.lb();
-        var value = element.mb();
+        var name = element.sb();
+        var value = element.tb();
         style.setProperty(name, toString(value));
       }
       // Inline function 'kotlin.collections.forEach' call
-      var tmp0_iterator_0 = styleApplier.f28().f();
+      var tmp0_iterator_0 = styleApplier.g29().f();
       while (tmp0_iterator_0.g()) {
         var element_0 = tmp0_iterator_0.h();
         // Inline function 'org.jetbrains.compose.web.dom.DomElementWrapper.updateStyleDeclarations.<anonymous>' call
-        var name_0 = element_0.lb();
-        var value_0 = element_0.mb();
+        var name_0 = element_0.sb();
+        var value_0 = element_0.tb();
         style.setProperty(name_0, toString(value_0));
       }
     }
   };
-  protoOf(DomElementWrapper).r28 = function (attrs) {
+  protoOf(DomElementWrapper).v29 = function (attrs) {
     // Inline function 'kotlin.collections.forEach' call
-    var indexedObject = this.m28_1.getAttributeNames();
+    var indexedObject = this.q29_1.getAttributeNames();
     var inductionVariable = 0;
     var last = indexedObject.length;
     while (inductionVariable < last) {
@@ -1196,24 +1429,24 @@
         case 'class':
           break;
         default:
-          this.m28_1.removeAttribute(element);
+          this.q29_1.removeAttribute(element);
           break;
       }
     }
     // Inline function 'kotlin.collections.forEach' call
     // Inline function 'kotlin.collections.iterator' call
-    var tmp0_iterator = attrs.n1().f();
+    var tmp0_iterator = attrs.o1().f();
     while (tmp0_iterator.g()) {
       var element_0 = tmp0_iterator.h();
       // Inline function 'org.jetbrains.compose.web.dom.DomElementWrapper.updateAttrs.<anonymous>' call
-      this.m28_1.setAttribute(element_0.h1(), element_0.i1());
+      this.q29_1.setAttribute(element_0.h1(), element_0.i1());
     }
   };
-  protoOf(DomElementWrapper).s28 = function (classes) {
-    this.m28_1.removeAttribute('class');
+  protoOf(DomElementWrapper).w29 = function (classes) {
+    this.q29_1.removeAttribute('class');
     // Inline function 'kotlin.collections.isNotEmpty' call
     if (!classes.p()) {
-      var tmp = this.m28_1.classList;
+      var tmp = this.q29_1.classList;
       // Inline function 'kotlin.collections.toTypedArray' call
       var tmp$ret$1 = copyToArray(classes);
       (function () {
@@ -1225,14 +1458,14 @@
   function TagElement$lambda($elementBuilder, $scope) {
     return function () {
       // Inline function 'org.jetbrains.compose.web.dom.TagElement.<anonymous>' call
-      var node = $elementBuilder.c1n();
-      $scope.x28(node);
+      var node = $elementBuilder.q1n();
+      $scope.b2a(node);
       return new DomElementWrapper(node);
     };
   }
   function DomElementWrapper$updateClasses$ref() {
     var l = function (p0, p1) {
-      p0.s28(p1);
+      p0.w29(p1);
       return Unit_instance;
     };
     l.callableName = 'updateClasses';
@@ -1240,7 +1473,7 @@
   }
   function DomElementWrapper$updateStyleDeclarations$ref() {
     var l = function (p0, p1) {
-      p0.q28(p1);
+      p0.u29(p1);
       return Unit_instance;
     };
     l.callableName = 'updateStyleDeclarations';
@@ -1248,7 +1481,7 @@
   }
   function DomElementWrapper$updateAttrs$ref() {
     var l = function (p0, p1) {
-      p0.r28(p1);
+      p0.v29(p1);
       return Unit_instance;
     };
     l.callableName = 'updateAttrs';
@@ -1256,7 +1489,7 @@
   }
   function DomElementWrapper$updateEventListeners$ref() {
     var l = function (p0, p1) {
-      p0.o28(p1);
+      p0.s29(p1);
       return Unit_instance;
     };
     l.callableName = 'updateEventListeners';
@@ -1264,7 +1497,7 @@
   }
   function DomElementWrapper$updateProperties$ref() {
     var l = function (p0, p1) {
-      p0.p28(p1);
+      p0.t29(p1);
       return Unit_instance;
     };
     l.callableName = 'updateProperties';
@@ -1272,7 +1505,7 @@
   }
   function TagElement$lambda_0($this, $scope) {
     return function ($this$DisposableEffect) {
-      return $this($this$DisposableEffect, $scope.y28());
+      return $this($this$DisposableEffect, $scope.c2a());
     };
   }
   function TagElement$lambda_1($elementBuilder, $applyAttrs, $content, $$changed) {
@@ -1283,25 +1516,25 @@
   }
   function ElementScopeImpl() {
     ElementScopeBase.call(this);
-    this.w28_1 = 8;
+    this.a2a_1 = 8;
   }
-  protoOf(ElementScopeImpl).x28 = function (_set____db54di) {
-    this.v28_1 = _set____db54di;
+  protoOf(ElementScopeImpl).b2a = function (_set____db54di) {
+    this.z29_1 = _set____db54di;
   };
-  protoOf(ElementScopeImpl).y28 = function () {
-    var tmp = this.v28_1;
+  protoOf(ElementScopeImpl).c2a = function () {
+    var tmp = this.z29_1;
     if (!(tmp == null))
       return tmp;
     else {
       throwUninitializedPropertyAccessException('element');
     }
   };
-  protoOf(ElementScopeImpl).p27 = function (_this__u8e3s4) {
-    return this.y28();
+  protoOf(ElementScopeImpl).l28 = function (_this__u8e3s4) {
+    return this.c2a();
   };
   function ElementScopeBase() {
-    this.z28_1 = 0;
-    this.a29_1 = 8;
+    this.d2a_1 = 0;
+    this.e2a_1 = 8;
   }
   var Address;
   var Article;
@@ -1348,11 +1581,11 @@
     return Button_0;
   }
   var Button_0;
-  function get_H1() {
-    _init_properties_Elements_kt__eyv5nt();
-    return H1;
-  }
   var H1;
+  function get_H2() {
+    _init_properties_Elements_kt__eyv5nt();
+    return H2;
+  }
   var H2;
   var H3;
   var H4;
@@ -1366,11 +1599,19 @@
   var Sup;
   var Sub;
   var Blockquote;
+  function get_Span() {
+    _init_properties_Elements_kt__eyv5nt();
+    return Span;
+  }
   var Span;
   var Br;
   var Ul;
   var Ol;
   var Li;
+  function get_Img() {
+    _init_properties_Elements_kt__eyv5nt();
+    return Img;
+  }
   var Img;
   var Form;
   function get_Select() {
@@ -1392,10 +1633,6 @@
   var Main;
   var Footer;
   var Hr;
-  function get_Label() {
-    _init_properties_Elements_kt__eyv5nt();
-    return Label;
-  }
   var Label;
   var Table;
   var Caption;
@@ -1410,165 +1647,40 @@
   var Style;
   function _get_el__ndc0ck($this) {
     // Inline function 'kotlin.getValue' call
-    var this_0 = $this.c29_1;
+    var this_0 = $this.g2a_1;
     el$factory();
     return this_0.i1();
   }
   function ElementBuilderImplementation$el$delegate$lambda(this$0) {
     return function () {
-      return document.createElement(this$0.b29_1);
+      return document.createElement(this$0.f2a_1);
     };
   }
   function ElementBuilderImplementation(tagName) {
-    this.b29_1 = tagName;
+    this.f2a_1 = tagName;
     var tmp = this;
-    tmp.c29_1 = lazy(ElementBuilderImplementation$el$delegate$lambda(this));
+    tmp.g2a_1 = lazy(ElementBuilderImplementation$el$delegate$lambda(this));
   }
-  protoOf(ElementBuilderImplementation).c1n = function () {
+  protoOf(ElementBuilderImplementation).q1n = function () {
     var tmp = _get_el__ndc0ck(this).cloneNode();
     return tmp instanceof Element ? tmp : THROW_CCE();
   };
-  function Text_1(value, $composer, $changed) {
-    _init_properties_Elements_kt__eyv5nt();
-    var $composer_0 = $composer;
-    $composer_0 = $composer_0.o19(-1813500779);
-    var $dirty = $changed;
-    if (($changed & 14) === 0)
-      $dirty = $dirty | ($composer_0.uz(value) ? 4 : 2);
-    if (!(($dirty & 11) === 2) || !$composer_0.d18()) {
-      if (isTraceInProgress()) {
-        traceEventStart(-1813500779, $dirty, -1, 'org.jetbrains.compose.web.dom.Text (Elements.kt:482)');
-      }
-      // Inline function 'androidx.compose.runtime.ComposeNode' call
-      $composer_0.g18(-671462136);
-      // Inline function 'androidx.compose.runtime.cache' call
-      var this_0 = $composer_0;
-      // Inline function 'kotlin.let' call
-      // Inline function 'kotlin.contracts.contract' call
-      // Inline function 'androidx.compose.runtime.cache.<anonymous>' call
-      var it = this_0.g1a();
-      var tmp;
-      if (false || it === Companion_getInstance().c13_1) {
-        // Inline function 'org.jetbrains.compose.web.dom.Text.<anonymous>' call
-        var value_0 = Text$lambda;
-        this_0.h1a(value_0);
-        tmp = value_0;
-      } else {
-        tmp = it;
-      }
-      var tmp_0 = tmp;
-      var tmpCache = (tmp_0 == null ? true : !(tmp_0 == null)) ? tmp_0 : THROW_CCE();
-      $composer_0.h18();
-      var $composer_1 = $composer_0;
-      sourceInformationMarkerStart($composer_1, 1886828752, 'CC(ComposeNode):Composables.kt#9igjgp');
-      var tmp_1 = $composer_1.e18();
-      if (!(tmp_1 instanceof DomApplier)) {
-        invalidApplier();
-      }
-      $composer_1.b13();
-      if ($composer_1.m18()) {
-        $composer_1.p18(tmpCache);
-      } else {
-        $composer_1.s18();
-      }
-      // Inline function 'org.jetbrains.compose.web.dom.Text.<anonymous>' call
-      var $this$ComposeNode = _Updater___init__impl__rbfxm8($composer_1);
-      Updater__set_impl_v7kwss($this$ComposeNode, value, Text$lambda_0);
-      $composer_1.u18();
-      sourceInformationMarkerEnd($composer_1);
-      if (isTraceInProgress()) {
-        traceEventEnd();
-      }
-    } else {
-      $composer_0.t12();
-    }
-    var tmp0_safe_receiver = $composer_0.p19();
-    if (tmp0_safe_receiver == null)
-      null;
-    else {
-      tmp0_safe_receiver.p1f(Text$lambda_1(value, $changed));
-    }
-  }
-  function Option_0(value, attrs, content, $composer, $changed, $default) {
-    _init_properties_Elements_kt__eyv5nt();
-    var attrs_0 = {_v: attrs};
-    var content_0 = {_v: content};
-    var $composer_0 = $composer;
-    $composer_0 = $composer_0.o19(1984236455);
-    var $dirty = $changed;
-    if (!(($default & 1) === 0))
-      $dirty = $dirty | 6;
-    else if (($changed & 14) === 0)
-      $dirty = $dirty | ($composer_0.uz(value) ? 4 : 2);
-    if (!(($default & 2) === 0))
-      $dirty = $dirty | 48;
-    else if (($changed & 112) === 0)
-      $dirty = $dirty | ($composer_0.b19(attrs_0._v) ? 32 : 16);
-    if (!(($default & 4) === 0))
-      $dirty = $dirty | 384;
-    else if (($changed & 896) === 0)
-      $dirty = $dirty | ($composer_0.b19(content_0._v) ? 256 : 128);
-    if (!(($dirty & 731) === 146) || !$composer_0.d18()) {
-      if (!(($default & 2) === 0)) {
-        attrs_0._v = null;
-      }
-      if (!(($default & 4) === 0)) {
-        content_0._v = null;
-      }
-      if (isTraceInProgress()) {
-        traceEventStart(1984236455, $dirty, -1, 'org.jetbrains.compose.web.dom.Option (Elements.kt:694)');
-      }
-      var tmp = get_Option();
-      $composer_0.g18(-671456010);
-      // Inline function 'androidx.compose.runtime.cache' call
-      var this_0 = $composer_0;
-      var invalid = !!($composer_0.uz(value) | $composer_0.b19(attrs_0._v));
-      // Inline function 'kotlin.let' call
-      // Inline function 'kotlin.contracts.contract' call
-      // Inline function 'androidx.compose.runtime.cache.<anonymous>' call
-      var it = this_0.g1a();
-      var tmp_0;
-      if (invalid || it === Companion_getInstance().c13_1) {
-        // Inline function 'org.jetbrains.compose.web.dom.Option.<anonymous>' call
-        var value_0 = Option$lambda(value, attrs_0);
-        this_0.h1a(value_0);
-        tmp_0 = value_0;
-      } else {
-        tmp_0 = it;
-      }
-      var tmp_1 = tmp_0;
-      var tmpCache = (tmp_1 == null ? true : !(tmp_1 == null)) ? tmp_1 : THROW_CCE();
-      $composer_0.h18();
-      TagElement(tmp, tmpCache, content_0._v, $composer_0, 896 & $dirty);
-      if (isTraceInProgress()) {
-        traceEventEnd();
-      }
-    } else {
-      $composer_0.t12();
-    }
-    var tmp0_safe_receiver = $composer_0.p19();
-    if (tmp0_safe_receiver == null)
-      null;
-    else {
-      tmp0_safe_receiver.p1f(Option$lambda_0(value, attrs_0, content_0, $changed, $default));
-    }
-  }
   function Div_0(attrs, content, $composer, $changed, $default) {
     _init_properties_Elements_kt__eyv5nt();
     var attrs_0 = {_v: attrs};
     var content_0 = {_v: content};
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.o19(1121267064);
+    $composer_0 = $composer_0.z19(1121267064);
     var $dirty = $changed;
     if (!(($default & 1) === 0))
       $dirty = $dirty | 6;
     else if (($changed & 14) === 0)
-      $dirty = $dirty | ($composer_0.b19(attrs_0._v) ? 4 : 2);
+      $dirty = $dirty | ($composer_0.k19(attrs_0._v) ? 4 : 2);
     if (!(($default & 2) === 0))
       $dirty = $dirty | 48;
     else if (($changed & 112) === 0)
-      $dirty = $dirty | ($composer_0.b19(content_0._v) ? 32 : 16);
-    if (!(($dirty & 91) === 18) || !$composer_0.d18()) {
+      $dirty = $dirty | ($composer_0.k19(content_0._v) ? 32 : 16);
+    if (!(($dirty & 91) === 18) || !$composer_0.k18()) {
       if (!(($default & 1) === 0)) {
         attrs_0._v = null;
       }
@@ -1583,31 +1695,31 @@
         traceEventEnd();
       }
     } else {
-      $composer_0.t12();
+      $composer_0.a13();
     }
-    var tmp0_safe_receiver = $composer_0.p19();
+    var tmp0_safe_receiver = $composer_0.a1a();
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.p1f(Div$lambda(attrs_0, content_0, $changed, $default));
+      tmp0_safe_receiver.d1g(Div$lambda(attrs_0, content_0, $changed, $default));
     }
   }
-  function H1_0(attrs, content, $composer, $changed, $default) {
+  function Span_0(attrs, content, $composer, $changed, $default) {
     _init_properties_Elements_kt__eyv5nt();
     var attrs_0 = {_v: attrs};
     var content_0 = {_v: content};
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.o19(867530828);
+    $composer_0 = $composer_0.z19(-606646835);
     var $dirty = $changed;
     if (!(($default & 1) === 0))
       $dirty = $dirty | 6;
     else if (($changed & 14) === 0)
-      $dirty = $dirty | ($composer_0.b19(attrs_0._v) ? 4 : 2);
+      $dirty = $dirty | ($composer_0.k19(attrs_0._v) ? 4 : 2);
     if (!(($default & 2) === 0))
       $dirty = $dirty | 48;
     else if (($changed & 112) === 0)
-      $dirty = $dirty | ($composer_0.b19(content_0._v) ? 32 : 16);
-    if (!(($dirty & 91) === 18) || !$composer_0.d18()) {
+      $dirty = $dirty | ($composer_0.k19(content_0._v) ? 32 : 16);
+    if (!(($dirty & 91) === 18) || !$composer_0.k18()) {
       if (!(($default & 1) === 0)) {
         attrs_0._v = null;
       }
@@ -1615,88 +1727,215 @@
         content_0._v = null;
       }
       if (isTraceInProgress()) {
-        traceEventStart(867530828, $dirty, -1, 'org.jetbrains.compose.web.dom.H1 (Elements.kt:533)');
+        traceEventStart(-606646835, $dirty, -1, 'org.jetbrains.compose.web.dom.Span (Elements.kt:617)');
       }
-      TagElement(get_H1(), attrs_0._v, content_0._v, $composer_0, 112 & $dirty << 3 | 896 & $dirty << 3);
+      TagElement(get_Span(), attrs_0._v, content_0._v, $composer_0, 112 & $dirty << 3 | 896 & $dirty << 3);
       if (isTraceInProgress()) {
         traceEventEnd();
       }
     } else {
-      $composer_0.t12();
+      $composer_0.a13();
     }
-    var tmp0_safe_receiver = $composer_0.p19();
+    var tmp0_safe_receiver = $composer_0.a1a();
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.p1f(H1$lambda(attrs_0, content_0, $changed, $default));
+      tmp0_safe_receiver.d1g(Span$lambda(attrs_0, content_0, $changed, $default));
     }
   }
-  function Label_0(forId, attrs, content, $composer, $changed, $default) {
+  function Text_1(value, $composer, $changed) {
     _init_properties_Elements_kt__eyv5nt();
-    var forId_0 = {_v: forId};
-    var attrs_0 = {_v: attrs};
-    var content_0 = {_v: content};
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.o19(-41178524);
+    $composer_0 = $composer_0.z19(-1813500779);
     var $dirty = $changed;
-    if (!(($default & 1) === 0))
-      $dirty = $dirty | 6;
-    else if (($changed & 14) === 0)
-      $dirty = $dirty | ($composer_0.uz(forId_0._v) ? 4 : 2);
-    if (!(($default & 2) === 0))
-      $dirty = $dirty | 48;
-    else if (($changed & 112) === 0)
-      $dirty = $dirty | ($composer_0.b19(attrs_0._v) ? 32 : 16);
-    if (!(($default & 4) === 0))
-      $dirty = $dirty | 384;
-    else if (($changed & 896) === 0)
-      $dirty = $dirty | ($composer_0.b19(content_0._v) ? 256 : 128);
-    if (!(($dirty & 731) === 146) || !$composer_0.d18()) {
-      if (!(($default & 1) === 0)) {
-        forId_0._v = null;
-      }
-      if (!(($default & 2) === 0)) {
-        attrs_0._v = null;
-      }
-      if (!(($default & 4) === 0)) {
-        content_0._v = null;
-      }
+    if (($changed & 14) === 0)
+      $dirty = $dirty | ($composer_0.b10(value) ? 4 : 2);
+    if (!(($dirty & 11) === 2) || !$composer_0.k18()) {
       if (isTraceInProgress()) {
-        traceEventStart(-41178524, $dirty, -1, 'org.jetbrains.compose.web.dom.Label (Elements.kt:858)');
+        traceEventStart(-1813500779, $dirty, -1, 'org.jetbrains.compose.web.dom.Text (Elements.kt:482)');
       }
-      var tmp = get_Label();
-      $composer_0.g18(-671451914);
+      // Inline function 'androidx.compose.runtime.ComposeNode' call
+      $composer_0.p18(-671462136);
       // Inline function 'androidx.compose.runtime.cache' call
       var this_0 = $composer_0;
-      var invalid = !!($composer_0.uz(forId_0._v) | $composer_0.b19(attrs_0._v));
       // Inline function 'kotlin.let' call
       // Inline function 'kotlin.contracts.contract' call
       // Inline function 'androidx.compose.runtime.cache.<anonymous>' call
-      var it = this_0.g1a();
-      var tmp_0;
-      if (invalid || it === Companion_getInstance().c13_1) {
-        // Inline function 'org.jetbrains.compose.web.dom.Label.<anonymous>' call
-        var value = Label$lambda(forId_0, attrs_0);
-        this_0.h1a(value);
-        tmp_0 = value;
+      var it = this_0.r1a();
+      var tmp;
+      if (false || it === Companion_getInstance().j13_1) {
+        // Inline function 'org.jetbrains.compose.web.dom.Text.<anonymous>' call
+        var value_0 = Text$lambda;
+        this_0.s1a(value_0);
+        tmp = value_0;
       } else {
-        tmp_0 = it;
+        tmp = it;
       }
-      var tmp_1 = tmp_0;
-      var tmpCache = (tmp_1 == null ? true : !(tmp_1 == null)) ? tmp_1 : THROW_CCE();
-      $composer_0.h18();
-      TagElement(tmp, tmpCache, content_0._v, $composer_0, 896 & $dirty);
+      var tmp_0 = tmp;
+      var tmpCache = (tmp_0 == null ? true : !(tmp_0 == null)) ? tmp_0 : THROW_CCE();
+      $composer_0.q18();
+      var $composer_1 = $composer_0;
+      sourceInformationMarkerStart($composer_1, 1886828752, 'CC(ComposeNode):Composables.kt#9igjgp');
+      var tmp_1 = $composer_1.l18();
+      if (!(tmp_1 instanceof DomApplier)) {
+        invalidApplier();
+      }
+      $composer_1.i13();
+      if ($composer_1.v18()) {
+        $composer_1.y18(tmpCache);
+      } else {
+        $composer_1.b19();
+      }
+      // Inline function 'org.jetbrains.compose.web.dom.Text.<anonymous>' call
+      var $this$ComposeNode = _Updater___init__impl__rbfxm8($composer_1);
+      Updater__set_impl_v7kwss($this$ComposeNode, value, Text$lambda_0);
+      $composer_1.d19();
+      sourceInformationMarkerEnd($composer_1);
       if (isTraceInProgress()) {
         traceEventEnd();
       }
     } else {
-      $composer_0.t12();
+      $composer_0.a13();
     }
-    var tmp0_safe_receiver = $composer_0.p19();
+    var tmp0_safe_receiver = $composer_0.a1a();
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.p1f(Label$lambda_0(forId_0, attrs_0, content_0, $changed, $default));
+      tmp0_safe_receiver.d1g(Text$lambda_1(value, $changed));
+    }
+  }
+  function H2_0(attrs, content, $composer, $changed, $default) {
+    _init_properties_Elements_kt__eyv5nt();
+    var attrs_0 = {_v: attrs};
+    var content_0 = {_v: content};
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.z19(881063629);
+    var $dirty = $changed;
+    if (!(($default & 1) === 0))
+      $dirty = $dirty | 6;
+    else if (($changed & 14) === 0)
+      $dirty = $dirty | ($composer_0.k19(attrs_0._v) ? 4 : 2);
+    if (!(($default & 2) === 0))
+      $dirty = $dirty | 48;
+    else if (($changed & 112) === 0)
+      $dirty = $dirty | ($composer_0.k19(content_0._v) ? 32 : 16);
+    if (!(($dirty & 91) === 18) || !$composer_0.k18()) {
+      if (!(($default & 1) === 0)) {
+        attrs_0._v = null;
+      }
+      if (!(($default & 2) === 0)) {
+        content_0._v = null;
+      }
+      if (isTraceInProgress()) {
+        traceEventStart(881063629, $dirty, -1, 'org.jetbrains.compose.web.dom.H2 (Elements.kt:539)');
+      }
+      TagElement(get_H2(), attrs_0._v, content_0._v, $composer_0, 112 & $dirty << 3 | 896 & $dirty << 3);
+      if (isTraceInProgress()) {
+        traceEventEnd();
+      }
+    } else {
+      $composer_0.a13();
+    }
+    var tmp0_safe_receiver = $composer_0.a1a();
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.d1g(H2$lambda(attrs_0, content_0, $changed, $default));
+    }
+  }
+  function Input_0(type, attrs, $composer, $changed) {
+    _init_properties_Elements_kt__eyv5nt();
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.z19(330436284);
+    var $dirty = $changed;
+    if (($changed & 14) === 0)
+      $dirty = $dirty | ($composer_0.b10(type) ? 4 : 2);
+    if (($changed & 112) === 0)
+      $dirty = $dirty | ($composer_0.k19(attrs) ? 32 : 16);
+    if (!(($dirty & 91) === 18) || !$composer_0.k18()) {
+      if (isTraceInProgress()) {
+        traceEventStart(330436284, $dirty, -1, 'org.jetbrains.compose.web.dom.Input (Elements.kt:1078)');
+      }
+      // Inline function 'androidx.compose.runtime.remember' call
+      var $composer_1 = $composer_0;
+      sourceInformationMarkerStart($composer_1, -492369756, 'CC(remember):Composables.kt#9igjgp');
+      // Inline function 'androidx.compose.runtime.cache' call
+      // Inline function 'kotlin.let' call
+      // Inline function 'kotlin.contracts.contract' call
+      // Inline function 'androidx.compose.runtime.cache.<anonymous>' call
+      var it = $composer_1.r1a();
+      var tmp;
+      if (false || it === Companion_getInstance().j13_1) {
+        // Inline function 'org.jetbrains.compose.web.dom.Input.<anonymous>' call
+        var value = mutableStateOf(0);
+        $composer_1.s1a(value);
+        tmp = value;
+      } else {
+        tmp = it;
+      }
+      var tmp_0 = tmp;
+      var tmp0 = (tmp_0 == null ? true : !(tmp_0 == null)) ? tmp_0 : THROW_CCE();
+      sourceInformationMarkerEnd($composer_1);
+      var keyForRestoringControlledState = tmp0;
+      var tmp_1 = get_Input();
+      $composer_0.p18(-671446402);
+      // Inline function 'androidx.compose.runtime.cache' call
+      var this_0 = $composer_0;
+      var invalid = !!(!!($composer_0.b10(type) | $composer_0.b10(keyForRestoringControlledState)) | $composer_0.k19(attrs));
+      // Inline function 'kotlin.let' call
+      // Inline function 'kotlin.contracts.contract' call
+      // Inline function 'androidx.compose.runtime.cache.<anonymous>' call
+      var it_0 = this_0.r1a();
+      var tmp_2;
+      if (invalid || it_0 === Companion_getInstance().j13_1) {
+        // Inline function 'org.jetbrains.compose.web.dom.Input.<anonymous>' call
+        var value_0 = Input$lambda(type, attrs, keyForRestoringControlledState);
+        this_0.s1a(value_0);
+        tmp_2 = value_0;
+      } else {
+        tmp_2 = it_0;
+      }
+      var tmp_3 = tmp_2;
+      var tmpCache = (tmp_3 == null ? true : !(tmp_3 == null)) ? tmp_3 : THROW_CCE();
+      $composer_0.q18();
+      // Inline function 'kotlin.run' call
+      // Inline function 'kotlin.contracts.contract' call
+      // Inline function 'org.jetbrains.compose.web.dom.Input.<anonymous>' call
+      var tmp_4 = $composer_0;
+      var dispatchReceiver = composableLambda(tmp_4, 558133459, true, Input$lambda_0(type, keyForRestoringControlledState));
+      // Inline function 'androidx.compose.runtime.remember' call
+      var $composer_2 = $composer_0;
+      sourceInformationMarkerStart($composer_2, 1157296644, 'CC(remember)P(1):Composables.kt#9igjgp');
+      // Inline function 'androidx.compose.runtime.cache' call
+      var invalid_0 = $composer_2.b10(dispatchReceiver);
+      // Inline function 'kotlin.let' call
+      // Inline function 'kotlin.contracts.contract' call
+      // Inline function 'androidx.compose.runtime.cache.<anonymous>' call
+      var it_1 = $composer_2.r1a();
+      var tmp_5;
+      if (invalid_0 || it_1 === Companion_getInstance().j13_1) {
+        // Inline function 'org.jetbrains.compose.web.dom.Input.<anonymous>.<anonymous>' call
+        var value_1 = ComposableLambda$invoke$ref(dispatchReceiver);
+        $composer_2.s1a(value_1);
+        tmp_5 = value_1;
+      } else {
+        tmp_5 = it_1;
+      }
+      var tmp_6 = tmp_5;
+      var tmp0_0 = (tmp_6 == null ? true : !(tmp_6 == null)) ? tmp_6 : THROW_CCE();
+      sourceInformationMarkerEnd($composer_2);
+      TagElement(tmp_1, tmpCache, tmp0_0, $composer_0, 384);
+      if (isTraceInProgress()) {
+        traceEventEnd();
+      }
+    } else {
+      $composer_0.a13();
+    }
+    var tmp0_safe_receiver = $composer_0.a1a();
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.d1g(Input$lambda_1(type, attrs, $changed));
     }
   }
   function Select_0(attrs, multiple, content, $composer, $changed, $default) {
@@ -1705,21 +1944,21 @@
     var multiple_0 = {_v: multiple};
     var content_0 = {_v: content};
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.o19(-950889125);
+    $composer_0 = $composer_0.z19(-950889125);
     var $dirty = $changed;
     if (!(($default & 1) === 0))
       $dirty = $dirty | 6;
     else if (($changed & 14) === 0)
-      $dirty = $dirty | ($composer_0.b19(attrs_0._v) ? 4 : 2);
+      $dirty = $dirty | ($composer_0.k19(attrs_0._v) ? 4 : 2);
     if (!(($default & 2) === 0))
       $dirty = $dirty | 48;
     else if (($changed & 112) === 0)
-      $dirty = $dirty | ($composer_0.c19(multiple_0._v) ? 32 : 16);
+      $dirty = $dirty | ($composer_0.l19(multiple_0._v) ? 32 : 16);
     if (!(($default & 4) === 0))
       $dirty = $dirty | 384;
     else if (($changed & 896) === 0)
-      $dirty = $dirty | ($composer_0.b19(content_0._v) ? 256 : 128);
-    if (!(($dirty & 731) === 146) || !$composer_0.d18()) {
+      $dirty = $dirty | ($composer_0.k19(content_0._v) ? 256 : 128);
+    if (!(($dirty & 731) === 146) || !$composer_0.k18()) {
       if (!(($default & 1) === 0)) {
         attrs_0._v = null;
       }
@@ -1733,133 +1972,102 @@
         traceEventStart(-950889125, $dirty, -1, 'org.jetbrains.compose.web.dom.Select (Elements.kt:678)');
       }
       var tmp = get_Select();
-      $composer_0.g18(-671456377);
+      $composer_0.p18(-671456377);
       // Inline function 'androidx.compose.runtime.cache' call
       var this_0 = $composer_0;
-      var invalid = !!($composer_0.c19(multiple_0._v) | $composer_0.b19(attrs_0._v));
+      var invalid = !!($composer_0.l19(multiple_0._v) | $composer_0.k19(attrs_0._v));
       // Inline function 'kotlin.let' call
       // Inline function 'kotlin.contracts.contract' call
       // Inline function 'androidx.compose.runtime.cache.<anonymous>' call
-      var it = this_0.g1a();
+      var it = this_0.r1a();
       var tmp_0;
-      if (invalid || it === Companion_getInstance().c13_1) {
+      if (invalid || it === Companion_getInstance().j13_1) {
         // Inline function 'org.jetbrains.compose.web.dom.Select.<anonymous>' call
         var value = Select$lambda(multiple_0, attrs_0);
-        this_0.h1a(value);
+        this_0.s1a(value);
         tmp_0 = value;
       } else {
         tmp_0 = it;
       }
       var tmp_1 = tmp_0;
       var tmpCache = (tmp_1 == null ? true : !(tmp_1 == null)) ? tmp_1 : THROW_CCE();
-      $composer_0.h18();
+      $composer_0.q18();
       TagElement(tmp, tmpCache, content_0._v, $composer_0, 896 & $dirty);
       if (isTraceInProgress()) {
         traceEventEnd();
       }
     } else {
-      $composer_0.t12();
+      $composer_0.a13();
     }
-    var tmp0_safe_receiver = $composer_0.p19();
+    var tmp0_safe_receiver = $composer_0.a1a();
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.p1f(Select$lambda_0(attrs_0, multiple_0, content_0, $changed, $default));
+      tmp0_safe_receiver.d1g(Select$lambda_0(attrs_0, multiple_0, content_0, $changed, $default));
     }
   }
-  function Input_0(type, attrs, $composer, $changed) {
+  function Option_0(value, attrs, content, $composer, $changed, $default) {
     _init_properties_Elements_kt__eyv5nt();
+    var attrs_0 = {_v: attrs};
+    var content_0 = {_v: content};
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.o19(330436284);
+    $composer_0 = $composer_0.z19(1984236455);
     var $dirty = $changed;
-    if (($changed & 14) === 0)
-      $dirty = $dirty | ($composer_0.uz(type) ? 4 : 2);
-    if (($changed & 112) === 0)
-      $dirty = $dirty | ($composer_0.b19(attrs) ? 32 : 16);
-    if (!(($dirty & 91) === 18) || !$composer_0.d18()) {
+    if (!(($default & 1) === 0))
+      $dirty = $dirty | 6;
+    else if (($changed & 14) === 0)
+      $dirty = $dirty | ($composer_0.b10(value) ? 4 : 2);
+    if (!(($default & 2) === 0))
+      $dirty = $dirty | 48;
+    else if (($changed & 112) === 0)
+      $dirty = $dirty | ($composer_0.k19(attrs_0._v) ? 32 : 16);
+    if (!(($default & 4) === 0))
+      $dirty = $dirty | 384;
+    else if (($changed & 896) === 0)
+      $dirty = $dirty | ($composer_0.k19(content_0._v) ? 256 : 128);
+    if (!(($dirty & 731) === 146) || !$composer_0.k18()) {
+      if (!(($default & 2) === 0)) {
+        attrs_0._v = null;
+      }
+      if (!(($default & 4) === 0)) {
+        content_0._v = null;
+      }
       if (isTraceInProgress()) {
-        traceEventStart(330436284, $dirty, -1, 'org.jetbrains.compose.web.dom.Input (Elements.kt:1078)');
+        traceEventStart(1984236455, $dirty, -1, 'org.jetbrains.compose.web.dom.Option (Elements.kt:694)');
       }
-      // Inline function 'androidx.compose.runtime.remember' call
-      var $composer_1 = $composer_0;
-      sourceInformationMarkerStart($composer_1, -492369756, 'CC(remember):Composables.kt#9igjgp');
-      // Inline function 'androidx.compose.runtime.cache' call
-      // Inline function 'kotlin.let' call
-      // Inline function 'kotlin.contracts.contract' call
-      // Inline function 'androidx.compose.runtime.cache.<anonymous>' call
-      var it = $composer_1.g1a();
-      var tmp;
-      if (false || it === Companion_getInstance().c13_1) {
-        // Inline function 'org.jetbrains.compose.web.dom.Input.<anonymous>' call
-        var value = mutableStateOf(0);
-        $composer_1.h1a(value);
-        tmp = value;
-      } else {
-        tmp = it;
-      }
-      var tmp_0 = tmp;
-      var tmp0 = (tmp_0 == null ? true : !(tmp_0 == null)) ? tmp_0 : THROW_CCE();
-      sourceInformationMarkerEnd($composer_1);
-      var keyForRestoringControlledState = tmp0;
-      var tmp_1 = get_Input();
-      $composer_0.g18(-671446402);
+      var tmp = get_Option();
+      $composer_0.p18(-671456010);
       // Inline function 'androidx.compose.runtime.cache' call
       var this_0 = $composer_0;
-      var invalid = !!(!!($composer_0.uz(type) | $composer_0.uz(keyForRestoringControlledState)) | $composer_0.b19(attrs));
+      var invalid = !!($composer_0.b10(value) | $composer_0.k19(attrs_0._v));
       // Inline function 'kotlin.let' call
       // Inline function 'kotlin.contracts.contract' call
       // Inline function 'androidx.compose.runtime.cache.<anonymous>' call
-      var it_0 = this_0.g1a();
-      var tmp_2;
-      if (invalid || it_0 === Companion_getInstance().c13_1) {
-        // Inline function 'org.jetbrains.compose.web.dom.Input.<anonymous>' call
-        var value_0 = Input$lambda(type, attrs, keyForRestoringControlledState);
-        this_0.h1a(value_0);
-        tmp_2 = value_0;
+      var it = this_0.r1a();
+      var tmp_0;
+      if (invalid || it === Companion_getInstance().j13_1) {
+        // Inline function 'org.jetbrains.compose.web.dom.Option.<anonymous>' call
+        var value_0 = Option$lambda(value, attrs_0);
+        this_0.s1a(value_0);
+        tmp_0 = value_0;
       } else {
-        tmp_2 = it_0;
+        tmp_0 = it;
       }
-      var tmp_3 = tmp_2;
-      var tmpCache = (tmp_3 == null ? true : !(tmp_3 == null)) ? tmp_3 : THROW_CCE();
-      $composer_0.h18();
-      // Inline function 'kotlin.run' call
-      // Inline function 'kotlin.contracts.contract' call
-      // Inline function 'org.jetbrains.compose.web.dom.Input.<anonymous>' call
-      var tmp_4 = $composer_0;
-      var dispatchReceiver = composableLambda(tmp_4, 558133459, true, Input$lambda_0(type, keyForRestoringControlledState));
-      // Inline function 'androidx.compose.runtime.remember' call
-      var $composer_2 = $composer_0;
-      sourceInformationMarkerStart($composer_2, 1157296644, 'CC(remember)P(1):Composables.kt#9igjgp');
-      // Inline function 'androidx.compose.runtime.cache' call
-      var invalid_0 = $composer_2.uz(dispatchReceiver);
-      // Inline function 'kotlin.let' call
-      // Inline function 'kotlin.contracts.contract' call
-      // Inline function 'androidx.compose.runtime.cache.<anonymous>' call
-      var it_1 = $composer_2.g1a();
-      var tmp_5;
-      if (invalid_0 || it_1 === Companion_getInstance().c13_1) {
-        // Inline function 'org.jetbrains.compose.web.dom.Input.<anonymous>.<anonymous>' call
-        var value_1 = ComposableLambda$invoke$ref(dispatchReceiver);
-        $composer_2.h1a(value_1);
-        tmp_5 = value_1;
-      } else {
-        tmp_5 = it_1;
-      }
-      var tmp_6 = tmp_5;
-      var tmp0_0 = (tmp_6 == null ? true : !(tmp_6 == null)) ? tmp_6 : THROW_CCE();
-      sourceInformationMarkerEnd($composer_2);
-      TagElement(tmp_1, tmpCache, tmp0_0, $composer_0, 384);
+      var tmp_1 = tmp_0;
+      var tmpCache = (tmp_1 == null ? true : !(tmp_1 == null)) ? tmp_1 : THROW_CCE();
+      $composer_0.q18();
+      TagElement(tmp, tmpCache, content_0._v, $composer_0, 896 & $dirty);
       if (isTraceInProgress()) {
         traceEventEnd();
       }
     } else {
-      $composer_0.t12();
+      $composer_0.a13();
     }
-    var tmp0_safe_receiver = $composer_0.p19();
+    var tmp0_safe_receiver = $composer_0.a1a();
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.p1f(Input$lambda_1(type, attrs, $changed));
+      tmp0_safe_receiver.d1g(Option$lambda_0(value, attrs_0, content_0, $changed, $default));
     }
   }
   function Button_1(attrs, content, $composer, $changed, $default) {
@@ -1867,17 +2075,17 @@
     var attrs_0 = {_v: attrs};
     var content_0 = {_v: content};
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.o19(17018421);
+    $composer_0 = $composer_0.z19(17018421);
     var $dirty = $changed;
     if (!(($default & 1) === 0))
       $dirty = $dirty | 6;
     else if (($changed & 14) === 0)
-      $dirty = $dirty | ($composer_0.b19(attrs_0._v) ? 4 : 2);
+      $dirty = $dirty | ($composer_0.k19(attrs_0._v) ? 4 : 2);
     if (!(($default & 2) === 0))
       $dirty = $dirty | 48;
     else if (($changed & 112) === 0)
-      $dirty = $dirty | ($composer_0.b19(content_0._v) ? 32 : 16);
-    if (!(($dirty & 91) === 18) || !$composer_0.d18()) {
+      $dirty = $dirty | ($composer_0.k19(content_0._v) ? 32 : 16);
+    if (!(($dirty & 91) === 18) || !$composer_0.k18()) {
       if (!(($default & 1) === 0)) {
         attrs_0._v = null;
       }
@@ -1892,13 +2100,13 @@
         traceEventEnd();
       }
     } else {
-      $composer_0.t12();
+      $composer_0.a13();
     }
-    var tmp0_safe_receiver = $composer_0.p19();
+    var tmp0_safe_receiver = $composer_0.a1a();
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.p1f(Button$lambda(attrs_0, content_0, $changed, $default));
+      tmp0_safe_receiver.d1g(Button$lambda(attrs_0, content_0, $changed, $default));
     }
   }
   function Canvas_0(attrs, content, $composer, $changed, $default) {
@@ -1906,17 +2114,17 @@
     var attrs_0 = {_v: attrs};
     var content_0 = {_v: content};
     var $composer_0 = $composer;
-    $composer_0 = $composer_0.o19(651019099);
+    $composer_0 = $composer_0.z19(651019099);
     var $dirty = $changed;
     if (!(($default & 1) === 0))
       $dirty = $dirty | 6;
     else if (($changed & 14) === 0)
-      $dirty = $dirty | ($composer_0.b19(attrs_0._v) ? 4 : 2);
+      $dirty = $dirty | ($composer_0.k19(attrs_0._v) ? 4 : 2);
     if (!(($default & 2) === 0))
       $dirty = $dirty | 48;
     else if (($changed & 112) === 0)
-      $dirty = $dirty | ($composer_0.b19(content_0._v) ? 32 : 16);
-    if (!(($dirty & 91) === 18) || !$composer_0.d18()) {
+      $dirty = $dirty | ($composer_0.k19(content_0._v) ? 32 : 16);
+    if (!(($dirty & 91) === 18) || !$composer_0.k18()) {
       if (!(($default & 1) === 0)) {
         attrs_0._v = null;
       }
@@ -1931,14 +2139,90 @@
         traceEventEnd();
       }
     } else {
-      $composer_0.t12();
+      $composer_0.a13();
     }
-    var tmp0_safe_receiver = $composer_0.p19();
+    var tmp0_safe_receiver = $composer_0.a1a();
     if (tmp0_safe_receiver == null)
       null;
     else {
-      tmp0_safe_receiver.p1f(Canvas$lambda(attrs_0, content_0, $changed, $default));
+      tmp0_safe_receiver.d1g(Canvas$lambda(attrs_0, content_0, $changed, $default));
     }
+  }
+  function Img_0(src, alt, attrs, $composer, $changed, $default) {
+    _init_properties_Elements_kt__eyv5nt();
+    var alt_0 = {_v: alt};
+    var attrs_0 = {_v: attrs};
+    var $composer_0 = $composer;
+    $composer_0 = $composer_0.z19(140604733);
+    var $dirty = $changed;
+    if (!(($default & 1) === 0))
+      $dirty = $dirty | 6;
+    else if (($changed & 14) === 0)
+      $dirty = $dirty | ($composer_0.b10(src) ? 4 : 2);
+    if (!(($default & 2) === 0))
+      $dirty = $dirty | 48;
+    else if (($changed & 112) === 0)
+      $dirty = $dirty | ($composer_0.b10(alt_0._v) ? 32 : 16);
+    if (!(($default & 4) === 0))
+      $dirty = $dirty | 384;
+    else if (($changed & 896) === 0)
+      $dirty = $dirty | ($composer_0.k19(attrs_0._v) ? 256 : 128);
+    if (!(($dirty & 731) === 146) || !$composer_0.k18()) {
+      if (!(($default & 2) === 0)) {
+        alt_0._v = '';
+      }
+      if (!(($default & 4) === 0)) {
+        attrs_0._v = null;
+      }
+      if (isTraceInProgress()) {
+        traceEventStart(140604733, $dirty, -1, 'org.jetbrains.compose.web.dom.Img (Elements.kt:646)');
+      }
+      var tmp = get_Img();
+      $composer_0.p18(-671457079);
+      // Inline function 'androidx.compose.runtime.cache' call
+      var this_0 = $composer_0;
+      var invalid = !!(!!($composer_0.b10(src) | $composer_0.b10(alt_0._v)) | $composer_0.k19(attrs_0._v));
+      // Inline function 'kotlin.let' call
+      // Inline function 'kotlin.contracts.contract' call
+      // Inline function 'androidx.compose.runtime.cache.<anonymous>' call
+      var it = this_0.r1a();
+      var tmp_0;
+      if (invalid || it === Companion_getInstance().j13_1) {
+        // Inline function 'org.jetbrains.compose.web.dom.Img.<anonymous>' call
+        var value = Img$lambda(src, alt_0, attrs_0);
+        this_0.s1a(value);
+        tmp_0 = value;
+      } else {
+        tmp_0 = it;
+      }
+      var tmp_1 = tmp_0;
+      var tmpCache = (tmp_1 == null ? true : !(tmp_1 == null)) ? tmp_1 : THROW_CCE();
+      $composer_0.q18();
+      TagElement(tmp, tmpCache, null, $composer_0, 384);
+      if (isTraceInProgress()) {
+        traceEventEnd();
+      }
+    } else {
+      $composer_0.a13();
+    }
+    var tmp0_safe_receiver = $composer_0.a1a();
+    if (tmp0_safe_receiver == null)
+      null;
+    else {
+      tmp0_safe_receiver.d1g(Img$lambda_0(src, alt_0, attrs_0, $changed, $default));
+    }
+  }
+  function Div$lambda($attrs, $content, $$changed, $$default) {
+    return function ($composer, $force) {
+      Div_0($attrs._v, $content._v, $composer, updateChangedFlags($$changed | 1), $$default);
+      return Unit_instance;
+    };
+  }
+  function Span$lambda($attrs, $content, $$changed, $$default) {
+    return function ($composer, $force) {
+      Span_0($attrs._v, $content._v, $composer, updateChangedFlags($$changed | 1), $$default);
+      return Unit_instance;
+    };
   }
   function Text$lambda() {
     _init_properties_Elements_kt__eyv5nt();
@@ -1946,7 +2230,7 @@
   }
   function Text$lambda_0($this$set, value) {
     _init_properties_Elements_kt__eyv5nt();
-    var tmp = $this$set.s20();
+    var tmp = $this$set.k21();
     (tmp instanceof Text ? tmp : THROW_CCE()).data = value;
     return Unit_instance;
   }
@@ -1956,51 +2240,81 @@
       return Unit_instance;
     };
   }
-  function Option$lambda($value, $attrs) {
+  function H2$lambda($attrs, $content, $$changed, $$default) {
+    return function ($composer, $force) {
+      H2_0($attrs._v, $content._v, $composer, updateChangedFlags($$changed | 1), $$default);
+      return Unit_instance;
+    };
+  }
+  function Input$lambda$lambda($keyForRestoringControlledState) {
+    return function (it) {
+      $keyForRestoringControlledState.tn($keyForRestoringControlledState.i1() + 1 | 0);
+      return Unit_instance;
+    };
+  }
+  function Input$lambda($type, $attrs, $keyForRestoringControlledState) {
     return function ($this$TagElement) {
-      value($this$TagElement, $value);
+      var inputAttrsBuilder = new InputAttrsScope($type, $this$TagElement);
+      type(inputAttrsBuilder, $type);
+      inputAttrsBuilder.j28(Input$lambda$lambda($keyForRestoringControlledState));
+      $attrs(inputAttrsBuilder);
+      return Unit_instance;
+    };
+  }
+  function _no_name_provided__qut3iv_0() {
+  }
+  protoOf(_no_name_provided__qut3iv_0).vh = function () {
+    // Inline function 'org.jetbrains.compose.web.dom.Input.<anonymous>.<anonymous>.<anonymous>.<anonymous>' call
+  };
+  function Input$lambda$lambda_0($this_TagElement) {
+    return function ($this$DisposableEffect) {
+      restoreControlledInputState($this_TagElement.l28($this$DisposableEffect));
+      // Inline function 'androidx.compose.runtime.DisposableEffectScope.onDispose' call
+      return new _no_name_provided__qut3iv_0();
+    };
+  }
+  function Input$lambda_0($type, $keyForRestoringControlledState) {
+    return function ($this$TagElement, $composer, $changed) {
+      var $composer_0 = $composer;
+      var $dirty = $changed;
       var tmp;
-      if (!($attrs._v == null)) {
-        tmp = $attrs._v($this$TagElement);
-      }
-      return Unit_instance;
-    };
-  }
-  function Option$lambda_0($value, $attrs, $content, $$changed, $$default) {
-    return function ($composer, $force) {
-      Option_0($value, $attrs._v, $content._v, $composer, updateChangedFlags($$changed | 1), $$default);
-      return Unit_instance;
-    };
-  }
-  function Div$lambda($attrs, $content, $$changed, $$default) {
-    return function ($composer, $force) {
-      Div_0($attrs._v, $content._v, $composer, updateChangedFlags($$changed | 1), $$default);
-      return Unit_instance;
-    };
-  }
-  function H1$lambda($attrs, $content, $$changed, $$default) {
-    return function ($composer, $force) {
-      H1_0($attrs._v, $content._v, $composer, updateChangedFlags($$changed | 1), $$default);
-      return Unit_instance;
-    };
-  }
-  function Label$lambda($forId, $attrs) {
-    return function ($this$TagElement) {
-      var tmp;
-      if (!($forId._v == null)) {
-        forId($this$TagElement, $forId._v);
+      if (($changed & 14) === 0) {
+        $dirty = $dirty | ($composer_0.b10($this$TagElement) ? 4 : 2);
         tmp = Unit_instance;
       }
       var tmp_0;
-      if (!($attrs._v == null)) {
-        tmp_0 = $attrs._v($this$TagElement);
+      if (!(($dirty & 91) === 18) || !$composer_0.k18()) {
+        if (isTraceInProgress()) {
+          traceEventStart(558133459, $dirty, -1, 'org.jetbrains.compose.web.dom.Input.<anonymous> (Elements.kt:1095)');
+        }
+        $composer_0.p18(-1812148288);
+        if (equals($type, Radio_getInstance())) {
+          DisposeRadioGroupEffect($this$TagElement, $composer_0, 14 & $dirty);
+        }
+        $composer_0.q18();
+        var tmp_1 = $keyForRestoringControlledState.i1();
+        DisposableEffect(tmp_1, Input$lambda$lambda_0($this$TagElement), $composer_0, 0);
+        var tmp_2;
+        if (isTraceInProgress()) {
+          traceEventEnd();
+          tmp_2 = Unit_instance;
+        }
+        tmp_0 = tmp_2;
+      } else {
+        $composer_0.a13();
+        tmp_0 = Unit_instance;
       }
       return Unit_instance;
     };
   }
-  function Label$lambda_0($forId, $attrs, $content, $$changed, $$default) {
+  function ComposableLambda$invoke$ref($boundThis) {
+    return function (p0, p1, p2) {
+      return $boundThis.x20(p0, p1, p2);
+    };
+  }
+  function Input$lambda_1($type, $attrs, $$changed) {
     return function ($composer, $force) {
-      Label_0($forId._v, $attrs._v, $content._v, $composer, updateChangedFlags($$changed | 1), $$default);
+      Input_0($type, $attrs, $composer, updateChangedFlags($$changed | 1));
       return Unit_instance;
     };
   }
@@ -2024,75 +2338,19 @@
       return Unit_instance;
     };
   }
-  function Input$lambda$lambda($keyForRestoringControlledState) {
-    return function (it) {
-      $keyForRestoringControlledState.mn($keyForRestoringControlledState.i1() + 1 | 0);
-      return Unit_instance;
-    };
-  }
-  function Input$lambda($type, $attrs, $keyForRestoringControlledState) {
+  function Option$lambda($value, $attrs) {
     return function ($this$TagElement) {
-      var inputAttrsBuilder = new InputAttrsScope($type, $this$TagElement);
-      type(inputAttrsBuilder, $type);
-      inputAttrsBuilder.n27(Input$lambda$lambda($keyForRestoringControlledState));
-      $attrs(inputAttrsBuilder);
-      return Unit_instance;
-    };
-  }
-  function _no_name_provided__qut3iv_0() {
-  }
-  protoOf(_no_name_provided__qut3iv_0).oh = function () {
-    // Inline function 'org.jetbrains.compose.web.dom.Input.<anonymous>.<anonymous>.<anonymous>.<anonymous>' call
-  };
-  function Input$lambda$lambda_0($this_TagElement) {
-    return function ($this$DisposableEffect) {
-      restoreControlledInputState($this_TagElement.p27($this$DisposableEffect));
-      // Inline function 'androidx.compose.runtime.DisposableEffectScope.onDispose' call
-      return new _no_name_provided__qut3iv_0();
-    };
-  }
-  function Input$lambda_0($type, $keyForRestoringControlledState) {
-    return function ($this$TagElement, $composer, $changed) {
-      var $composer_0 = $composer;
-      var $dirty = $changed;
+      value($this$TagElement, $value);
       var tmp;
-      if (($changed & 14) === 0) {
-        $dirty = $dirty | ($composer_0.uz($this$TagElement) ? 4 : 2);
-        tmp = Unit_instance;
-      }
-      var tmp_0;
-      if (!(($dirty & 91) === 18) || !$composer_0.d18()) {
-        if (isTraceInProgress()) {
-          traceEventStart(558133459, $dirty, -1, 'org.jetbrains.compose.web.dom.Input.<anonymous> (Elements.kt:1095)');
-        }
-        $composer_0.g18(-1812148288);
-        if (equals($type, Radio_getInstance())) {
-          DisposeRadioGroupEffect($this$TagElement, $composer_0, 14 & $dirty);
-        }
-        $composer_0.h18();
-        var tmp_1 = $keyForRestoringControlledState.i1();
-        DisposableEffect(tmp_1, Input$lambda$lambda_0($this$TagElement), $composer_0, 0);
-        var tmp_2;
-        if (isTraceInProgress()) {
-          traceEventEnd();
-          tmp_2 = Unit_instance;
-        }
-        tmp_0 = tmp_2;
-      } else {
-        $composer_0.t12();
-        tmp_0 = Unit_instance;
+      if (!($attrs._v == null)) {
+        tmp = $attrs._v($this$TagElement);
       }
       return Unit_instance;
     };
   }
-  function ComposableLambda$invoke$ref($boundThis) {
-    return function (p0, p1, p2) {
-      return $boundThis.f20(p0, p1, p2);
-    };
-  }
-  function Input$lambda_1($type, $attrs, $$changed) {
+  function Option$lambda_0($value, $attrs, $content, $$changed, $$default) {
     return function ($composer, $force) {
-      Input_0($type, $attrs, $composer, updateChangedFlags($$changed | 1));
+      Option_0($value, $attrs._v, $content._v, $composer, updateChangedFlags($$changed | 1), $$default);
       return Unit_instance;
     };
   }
@@ -2105,6 +2363,22 @@
   function Canvas$lambda($attrs, $content, $$changed, $$default) {
     return function ($composer, $force) {
       Canvas_0($attrs._v, $content._v, $composer, updateChangedFlags($$changed | 1), $$default);
+      return Unit_instance;
+    };
+  }
+  function Img$lambda($src, $alt, $attrs) {
+    return function ($this$TagElement) {
+      alt(src($this$TagElement, $src), $alt._v);
+      var tmp;
+      if (!($attrs._v == null)) {
+        tmp = $attrs._v($this$TagElement);
+      }
+      return Unit_instance;
+    };
+  }
+  function Img$lambda_0($src, $alt, $attrs, $$changed, $$default) {
+    return function ($composer, $force) {
+      Img_0($src, $alt._v, $attrs._v, $composer, updateChangedFlags($$changed | 1), $$default);
       return Unit_instance;
     };
   }
@@ -2193,25 +2467,25 @@
     }
   }
   function SyntheticEvent(nativeEvent) {
-    this.d29_1 = nativeEvent;
+    this.h2a_1 = nativeEvent;
     var tmp = this;
     // Inline function 'kotlin.js.unsafeCast' call
     // Inline function 'kotlin.js.asDynamic' call
-    tmp.e29_1 = this.d29_1.target;
-    this.f29_1 = this.d29_1.bubbles;
-    this.g29_1 = this.d29_1.cancelable;
-    this.h29_1 = this.d29_1.composed;
-    this.i29_1 = this.d29_1.currentTarget;
-    this.j29_1 = this.d29_1.eventPhase;
-    this.k29_1 = this.d29_1.defaultPrevented;
-    this.l29_1 = this.d29_1.timeStamp;
-    this.m29_1 = this.d29_1.type;
-    this.n29_1 = this.d29_1.isTrusted;
-    this.o29_1 = 0;
+    tmp.i2a_1 = this.h2a_1.target;
+    this.j2a_1 = this.h2a_1.bubbles;
+    this.k2a_1 = this.h2a_1.cancelable;
+    this.l2a_1 = this.h2a_1.composed;
+    this.m2a_1 = this.h2a_1.currentTarget;
+    this.n2a_1 = this.h2a_1.eventPhase;
+    this.o2a_1 = this.h2a_1.defaultPrevented;
+    this.p2a_1 = this.h2a_1.timeStamp;
+    this.q2a_1 = this.h2a_1.type;
+    this.r2a_1 = this.h2a_1.isTrusted;
+    this.s2a_1 = 0;
   }
   function SyntheticInputEvent(value, nativeEvent) {
     SyntheticEvent.call(this, nativeEvent);
-    this.b2a_1 = value;
+    this.f2b_1 = value;
     var tmp = this;
     // Inline function 'kotlin.js.asDynamic' call
     var tmp0_safe_receiver = nativeEvent.data;
@@ -2222,7 +2496,7 @@
       // Inline function 'kotlin.js.unsafeCast' call
       tmp_0 = tmp0_safe_receiver;
     }
-    tmp.c2a_1 = tmp_0;
+    tmp.g2b_1 = tmp_0;
     var tmp_1 = this;
     // Inline function 'kotlin.js.asDynamic' call
     var tmp0_safe_receiver_0 = nativeEvent.dataTransfer;
@@ -2233,7 +2507,7 @@
       // Inline function 'kotlin.js.unsafeCast' call
       tmp_2 = tmp0_safe_receiver_0;
     }
-    tmp_1.d2a_1 = tmp_2;
+    tmp_1.h2b_1 = tmp_2;
     var tmp_3 = this;
     // Inline function 'kotlin.js.asDynamic' call
     var tmp0_safe_receiver_1 = nativeEvent.inputType;
@@ -2244,7 +2518,7 @@
       // Inline function 'kotlin.js.unsafeCast' call
       tmp_4 = tmp0_safe_receiver_1;
     }
-    tmp_3.e2a_1 = tmp_4;
+    tmp_3.i2b_1 = tmp_4;
     var tmp_5 = this;
     // Inline function 'kotlin.js.asDynamic' call
     var tmp0_safe_receiver_2 = nativeEvent.isComposing;
@@ -2256,70 +2530,101 @@
       tmp_6 = tmp0_safe_receiver_2;
     }
     var tmp1_elvis_lhs = tmp_6;
-    tmp_5.f2a_1 = tmp1_elvis_lhs == null ? false : tmp1_elvis_lhs;
-    this.g2a_1 = 0;
+    tmp_5.j2b_1 = tmp1_elvis_lhs == null ? false : tmp1_elvis_lhs;
+    this.k2b_1 = 0;
   }
   function SyntheticMouseEvent(nativeEvent) {
     SyntheticEvent.call(this, nativeEvent);
-    this.t2a_1 = nativeEvent;
-    this.u2a_1 = nativeEvent.altKey;
-    this.v2a_1 = nativeEvent.button;
-    this.w2a_1 = nativeEvent.buttons;
-    this.x2a_1 = nativeEvent.clientX;
-    this.y2a_1 = nativeEvent.clientY;
-    this.z2a_1 = nativeEvent.ctrlKey;
-    this.a2b_1 = nativeEvent.metaKey;
+    this.x2b_1 = nativeEvent;
+    this.y2b_1 = nativeEvent.altKey;
+    this.z2b_1 = nativeEvent.button;
+    this.a2c_1 = nativeEvent.buttons;
+    this.b2c_1 = nativeEvent.clientX;
+    this.c2c_1 = nativeEvent.clientY;
+    this.d2c_1 = nativeEvent.ctrlKey;
+    this.e2c_1 = nativeEvent.metaKey;
     var tmp = this;
     // Inline function 'kotlin.js.asDynamic' call
     var tmp_0 = nativeEvent.movementX;
     var tmp0_elvis_lhs = (!(tmp_0 == null) ? typeof tmp_0 === 'number' : false) ? tmp_0 : null;
-    tmp.b2b_1 = tmp0_elvis_lhs == null ? 0 : tmp0_elvis_lhs;
+    tmp.f2c_1 = tmp0_elvis_lhs == null ? 0 : tmp0_elvis_lhs;
     var tmp_1 = this;
     // Inline function 'kotlin.js.asDynamic' call
     var tmp_2 = nativeEvent.movementY;
     var tmp0_elvis_lhs_0 = (!(tmp_2 == null) ? typeof tmp_2 === 'number' : false) ? tmp_2 : null;
-    tmp_1.c2b_1 = tmp0_elvis_lhs_0 == null ? 0 : tmp0_elvis_lhs_0;
-    this.d2b_1 = nativeEvent.offsetX;
-    this.e2b_1 = nativeEvent.offsetY;
-    this.f2b_1 = nativeEvent.pageX;
-    this.g2b_1 = nativeEvent.pageY;
-    this.h2b_1 = nativeEvent.region;
-    this.i2b_1 = nativeEvent.relatedTarget;
-    this.j2b_1 = nativeEvent.screenX;
-    this.k2b_1 = nativeEvent.screenY;
-    this.l2b_1 = nativeEvent.shiftKey;
-    this.m2b_1 = nativeEvent.x;
-    this.n2b_1 = nativeEvent.y;
-    this.o2b_1 = 0;
+    tmp_1.g2c_1 = tmp0_elvis_lhs_0 == null ? 0 : tmp0_elvis_lhs_0;
+    this.h2c_1 = nativeEvent.offsetX;
+    this.i2c_1 = nativeEvent.offsetY;
+    this.j2c_1 = nativeEvent.pageX;
+    this.k2c_1 = nativeEvent.pageY;
+    this.l2c_1 = nativeEvent.region;
+    this.m2c_1 = nativeEvent.relatedTarget;
+    this.n2c_1 = nativeEvent.screenX;
+    this.o2c_1 = nativeEvent.screenY;
+    this.p2c_1 = nativeEvent.shiftKey;
+    this.q2c_1 = nativeEvent.x;
+    this.r2c_1 = nativeEvent.y;
+    this.s2c_1 = 0;
   }
   //region block: post-declaration
-  protoOf(AttrsScopeBuilder).l22 = id;
-  protoOf(EventsListenerScopeBuilder).o22 = onClick;
+  protoOf(AttrsScopeBuilder).d23 = id;
+  protoOf(EventsListenerScopeBuilder).h23 = onClick;
+  protoOf(EventsListenerScopeBuilder).i23 = onMouseDown;
+  protoOf(EventsListenerScopeBuilder).j23 = onMouseUp;
+  protoOf(EventsListenerScopeBuilder).k23 = onMouseMove;
   defineProp(protoOf(CSSUnitValueTyped), 'value', function () {
     return this.i1();
   });
   defineProp(protoOf(CSSUnitValueTyped), 'unit', function () {
-    return this.a28();
+    return this.x28();
   });
+  protoOf(StyleScopeBuilder).a29 = property;
+  protoOf(StyleScopeBuilder).b29 = property_0;
   //endregion
   //region block: init
   Companion_instance = new Companion();
   Companion_instance_0 = new Companion_0();
+  Companion_instance_1 = new Companion_1();
+  Companion_instance_2 = new Companion_2();
+  Companion_instance_3 = new Companion_3();
+  Color_instance_0 = new Color_0();
   //endregion
   //region block: exports
   _.$_$ = _.$_$ || {};
-  _.$_$.a = Number_getInstance;
-  _.$_$.b = marginTop;
-  _.$_$.c = get_px;
-  _.$_$.d = Button_1;
-  _.$_$.e = Canvas_0;
-  _.$_$.f = Div_0;
-  _.$_$.g = H1_0;
-  _.$_$.h = Input_0;
-  _.$_$.i = Label_0;
-  _.$_$.j = Option_0;
-  _.$_$.k = Select_0;
-  _.$_$.l = Text_1;
+  _.$_$.a = Range_getInstance;
+  _.$_$.b = Companion_instance_1;
+  _.$_$.c = Color_instance_0;
+  _.$_$.d = Companion_instance_0;
+  _.$_$.e = Companion_instance_2;
+  _.$_$.f = selected;
+  _.$_$.g = Color_1;
+  _.$_$.h = alignItems;
+  _.$_$.i = background;
+  _.$_$.j = borderRadius;
+  _.$_$.k = border;
+  _.$_$.l = color_0;
+  _.$_$.m = display;
+  _.$_$.n = flex;
+  _.$_$.o = fontSize;
+  _.$_$.p = gap;
+  _.$_$.q = height;
+  _.$_$.r = left;
+  _.$_$.s = marginLeft;
+  _.$_$.t = padding;
+  _.$_$.u = get_percent;
+  _.$_$.v = position;
+  _.$_$.w = get_px;
+  _.$_$.x = width_0;
+  _.$_$.y = Button_1;
+  _.$_$.z = Canvas_0;
+  _.$_$.a1 = Div_0;
+  _.$_$.b1 = H2_0;
+  _.$_$.c1 = Img_0;
+  _.$_$.d1 = Input_0;
+  _.$_$.e1 = Option_0;
+  _.$_$.f1 = Select_0;
+  _.$_$.g1 = Span_0;
+  _.$_$.h1 = Text_1;
   //endregion
   return _;
 }));
